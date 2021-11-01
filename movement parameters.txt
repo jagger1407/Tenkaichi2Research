@@ -1,0 +1,56 @@
+Most of these values are float values.
+It should be obvious, but by increasing the speed of these moves, the distance 
+you travel with these moves also increases. Basically, the higher the speed, 
+the higher the reach that move has.
+
+--STRUCTURE--
+
+0x0000-0x0003	= Regular Movement Speed
+0x0004-0x0007	= Regular Movement Speed in Water
+
+0x0008-0x000B	= Close Range Movement Speed
+0x000C-0x000F	= Close Range Movement Speed in Water
+
+0x0010-0x0013	= Dashing Speed
+0x0014-0x0017	= Dashing Speed in Water
+
+0x0018-0x001B	= Dragon Dash Speed (Chase)
+0x001C-0x001F	= Dragon Dash Speed (Free)
+
+0x0020-0x0023	= Dragon Dash Ascending/Descending Speed
+0x0024-0x0027	= Dragon Ascend/Descend Speed
+->	Note: The difference between both of these is that the first
+	controls how fast you can ascend/descend while already being
+	in a Dragon Dash, whereas the latter controls the 
+	Dragon Ascend/Descend move itself.
+
+0x0028-0x002B	= Step-In Speed
+0x002C-0x002F	= Backstep Speed
+0x0030-0x0033	= Sidestep Speed
+
+0x0034-0x0037	= Jumping Speed
+0x0038-0x003B	= Jumping Speed (Dash)
+
+0x003C-0x003F	= Lift Strike Follow-Up Speed
+
+0x0040-0x0043	= Ascending Speed
+0x0044-0x0047	= Descending Speed
+
+0x0048-0x004B	= High Speed Rush Movement Speed
+->	Also controls the speed of the
+	Hyper Speed Movement in the game.
+
+0x004C-0x004F	= Ascending Acceleration
+0x0050-0x0053	= Descending Acceleration
+
+0x0068-0x006B	= Jump Height
+0x006C-0x006F	= Jump Height (Dash)
+
+0x0070-0x0073	= Dragon Dash Ki Consumption (Chase)
+0x0074-0x0077	= Dragon Dash Ki Consumption (Free)
+0x0078-0x007B	= Dragon Ascend/Descend Ki Consumption
+->	These values are not Floats.
+
+0x0080-0x0083	= Horizontal Dragon Dash turning speed (Chase) (?)
+0x0098-0x009B	= Vertical Dragon Dash turning speed (Chase) (?)
+

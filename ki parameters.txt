@@ -1,0 +1,113 @@
+It seems that the Ki Blast parameters are much smaller than the Melee parameters.
+Every type of Ki Blast has 55 Bytes reserved for it's parameters. It is interesting
+how sensitive these values are, considering most of them only have to be changed slightly
+for a great effect.
+
+Disclaimer: Every time  you see a value I call "Default", then it is the value for
+Base Goku Costume 1's Regular Ki Blasts.
+
+? = Unknown as of yet
+(?) = uncertain
+
+--LAYOUT--
+
+0x0000-0x0037	Regular Ki Blasts
+
+0x0038-0x006F	Charged Regular Ki Blast (Low Charge)
+0x0070-0x00A7	Charged Regular Ki Blast (Medium Charge)
+0x00A8-0x00DF	Charged Regular Ki Blast (Full Charge)
+
+0x00E0-0x0117	Dashing Ki Blasts
+
+0x0118-0x014F	Charged Dashing Ki Blast (Low Charge)
+0x0150-0x0187	Charged Dashing Ki Blast (Medium Charge)
+0x0188-0x01BF	Charged Dashing Ki Blast (Full Charge)
+
+0x01C0-0x01F7	Jumping Ki Blasts
+
+0x01F8-0x022F	Charged Jumping Ki Blast (Low Charge)
+0x0230-0x0267	Charged Jumping Ki Blast (Medium Charge)
+0x0268-0x02BF	Charged Jumping Ki Blast (Full Charge)
+
+0x02A0-0x02D7	?
+0x02D8-0x030F	?
+
+
+--STRUCTURE--
+
+0x0000-0x0003	= Type (?)
+
+0x0004-0x0007 	= Health Damage
+
+0x0008-0x000B 	= Health Damage (guarding)
+
+0x000C-0x000F	= Ki Cost
+
+0x0010-0x0011	= ?
+
+0x0010-0x0013	= Ki Blast speed
+->	This value is a float.
+
+0x0014-0x0017	= Ki Blast Homing (?)
+-> 	This value is a float.
+	00 00 05 FF = zigzag pattern
+	00 00 FF FF = Insane Spread
+
+0x0018-0x001B	= Ki Blast range (?)
+->	This value is a float.
+
+0x001C-0x001F	= Ki Blast knockback
+->	This value is a Float.
+
+0x0020-0x0023	= ?
+->	This value is a Float.
+
+0x0024		= Stun (?)
+->	01 = Blast doesn't stun
+	02 = Blast doesn't stun (?)
+	03 = Blast stuns
+	04 = ?
+	05 = Right Smash stun
+	06 = Left Smash stun
+	07 = Neutral Smash stun
+	08 = Down Smash stun
+	09 = Kiai Cannon stun
+	0A = Lift Strike stun
+	0B = Ground Slash stun
+	0C = Heavy Finisher stun
+	0D = Knockdown
+	0E = Knockdown with Knockback
+	0F = Combo Ender
+	
+0x0026-0x0029	= ?
+
+0x002A-0x002B	= Ki Blast size
+->	This value is a float.
+
+0x002E-0x002F	= Ki Blast trail (?)
+->	20 41 = Default (20 41 = 16672)
+	A value of 40000, for example, leads to no trail being there 
+	at all, whereas a value of 20000 leads to a trail that is
+	almost if not completely the same as the default.
+
+0x0031		= Ki Blast Color
+->	00 = Blue
+	01 = Purple
+	02 = Yellow
+	03 = Red
+	04 = Green
+	05 = Light Blue
+	06 = Pink
+	07 = unfinished (?)
+
+0x0032		= Amount of Ki Blasts
+->	Maximum of 20
+
+0x0033		= Trajectory (?)
+->	00 = Spread everywhere
+	01 = straight
+	02 = Upwards Curve
+	03 = Left and Right Curve
+	04 = Left Curve
+	05 = Right Curve
+	06 = Right and Left Curve

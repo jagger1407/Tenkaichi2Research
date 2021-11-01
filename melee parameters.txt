@@ -1,0 +1,244 @@
+The melee parameter file has around 106 attacks in total.
+The layout of each one should be the same, at least it was
+for me with the ones that I tested. Each attack in this file
+has 100 Bytes reserved for it's parameters.
+
+?   = Unknown as of yet
+(?) = uncertain
+
+
+--LAYOUT--
+
+
+0x0000-0x0063	Strike 1 (primary combo string)
+0x0064-0x00C7	Strike 2 (primary combo string)
+0x00C8-0x012B	Strike 3 (primary combo string)
+0x012C-0x018F	Strike 4 (primary combo string)
+0x0190-0x01F3	Strike 5 (primary combo string)
+
+0x01F4-0x0257	Strike 1 (secondary combo string)
+0x0258-0x02BB	Strike 2 (secondary combo string)
+0x02BC-0x031F	Strike 3 (secondary combo string)
+0x0320-0x0383	Strike 4 (secondary combo string)
+0x0384-0x03E7	Strike 5 (secondary combo string)
+
+0x03E8-0x044B	Heavy Finisher (Low Charge)
+0x044C-0x04AF	Heavy Finisher (Medium Charge)
+0x04B0-0x0513	Heavy Finisher (Full Charge)
+
+0x0514-0x0577	Heavy Crush (1st Hit)
+0x0578-0x05DB	Heavy Crush (2nd Hit)
+0x05DC-0x063F	Heavy Crush (3rd Hit)
+
+0x0640-0x06A3	Flying Kicks (Part 1)
+->	The damage for the flying kicks work like this:
+	the first flying kick damage values amount to
+	the damage value you put in split by the animation,
+	a.k.a divided by the amount of kicks the char does.
+	The very last one however...
+0x2904-0x2967	Flying Kicks (Part 2)
+->	The last flying kick, for some reason, is also the last attack in this file.
+	The damage here, just as above, is split by animation, 
+	so it will be divided by the amount of kicks your char does.
+
+0x06A4-0x0707	Left Smash (Low Charge)
+0x0708-0x076B	Right Smash (Low Charge)
+0x076C-0x07CF	Up Smash (Low Charge)
+0x07D0-0x0833	Down Smash (Low Charge)
+0x0834-0x0897	Neutral Smash (Low Charge)
+
+0x0898-0x08FB 	Left Smash (Medium Charge)
+0x08FC-0x095F	Right Smash (Medium Charge)
+0x0960-0x09C3	Up Smash (Medium Charge)
+0x09C4-0x0A27	Down Smash (Medium Smash)
+0x0A28-0x0A8B	Neutral Smash (Medium Charge)
+
+0x0A8C-0x0AEF	Left Smash (Full Charge)
+0x0AF0-0x0B53	Right Smash (Full Charge)
+0x0B54-0x0BB7	Up Smash (Full Charge)
+0x0BB8-0x0C1B	Down Smash (Full Charge)
+0x0C1C-0x0C7F	Neutral Smash (Full Charge)
+
+0x0C80-0x0CE3	Dash Smash (Low Charge)
+0x0CE4-0x0D47	Dash Smash (Medium Charge)
+0x0D48-0x0DAB	Dash Smash (Full Charge)
+
+0x0DAC-0x0E0F	Jump Smash (Low Charge) (?)
+0x0E10-0x0E73	Jump Smash (Medium Charge) (?)
+0x0E74-0x0ED7	Jump Smash (Full Charge) (?)
+-> 	When I tested these with Base Goku,
+	Low Charge does 10 more damage,
+	Medium Charge does 60 more damage
+	and Full Charge does 100 more Damage.
+
+0x0ED8-0x0F3B	Kiai Cannon (Low Charge)
+0x0F3C-0x0FBF	Kiai Cannon (Medium Charge)
+0x0FA0-0x1003	Kiai Cannon (Full Charge)
+
+0x13EC-0x144F	Left Dragon Smash (Full Smash Square Follow-Up)
+0x1450-0x14B3	Right Dragon Smash (Full Smash Square Follow-Up)
+0x14B4-0x1517	Up Dragon Smash (Full Smash Square Follow-Up)
+0x1518-0x157B	Down Dragon Smash (Full Smash Square Follow-Up)
+0x157C-0x15DF	Neutral Dragon Smash (Full Smash Square Follow-Up)
+
+0x15E0-0x1643	Left Punishing Attack (Full Smash Triangle Follow-Up)
+0x1644-0x16A7	Right Punishing Attack (Full Smash Triangle Follow-Up)
+0x16A8-0x170B	Up Punishing Attack (Full Smash Triangle Follow-Up)
+0x170C-0x176F	Down Punishing Attack (Full Smash Triangle Follow-Up)
+
+0x17D4-0x1837	Lift Strike (Low Charge)
+0x1838-0x189B	Lift Strike (Medium Charge)
+0x189C-0x18FF	Lift Strike (Full Charge)
+
+0x1900-0x1963	Ground Slash (Low Charge)
+0x1964-0x19C7	Ground Slash (Medium Charge)
+0x19C8-0x1A2B	Ground Slash (Full Charge)
+
+0x1A2C-0x1A8F	Strike 1 Air Combo (Lift Strike Follow-Up)
+0x1A90-0x1AF3	Strike 2 Air Combo (Lift Strike Follow-Up)
+0x1AF4-0x1B57	Strike 3 Air Combo (Lift Strike Follow-Up)
+0x1B58-0x1BBB	Strike 4 Air Combo (Lift Strike Follow-Up)
+0x1BBC-0x1C1F	Strike 5 Air Combo (Lift Strike Combo Finisher)
+0x1C20-0x1C83	Air Combo Heavy Finisher (Combo Ender)
+0x1C84-0x1CE7	Lift Strike Heavy Follow-Up
+
+0x1E14-0x1E77	Counter-Attack
+
+0x1E78-0x1EDB	Kiai Cannon Smash
+
+0x1F40-0x1FA3	Rolling Hammer Left (Low Charge)
+0x1FA4-0x2007	Rolling Hammer Right (Low Charge)
+0x2008-0x206B	Rolling Hammer Left (Medium Charge)
+0x206C-0x20CF	Rolling Hammer Right (Medium Charge)
+0x20D0-0x2133	Rolling Hammer Left (Full Charge)
+0x2134-0x2197	Rolling Hammer Right (Full Charge)
+
+0x24B8-0x251B	Strike 1 Dragon Tornado (Ground Slash Follow-Up)
+0x251C-0x257F	Strike 2 Dragon Tornado (Ground Slash Follow-Up) (?)
+->	The damage value put in here seems to be halved.
+	Maybe split by animation as well?
+0x2580-0x25E3	Strike 3 Dragon Tornado (Ground Slash Follow-Up)
+
+0x283C-0x28BF	Dragon Heavy
+
+
+--STRUCTURE--
+
+
+0x0000		= Type (?)
+->	As of yet, I have no idea what/how this value does/affects the attack.
+
+0x0001		= in-game effects (?)
+->	00 = no effect
+	0B = enter secondary combo string
+	FF = lose lock-on
+	
+
+0x0004-0x0007 	= Health Damage
+
+0x0008-0x000B 	= Health Damage while guarding
+
+0x000C-0x000F 	= Ki Damage (?)
+
+0x0010-0x0013 	= Ki Gain
+
+0x0014-0x0017 	= ?
+
+0x0018-0x001B 	= ?
+
+0x001C-0x001F	= ?
+
+0x0020		= Hitstun
+->	01 = doesn't hit at all
+	02 = Hit doesn't stun
+	03 = Hit stuns
+	04 = ?
+	05 = Right Smash stun
+	06 = Left Smash stun
+	07 = Neutral Smash stun
+	08 = Down Smash stun
+	09 = Kiai Cannon stun
+	0A = Lift Strike stun
+	0B = Ground Slash stun
+	0C = Heavy Finisher stun
+	0D = Knockdown
+	0E = Knockdown with Knockback
+	0F = Combo Ender
+
+0x0021 = ? (0D by default)
+
+0x0022-0x0027	= ?
+
+0x0028 = Visual Effects
+->	00 = no effect
+	01 = regular strike
+	02 = bigger strike
+	03 = Heavy Finisher effect
+	04 = no effect (?)
+	05 = no effect (?)
+	06 = regular strike (?)
+	07 = bigger regular strike (?)
+	08 = Clash/Heavy Crush end effect (?)
+	09 = no effect (?)
+	0A = no effect (?)
+	0B = Kiai effect
+	0C = no effect (?)
+	0D = Lift Strike effect
+	0E = no effect (?)
+	0F = Ground Slash effect
+	10 = idk some white flash, a little less bright than Kiai (?)
+
+0x0029 = Sound Effects
+->	00 = no effect
+	01 = regular strike
+	02 = Sounds similar to Heavy Finisher (?)
+	03 = Throw sound (?)
+	04 = Sounds similar to Lift Strike (?)
+	05 = Giant Throw sound (?)
+	06 = Great Ape landing sound
+	07 = strike but more reverb (?)
+	08 = some Great Ape attack sound probably idk
+	09 = Ground Slash sound
+	0A = same as 09 (?)
+	0B = Lift Strike sound (?)
+	0C = Heavy Finisher sound (?)
+
+0x002A-0x002B = ?
+
+0x002C-0x002F	= Opponent Knockback (?)
+->	This value is a Float.
+
+0x0030-0x0033	= ?
+
+0x0034-0x0037	= Movement Speed of the attack (?)
+->	This value is a Float.
+    This controls how far you slide
+    while the attack animation plays.
+
+0x0038-0x005F	= ?
+->	When I put these values on FF,
+	my controller started to vibrate.
+	I assume these values have to do with that, 
+	how they work I don't know, though.
+
+0x0060		= Effect on Guard
+->	00 = regular effect
+	01 = Guard Break
+	02 = Guard stops you (Combo Breaker effect)
+	03 = ignores Guard
+	04 = same effect as throw counter (like 02 but opponent isn't stunned?)
+	05 = no effect (no VFX, no Sound)
+
+0x0061		= Effect on Counter Stance (?)
+->	01 = Opponent loses Ki, Guard Break effect (?)
+	02 = Counter stops you (Combo Breaker effect)
+	03 = ignores counter stance
+	04 = Can be countered
+	05 = no effect (no VFX, no Sound)
+
+0x0062		= Knockback while Guarding
+->	00 = regular guard effect
+	01 = Great Ape-style knockback
+	02 = Great Ape-style knockback
+	
+0x0063		= ?
