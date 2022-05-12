@@ -35,11 +35,8 @@ has 100 Bytes reserved for it's parameters.
 	the first flying kick damage values amount to
 	the damage value you put in split by the animation,
 	a.k.a divided by the amount of kicks the char does.
-	The very last one however...
-0x2904-0x2967	Flying Kicks (Part 2)
-->	The last flying kick, for some reason, is also the last attack in this file.
-	The damage here, just as above, is split by animation, 
-	so it will be divided by the amount of kicks your char does.
+	The very last one however, is at the very bottom
+	of this section.
 
 0x06A4-0x0707	Left Smash (Low Charge)
 0x0708-0x076B	Right Smash (Low Charge)
@@ -75,6 +72,17 @@ has 100 Bytes reserved for it's parameters.
 0x0F3C-0x0FBF	Kiai Cannon (Medium Charge)
 0x0FA0-0x1003	Kiai Cannon (Full Charge)
 
+0x1004-0x1067	?
+0x1068-0x10CB	?
+0x10CC-0x112F	?
+0x1130-0x1193	?
+0x1194-0x11F7	?
+0x11F8-0x125B	?
+0x125C-0x12BF	?
+0x12C0-0x1323	?
+0x1324-0x1387	?
+0x1388-0x13EB	?
+
 0x13EC-0x144F	Left Dragon Smash (Full Smash Square Follow-Up)
 0x1450-0x14B3	Right Dragon Smash (Full Smash Square Follow-Up)
 0x14B4-0x1517	Up Dragon Smash (Full Smash Square Follow-Up)
@@ -85,6 +93,8 @@ has 100 Bytes reserved for it's parameters.
 0x1644-0x16A7	Right Punishing Attack (Full Smash Triangle Follow-Up)
 0x16A8-0x170B	Up Punishing Attack (Full Smash Triangle Follow-Up)
 0x170C-0x176F	Down Punishing Attack (Full Smash Triangle Follow-Up)
+
+0x1770-0x17D3	?
 
 0x17D4-0x1837	Lift Strike (Low Charge)
 0x1838-0x189B	Lift Strike (Medium Charge)
@@ -102,9 +112,15 @@ has 100 Bytes reserved for it's parameters.
 0x1C20-0x1C83	Air Combo Heavy Finisher (Combo Ender)
 0x1C84-0x1CE7	Lift Strike Heavy Follow-Up
 
+0x1CE8-0x1D4B	?
+0x1D4C-0x1DAF	?
+0x1DB0-0x1E13	?
+
 0x1E14-0x1E77	Counter-Attack
 
 0x1E78-0x1EDB	Kiai Cannon Smash
+
+0x1EDC-0x1F3F	?
 
 0x1F40-0x1FA3	Rolling Hammer Left (Low Charge)
 0x1FA4-0x2007	Rolling Hammer Right (Low Charge)
@@ -113,13 +129,36 @@ has 100 Bytes reserved for it's parameters.
 0x20D0-0x2133	Rolling Hammer Left (Full Charge)
 0x2134-0x2197	Rolling Hammer Right (Full Charge)
 
+0x2198-0x21FB	?
+0x21FC-0x225F	?
+0x2260-0x22C3	?
+0x22C4-0x2327	?
+0x2328-0x238B	?
+0x238C-0x23EF	?
+0x23F0-0x2453	?
+0x2454-0x24B7	?
+
 0x24B8-0x251B	Strike 1 Dragon Tornado (Ground Slash Follow-Up)
 0x251C-0x257F	Strike 2 Dragon Tornado (Ground Slash Follow-Up) (?)
 ->	The damage value put in here seems to be halved.
 	Maybe split by animation as well?
 0x2580-0x25E3	Strike 3 Dragon Tornado (Ground Slash Follow-Up)
 
-0x283C-0x28BF	Dragon Heavy
+0x25E4-0x2647	?
+0x2648-0x26AB	?
+0x26AC-0x270F	?
+0x2710-0x2773	?
+0x2774-0x27D7	?
+0x27D8-0x283B	?
+
+0x283C-0x289F	Dragon Heavy
+
+0x28A0-0x2903	?
+
+0x2904-0x2967	Flying Kicks (Part 2)
+->	The last flying kick, for some reason, is also the last attack in this file.
+	The damage here, just as above, is split by animation,
+	so it will be divided by the amount of kicks your char does.
 
 
 --STRUCTURE--
@@ -151,8 +190,8 @@ has 100 Bytes reserved for it's parameters.
 0x0020		= Hitstun
 ->	01 = doesn't hit at all
 	02 = Hit doesn't stun
-	03 = Hit stuns
-	04 = ?
+	03 = Hit stun (primary string)
+	04 = Hit stun (secondary string)
 	05 = Right Smash stun
 	06 = Left Smash stun
 	07 = Neutral Smash stun
@@ -165,7 +204,7 @@ has 100 Bytes reserved for it's parameters.
 	0E = Knockdown with Knockback
 	0F = Combo Ender
 
-0x0021 = ? (0D by default)
+0x0021 = ?
 
 0x0022-0x0027	= ?
 
