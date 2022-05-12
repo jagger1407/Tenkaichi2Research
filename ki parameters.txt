@@ -1,7 +1,5 @@
 It seems that the Ki Blast parameters are much smaller than the Melee parameters.
-Every type of Ki Blast has 55 Bytes reserved for it's parameters. It is interesting
-how sensitive these values are, considering most of them only have to be changed slightly
-for a great effect.
+Every type of Ki Blast has 55 Bytes reserved for it's parameters.
 
 Disclaimer: Every time  you see a value I call "Default", then it is the value for
 Base Goku Costume 1's Regular Ki Blasts.
@@ -43,8 +41,6 @@ Base Goku Costume 1's Regular Ki Blasts.
 
 0x000C-0x000F	= Ki Cost
 
-0x0010-0x0011	= ?
-
 0x0010-0x0013	= Ki Blast speed
 ->	This value is a float.
 
@@ -84,11 +80,10 @@ Base Goku Costume 1's Regular Ki Blasts.
 0x002A-0x002B	= Ki Blast size
 ->	This value is a float.
 
-0x002E-0x002F	= Ki Blast trail (?)
-->	20 41 = Default (20 41 = 16672)
-	A value of 40000, for example, leads to no trail being there 
-	at all, whereas a value of 20000 leads to a trail that is
-	almost if not completely the same as the default.
+0x002C-0x002F	= Ki Blast trail (?)
+->	This value is a float.
+	It specifies how long the trail after
+	each Ki Blast is supposed to be.
 
 0x0031		= Ki Blast Color
 ->	00 = Blue
@@ -111,3 +106,5 @@ Base Goku Costume 1's Regular Ki Blasts.
 	04 = Left Curve
 	05 = Right Curve
 	06 = Right and Left Curve
+	
+0x0034-0x0037	= ?
