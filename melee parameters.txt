@@ -72,22 +72,23 @@ has 100 Bytes reserved for it's parameters.
 0x0F3C-0x0FBF	Kiai Cannon (Medium Charge)
 0x0FA0-0x1003	Kiai Cannon (Full Charge)
 
-0x1004-0x1067	?
-0x1068-0x10CB	?
-0x10CC-0x112F	?
-0x1130-0x1193	?
-0x1194-0x11F7	?
-0x11F8-0x125B	?
-0x125C-0x12BF	?
-0x12C0-0x1323	?
-0x1324-0x1387	?
-0x1388-0x13EB	?
+0x1004-0x1067	Dragon Dash Smash Left (Low Charge)
+0x1068-0x10CB	Dragon Dash Smash Right (Low Charge)
+0x10CC-0x112F	Dragon Dash Smash Up (Low Charge)
+0x1130-0x1193	Dragon Dash Smash Down (Low Charge)
+0x1194-0x11F7	Dragon Dash Smash Neutral (Low Charge)
 
-0x13EC-0x144F	Left Dragon Smash (Full Smash Square Follow-Up)
-0x1450-0x14B3	Right Dragon Smash (Full Smash Square Follow-Up)
-0x14B4-0x1517	Up Dragon Smash (Full Smash Square Follow-Up)
-0x1518-0x157B	Down Dragon Smash (Full Smash Square Follow-Up)
-0x157C-0x15DF	Neutral Dragon Smash (Full Smash Square Follow-Up)
+0x11F8-0x125B	Dragon Dash Smash Left (Full Charge)
+0x125C-0x12BF	Dragon Dash Smash Right (Full Charge)
+0x12C0-0x1323	Dragon Dash Smash Up (Full Charge)
+0x1324-0x1387	Dragon Dash Smash Down (Full Charge)
+0x1388-0x13EB	Dragon Dash Smash Neutral(Full Charge)
+
+0x13EC-0x144F	Left Dragon Homing (Full Smash Square Follow-Up)
+0x1450-0x14B3	Right Dragon Homing (Full Smash Square Follow-Up)
+0x14B4-0x1517	Up Dragon Homing (Full Smash Square Follow-Up)
+0x1518-0x157B	Down Dragon Homing (Full Smash Square Follow-Up)
+0x157C-0x15DF	Neutral Dragon Homing (Full Smash Square Follow-Up)
 
 0x15E0-0x1643	Left Punishing Attack (Full Smash Triangle Follow-Up)
 0x1644-0x16A7	Right Punishing Attack (Full Smash Triangle Follow-Up)
@@ -112,7 +113,7 @@ has 100 Bytes reserved for it's parameters.
 0x1C20-0x1C83	Air Combo Heavy Finisher (Combo Ender)
 0x1C84-0x1CE7	Lift Strike Heavy Follow-Up
 
-0x1CE8-0x1D4B	?
+0x1CE8-0x1D4B	Throw/Grab
 0x1D4C-0x1DAF	?
 0x1DB0-0x1E13	?
 
@@ -134,8 +135,8 @@ has 100 Bytes reserved for it's parameters.
 0x2260-0x22C3	?
 0x22C4-0x2327	?
 0x2328-0x238B	?
-0x238C-0x23EF	?
-0x23F0-0x2453	?
+0x238C-0x23EF	Sonic Impact (1st Hit)
+0x23F0-0x2453	Sonic Impact (2nd Hit)
 0x2454-0x24B7	?
 
 0x24B8-0x251B	Strike 1 Dragon Tornado (Ground Slash Follow-Up)
@@ -152,8 +153,7 @@ has 100 Bytes reserved for it's parameters.
 0x27D8-0x283B	?
 
 0x283C-0x289F	Dragon Heavy
-
-0x28A0-0x2903	?
+0x28A0-0x2903	MAX Power Combo Hit (Dragon Heavy Follow-up)
 
 0x2904-0x2967	Flying Kicks (Part 2)
 ->	The last flying kick, for some reason, is also the last attack in this file.
@@ -167,10 +167,10 @@ has 100 Bytes reserved for it's parameters.
 0x0000		= Type (?)
 ->	As of yet, I have no idea what/how this value does/affects the attack.
 
-0x0001		= in-game effects (?)
-->	00 = no effect
-	0B = enter secondary combo string
-	FF = lose lock-on
+0x0001		= Flagbyte (?)
+->	Bit order: 76543210
+	Bit 1 = Enter secondary melee set
+	Bit 2 = Opponent loses Lock-On
 	
 
 0x0004-0x0007 	= Health Damage
@@ -278,6 +278,5 @@ has 100 Bytes reserved for it's parameters.
 0x0062		= Knockback while Guarding
 ->	00 = regular guard effect
 	01 = Great Ape-style knockback
-	02 = Great Ape-style knockback
 	
 0x0063		= ?
