@@ -59,25 +59,51 @@ Base Goku Costume 1's Regular Ki Blasts.
 ->	This value is a Float.
 
 0x0024		= Stun (?)
-->	01 = Blast doesn't stun
-	02 = Blast doesn't stun (?)
-	03 = Blast stuns
-	04 = ?
-	05 = Right Smash stun
-	06 = Left Smash stun
-	07 = Neutral Smash stun
-	08 = Down Smash stun
-	09 = Kiai Cannon stun
+->	00 = No Hitstun
+	01 = No Hitstun (?)
+	02 = Superarmor stun (?)
+	03 = Primary Hitstun
+	04 = Secondary Hitstun
+	05 = Neutral Smash Stun
+	06 = Neutral Smash Stun (?)
+	07 = Neutral Smash stun (?)
+	08 = Neutral Smash stun (?)
+	09 = Kiai Cannon/Blaster Wave stun
 	0A = Lift Strike stun
 	0B = Ground Slash stun
-	0C = Heavy Finisher stun
-	0D = Knockdown
+	0C = Heavy Finish stun
+	0D = Instant Knockdown
 	0E = Knockdown with Knockback
 	0F = Combo Ender
+	10 = Full Neutral Smash
+	11 = Medium Neutral Smash
+	12 = Throw Animation, opponent flies into facing direction
+	13 = No Hitstun (?)
+	14 = Giant Throw Animation, same effect as 12
+	15 = Short Paralysis (0.5s)
+	16 = Medium Paralysis (1s)
+	17 = Long Paralysis (2s)
+	18 = Short Paralysis Knockdown (0.5s)
+	19 = Medium Paralysis Knockdown (1s)
+	1A = Long Paralysis Knockdown (2s)
+	1B = Blast 2 Animation, user loses health bar (?)
+	1C = Blast 1 Animation, then instant knockdown (?)
+	1D = Instant Knockdown
+	1E = Instant Knockdown + small bounce
+	1F = Instant Knockdown + big bounce
+	20 = Opponent Blast 2 Animation, crash
+	21 = Rolling Hammer Right
+	22 = Rolling Hammer Left
+	23 = 0x12, then ports to ground, 0x12 and 0x1C
+	24 = Death Beam Knockdown
+	25 = Dragon Heavy Hitstun (?)
+	26 = Full Charged Down Smash Stun (?)
+	27 = Instant Knockdown with electric sound (?)
 	
-0x0026-0x0029	= ?
+	
+0x0026-0x0027	= ?
 
-0x002A-0x002B	= Ki Blast size
+0x0028-0x002B	= Ki Blast size
 ->	This value is a float.
 
 0x002C-0x002F	= Ki Blast trail (?)
