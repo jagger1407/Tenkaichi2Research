@@ -19,49 +19,49 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 
 --STRUCTURE--
 
-0x0000		= 1st Transformation
-0x0001		= 2nd Transformation
-0x0002		= 3rd Transformation
-0x0003		= De-transformation
+0x0000			= 1st Transformation
+0x0001			= 2nd Transformation
+0x0002			= 3rd Transformation
+0x0003			= De-transformation
 ->	the values here are the ID for each character.
 	don't worry about crashing the game with an invalid ID,
 	if the ID doesn't belong to any character, the game will
 	simply not let you transform.
 
-0x0004		= 1st Transformation Blast Stock cost
-0x0005		= 2nd Transformation Blast Stock cost
-0x0006		= 3rd Transformation Blast Stock cost
-0x0007		= De-transformation Blast Stock cost
+0x0004			= 1st Transformation Blast Stock cost
+0x0005			= 2nd Transformation Blast Stock cost
+0x0006			= 3rd Transformation Blast Stock cost
+0x0007			= De-transformation Blast Stock cost
 
-0x0008		= R3 Command (?)
+0x0008			= R3 Command (?)
 ->	Setting this value to anything above 00
 	seems to make your first transformation
 	only work if you press Left+R3?
 
-0x0009		= ?
+0x0009			= ?
 ->	Hiro said this is a "Binary parameter for
 	the bonus", but I have no idea if this is
 	indeed that parameter and if it is, how it works.
 
-0x000A		= Fusion 1 Blast Stock cost
-0x000B		= Fusion 2 Blast Stock cost
-0x000C		= Fusion 3 Blast Stock cost
+0x000A			= Fusion 1 Blast Stock cost
+0x000B			= Fusion 2 Blast Stock cost
+0x000C			= Fusion 3 Blast Stock cost
 
-0x000D		= Fusion 1 Type
-0x000E		= Fusion 2 Type
-0x000F		= Fusion 3 Type
+0x000D			= Fusion 1 Type
+0x000E			= Fusion 2 Type
+0x000F			= Fusion 3 Type
 ->	01 = Fusion Dance
 	02 = Potara Fusion
 
-0x0010		= Fusion 1 Character
-0x0011		= Fusion 2 Character
-0x0012		= Fusion 3 Character
+0x0010			= Fusion 1 Character
+0x0011			= Fusion 2 Character
+0x0012			= Fusion 3 Character
 ->	This is the character that will be
 	the result of the fusion.
 
-0x0013		= Fusion 1 Partner
-0x0014		= Fusion 2 Partner
-0x0015		= Fusion 3 Partner
+0x0013			= Fusion 1 Partner
+0x0014			= Fusion 2 Partner
+0x0015			= Fusion 3 Partner
 ->	This is the character that will be
 	your partner in the fusion.
 
@@ -72,7 +72,7 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	you specified here matches with anyone in your team,
 	and if so, uses and removes them from your team after the fusion.
 
-0x0029		= Z-Search Type
+0x0029			= Z-Search Type
 ->	00 = Ki Search
 	01 = Fast Ki Search
 	02 = Scouter Search
@@ -82,15 +82,15 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	06 = same as 01 (?)
 	07 = slow Ki Search
 
-0x0030		= Flags
+0x0030			= Flags
 ->	Bit 7 decides if you can absorb energy
 
-0x0031		= Flags part 2
+0x0031			= Flags part 2
 ->	Bit 1 decides if you make a metallic landing noise
 	Bit 4 decides if the character can fly (1 = can't fly, 0 = can fly)
 	Bit 5 decides if you can break objects by touching them
 
-0x0034		= Flags part 3
+0x0034			= Flags part 3
 ->	Bit 1 decides if you can Dragon Smash
 	Bit 3 decides if you can Step-In after the primary combo string
 	Bit 5 decides if you can Sway
@@ -98,7 +98,7 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	Bit 7 decides if you can Lift Strike
 	Bit 8 decides if you can Dragon Dash
 
-0x0035		= Flags part 4
+0x0035			= Flags part 4
 ->	Bit 1 decides if you can use Giant Throw
 	Bit 2 decides if you can use Heavy Crush
 	Bit 3 decides if you can use Dragon Tornado
@@ -106,17 +106,17 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	Bit 7 decides if you can use High Speed Rush Movement
 	Bit 8 decides if you can deflect Ki Blasts
 
-0x0036		= Flags part 5	
+0x0036			= Flags part 5
 ->	Bit 5 decides if you can use Illusion Slash (Ground Slash when landing a jump)
 	Bit 6 decides if you can use Kiai Cannon Smash
 	Bit 7 decides if you can use Rolling Hammer
 	Bit 8 decides if you can use Sonic Impact
 	
-0x0037		= Flags part 6
+0x0037			= Flags part 6
 ->	Bit 4 decides if you can use Dragon Heavy
 	Bit 6 decides if you can do Hyper Speed Movement
 
-0x0038		= Flags part 7
+0x0038			= Flags part 7
 ->	Bit 1 decides if you're in Android mode (can't charge Yellow Ki)
 	Bit 2 decides if you have SSJ Aura
 	Bit 5 decides if you have SSJ2 Aura (?)
@@ -124,14 +124,14 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	Note: the Aura flags here overwrite what
 	you input in the Aura Color Byte.
 
-0x0039		= Flags part 8 (?)
+0x0039			= Flags part 8 (?)
 ->	Bit 8 decides if you have a Boo charging sound
 
-0x003E		= ?
+0x003E			= ?
 ->	04 = Great Ape Landing effect
 	Every other value is just a regular landing?
 
-0x003F 		= Aura Color
+0x003F 			= Aura Color
 ->	00 = Blue
 	01 = Blueish Purple
 	02 = Yellow
@@ -147,14 +147,14 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 0x0048-0x004B	= Collision Z
 ->	These values are floats.
 
-0x004C		= Amount of Ki Blasts
+0x004C			= Amount of Ki Blasts
 ->	This is the amount of Ki Blasts you can fire
 	before entering a short cooldown period.
 
-0x004D		= Combo Move 1
-0x004E		= Combo Move 2
-0x004F		= Combo Move 3
-0x0050		= Combo Move 4
+0x004D			= Combo Move 1
+0x004E			= Combo Move 2
+0x004F			= Combo Move 3
+0x0050			= Combo Move 4
 ->	00 = Heavy Finisher
 	01 = Kiai Cannon
 	02 = Flying Kicks
@@ -168,7 +168,7 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	02 = Counter Feint
 	03 = Counter Throw	
 
-0x0054		= Step-In Move
+0x0054			= Step-In Move
 ->	00 = Heavy (Short)
 	01 = Heavy (Long)
 	02 = Kiai Cannon (Short)
@@ -182,12 +182,18 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	other adds a second swaying animation right after (Long).
 	You are invincible while in these animations.
 
-0x0057		= Amount of Charged Ki Blasts
+0x0057			= Amount of Charged Ki Blasts
 ->	This is the amount of charged Ki Blasts from
 	your character that you can have on 
 	the map at the same time.
 
-0x006C		= Amount of Blast Stocks
+0x0058-0x005B	= ?
+->	Function at 0x0023F960 uses this as its offset.
+
+0x0060-0x0063	= ?
+->	Function at 0x0023F980 uses this as its offset.
+
+0x006C			= Amount of Blast Stocks
 
 0x0070-0x0073	= Ki Charging speed
 0x0074-0x0077	= Ki Charging speed in water
@@ -195,6 +201,13 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 0x0078-0x007B	= Base Ki Regeneration speed
 
 0x007C-0x007F	= Counter Ki consumption
+
+0x0080-0x0083	= ?
+->	Function at 0x0023FB58 uses this as its offset.
+
+0x0084-0x0087	= ?
+-> 	Function at 0x0023FB68 uses this as its offset.
+	Additionally, it will be divided by 30.
 
 0x008C-0x008F	= Blast Gauge speed
 
@@ -207,20 +220,31 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 0x0094-0x0097	= Max Power mode duration
 ->	This value is a float.
 
-0x0098-0x009D	= Gravity (?)
+0x0098-0x009D	= Gravity
 ->	This value is a float.
 	Anything above 1 makes you unable
 	to gain altitude by jumping.
 
-0x00A8		= Amount of possible Dragon Smashes (Max Power)
-0x00A9		= Amount of possible Punishing Attacks (Max Power)
+0x009C-0x009F	= ?
+->	This value is a float.
+	Function at 0x0023FC68 uses this as its offset.
+
+0x00A8			= Amount of possible Dragon Smashes (Max Power)
+0x00A9			= Amount of possible Punishing Attacks (Max Power)
 ->	These values decide how many of these moves
 	you can do after a Full Smash in Max Power.
+
+0x00AA			= ?
+->	Function at 0x0023FC98 uses this as its offset.
 	
-0x00AC-0x00AF		= Charging Bar Speed (?)
+0x00AC-0x00AF		= Charging Bar Speed
 ->	This value is a float.
 	Controls the speed of the animations of
-	chargable attacks
+	chargable melee attacks specifically.
+
+0x00B0-0x00B3		= ?
+->	This value is a float.
+	Function at 0x0023FCB8 uses this as its offset.
 
 0x00B4-0x00B7	= Damage Multiplier
 ->	This value is a float.
