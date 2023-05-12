@@ -1,5 +1,5 @@
-It seems that the Ki Blast parameters are much smaller than the Melee parameters.
-Every type of Ki Blast has 55 Bytes reserved for it's parameters.
+It seems that the Ki Blast parameters are much smaller than the Melee parameters,
+with a size of 832 (0x340) Bytes.
 
 Disclaimer: Every time  you see a value I call "Default", then it is the value for
 Base Goku Costume 1's Regular Ki Blasts.
@@ -7,58 +7,72 @@ Base Goku Costume 1's Regular Ki Blasts.
 ? = Unknown as of yet
 (?) = uncertain
 
+The Structure of data is as follows:
+0xXXXX			= Meaning of Parameter
+Size:	X-Bytes
+->	Additional Notes
+
 --LAYOUT--
 
-0x0000-0x0037	Regular Ki Blasts
+All sections within this layout have a size of 56 (0x38) Bytes.
 
-0x0038-0x006F	Charged Regular Ki Blast (Low Charge)
-0x0070-0x00A7	Charged Regular Ki Blast (Medium Charge)
-0x00A8-0x00DF	Charged Regular Ki Blast (Full Charge)
+0x0000			Regular Ki Blasts
 
-0x00E0-0x0117	Dashing Ki Blasts
+0x0038			Charged Regular Ki Blast (Low Charge)
+0x0070			Charged Regular Ki Blast (Medium Charge)
+0x00A8			Charged Regular Ki Blast (Full Charge)
 
-0x0118-0x014F	Charged Dashing Ki Blast (Low Charge)
-0x0150-0x0187	Charged Dashing Ki Blast (Medium Charge)
-0x0188-0x01BF	Charged Dashing Ki Blast (Full Charge)
+0x00E0			Dashing Ki Blasts
 
-0x01C0-0x01F7	Jumping Ki Blasts
+0x0118			Charged Dashing Ki Blast (Low Charge)
+0x0150			Charged Dashing Ki Blast (Medium Charge)
+0x0188			Charged Dashing Ki Blast (Full Charge)
 
-0x01F8-0x022F	Charged Jumping Ki Blast (Low Charge)
-0x0230-0x0267	Charged Jumping Ki Blast (Medium Charge)
-0x0268-0x02BF	Charged Jumping Ki Blast (Full Charge)
+0x01C0			Jumping Ki Blasts
 
-0x02A0-0x02D7	?
-0x02D8-0x030F	?
+0x01F8			Charged Jumping Ki Blast (Low Charge)
+0x0230			Charged Jumping Ki Blast (Medium Charge)
+0x0268			Charged Jumping Ki Blast (Full Charge)
+
+0x02A0			?
+0x02D8			?
 
 
 --STRUCTURE--
 
-0x0000-0x0003	= Type (?)
+0x0000			= Flags (?)
+Size: 4 Bytes
 
-0x0004-0x0007 	= Health Damage
+0x0004		 	= Damage
+Size: 4 Bytes
 
-0x0008-0x000B 	= Health Damage (guarding)
+0x0008		 	= Damage (Guarding)
+Size: 4 Bytes
 
-0x000C-0x000F	= Ki Cost
+0x000C			= Ki Cost
+Size: 4 Bytes
 
-0x0010-0x0013	= Ki Blast speed
+0x0010			= Ki Blast Speed
+Size: 4 Bytes
 ->	This value is a float.
 
-0x0014-0x0017	= Ki Blast Homing
+0x0014			= Ki Blast Homing
+Size: 4 Bytes
 -> 	This value is a float.
-	If you think of the path that the ki blast
-	travels as an arch, this parameter controls
-	the size of that arch.
+	Think of the path that the ki blast travels as an arch,
+	this parameter controls the size of that arch.
 	00 00 05 FF = zigzag pattern
 	00 00 FF FF = Insane Spread
 
-0x0018-0x001B	= Ki Blast Range
+0x0018			= Ki Blast Range
+Size: 4 Bytes
 ->	This value is a float.
 
-0x001C-0x001F	= Ki Blast Knockback
+0x001C			= Ki Blast Knockback
+Size: 4 Bytes
 ->	This value is a Float.
 
-0x0020-0x0023	= ?
+0x0020			= ?
 ->	This value is a Float.
 
 0x0024		= Hitstun
@@ -103,18 +117,30 @@ Base Goku Costume 1's Regular Ki Blasts.
 	26 = Full Charged Down Smash Stun (?)
 	27 = Instant Knockdown with electric sound (?)
 	
-	
-0x0026-0x0027	= ?
+0x0025 = Conditional Hitstun (?)
+Size: 1 Byte
+
+0x0026 = Conditional Hitstun (?)
+Size: 1 Byte
+
+0x0027 = Conditional Hitstun (?)
+Size: 1 Byte
 
 0x0028-0x002B	= Ki Blast Size
+Size: 4 Bytes
 ->	This value is a float.
 
 0x002C-0x002F	= Ki Blast Trail Length
+Size: 4 Bytes
 ->	This value is a float.
 	It specifies how long the trail after
 	each Ki Blast is supposed to be.
 
+0x0030			= ?
+Size: 1 Byte
+
 0x0031		= Ki Blast Color
+Size: 1 Byte
 ->	00 = Blue
 	01 = Purple
 	02 = Yellow
@@ -125,9 +151,11 @@ Base Goku Costume 1's Regular Ki Blasts.
 	07 = unfinished (?)
 
 0x0032		= Amount of Ki Blasts
+Size: 1 Byte
 ->	Maximum of 20
 
 0x0033		= Trajectory (?)
+Size: 1 Byte
 ->	00 = Spread everywhere
 	01 = straight
 	02 = Upwards Curve
@@ -136,4 +164,6 @@ Base Goku Costume 1's Regular Ki Blasts.
 	05 = Right Curve
 	06 = Right and Left Curve
 	
-0x0034-0x0037	= ?
+0x0034			= ?
+Size: 4 Bytes
+->	This might just be padding

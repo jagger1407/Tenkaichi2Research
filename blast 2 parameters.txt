@@ -1,50 +1,70 @@
 This parameter section is responsible for both Blast 2s and the Ultimate Blast.
 
+The size of this parameter section is 320 (0x140) Bytes big.
+
+? = Unknown as of yet
+(?) = uncertain
+
+The Structure of data is as follows:
+0xXXXX			= Meaning of Parameter
+Size:	X-Bytes
+->	Additional Notes
+
 --STRUCTURE--
 
-0x0000-0x0003		= ?
-0x0004-0x0007		= ?
-0x0008-0x000B		= ?
+0x0000				= ?
+0x0004				= ?
+0x0008				= ?
+Size: 4 Bytes each
 
-0x000C-0x000F		= Damage (1st Blast 2)
-0x0010-0x0013		= Damage (2nd Blast 2)
-0x0014-0x0017		= Damage (Ultimate Blast)
+0x000C				= Damage (1st Blast 2)
+0x0010				= Damage (2nd Blast 2)
+0x0014				= Damage (Ultimate Blast)
+Size: 4 Bytes each
 
-0x0018-0x001B		= Damage Guarding (1st Blast 2)
-0x001C-0x001F		= Damage Guarding (2nd Blast 2)
-0x0020-0x0023		= Damage Guarding (Ultimate Blast)
+0x0018				= Damage Guarding (1st Blast 2)
+0x001C				= Damage Guarding (2nd Blast 2)
+0x0020				= Damage Guarding (Ultimate Blast)
+Size: 4 Bytes each
 
-0x0024-0x0027		= Speed (1st Blast 2)
-0x0028-0x002B		= Speed (2nd Blast 2)
-0x002C-0x002F		= Speed (3rd Blast 2)
+0x0024				= Speed (1st Blast 2)
+0x0028				= Speed (2nd Blast 2)
+0x002C				= Speed (3rd Blast 2)
+Size: 4 Bytes each
 ->	These values are floats.
 
-0x0030-0x0033		= ? (1st Blast 2)
-0x0034-0x0037		= ? (2nd Blast 2)
-0x0038-0x003B		= ? (Ultimate Blast)
+0x0030				= ? (1st Blast 2)
+0x0034				= ? (2nd Blast 2)
+0x0038				= ? (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 
-0x003C-0x003F		= Reach (1st Blast 2)
-0x0040-0x0043		= Reach (2nd Blast 2)
-0x0044-0x0047		= Reach (Ultimate Blast)
+0x003C				= Reach (1st Blast 2)
+0x0040				= Reach (2nd Blast 2)
+0x0044				= Reach (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 
-0x0048-0x004B		= Cooldown Time (1st Blast 2)
-0x004C-0x004F		= Cooldown Time (2nd Blast 2)
-0x0050-0x0053		= Cooldown Time (Ultimate Blast)
+0x0048				= Cooldown Time (1st Blast 2)
+0x004C				= Cooldown Time (2nd Blast 2)
+0x0050				= Cooldown Time (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 
-0x0054-0x0057		= Ki Cost (1st Blast 1)
-0x0058-0x005B		= Ki Cost (2nd Blast 2)
-0x005C-0x005F		= Ki Cost (Ultimate Blast)
+0x0054				= Ki Cost (1st Blast 1)
+0x0058				= Ki Cost (2nd Blast 2)
+0x005C				= Ki Cost (Ultimate Blast)
+Size: 4 Bytes each
 
-0x0060-0x0063		= Health Cost (1st Blast 2)
-0x0064-0x0067		= Health Cost (2nd Blast 2)
-0x0068-0x006B		= Health Cost (Ultimate Blast)
+0x0060				= Health Cost (1st Blast 2)
+0x0064				= Health Cost (2nd Blast 2)
+0x0068				= Health Cost (Ultimate Blast)
+Size: 4 Bytes each
 
-0x006C-0x006F		= Knockback (1st Blast 2)
-0x0070-0x0073		= Knockback (2nd Blast 2)
-0x0074-0x0077		= Knockback (Ultimate Blast)
+0x006C				= Knockback (1st Blast 2)
+0x0070				= Knockback (2nd Blast 2)
+0x0074				= Knockback (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 
 0x0078-0x008F	= ?
@@ -52,6 +72,7 @@ This parameter section is responsible for both Blast 2s and the Ultimate Blast.
 0x0090			= Hitstun (1st Blast 2)
 0x0091			= Hitstun (2nd Blast 2)
 0x0092			= Hitstun (Ultimate Blast)
+Size: 1 Byte each
 ->	00 = no Hitstun
 	01 = no Hit
 	02 = no Hitstun
@@ -96,15 +117,18 @@ This parameter section is responsible for both Blast 2s and the Ultimate Blast.
 0x0093			= Hitstun of last hit (1st Blast 2)
 0x0094			= Hitstun of last hit (2nd Blast 2)
 0x0095			= Hitstun of last hit (Ultimate Blast)
+Size: 1 Byte each
 
 0x00DC-0x00DF		= Size (1st Blast 2)
 0x00E0-0x00E3		= Size (2nd Blast 2)
 0x00E4-0x00E7		= Size (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 
 0x00E8-0x00EB		= Charge Time (1st Blast 2)
 0x00EC-0x00EF		= Charge Time (2nd Blast 2)
 0x00F0-0x00F3		= Charge Time (Ultimate Blast)
+Size: 4 Bytes each
 ->	These values are floats.
 	Only applies to chargable Blasts.
 	
