@@ -44,21 +44,24 @@ Base Goku Costume 1's Regular Ki Blasts.
 0x0010-0x0013	= Ki Blast speed
 ->	This value is a float.
 
-0x0014-0x0017	= Ki Blast Homing (?)
+0x0014-0x0017	= Ki Blast Homing
 -> 	This value is a float.
+	If you think of the path that the ki blast
+	travels as an arch, this parameter controls
+	the size of that arch.
 	00 00 05 FF = zigzag pattern
 	00 00 FF FF = Insane Spread
 
-0x0018-0x001B	= Ki Blast range (?)
+0x0018-0x001B	= Ki Blast Range
 ->	This value is a float.
 
-0x001C-0x001F	= Ki Blast knockback
+0x001C-0x001F	= Ki Blast Knockback
 ->	This value is a Float.
 
 0x0020-0x0023	= ?
 ->	This value is a Float.
 
-0x0024		= Stun (?)
+0x0024		= Hitstun
 ->	00 = No Hitstun
 	01 = No Hitstun (?)
 	02 = Superarmor stun (?)
@@ -103,10 +106,10 @@ Base Goku Costume 1's Regular Ki Blasts.
 	
 0x0026-0x0027	= ?
 
-0x0028-0x002B	= Ki Blast size
+0x0028-0x002B	= Ki Blast Size
 ->	This value is a float.
 
-0x002C-0x002F	= Ki Blast trail (?)
+0x002C-0x002F	= Ki Blast Trail Length
 ->	This value is a float.
 	It specifies how long the trail after
 	each Ki Blast is supposed to be.
