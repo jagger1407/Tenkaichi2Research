@@ -10,8 +10,8 @@ if you have obtained an item in a game, it can set a flag (set a specific Bit as
 Then, if the game wants to check if you have that item, all it needs to do is
 see if the Bit is 1 or 0. Think of it not as a value, but as a checkbox.
 
-DISCLAIMER: The order of bits for this documentation is 12345678. 
-So when I refer to "Bit 5", it's the 5th bit from the left.
+DISCLAIMER: The order of bits for this documentation is 76543210.
+So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 
 
 ? = unknown as of yet
@@ -72,64 +72,125 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	you specified here matches with anyone in your team,
 	and if so, uses and removes them from your team after the fusion.
 
+0x0028			= ?
+->	Function at 0x0023f520 uses this as its offset.
+
 0x0029			= Z-Search Type
-->	00 = Ki Search
-	01 = Fast Ki Search
-	02 = Scouter Search
-	03 = Fast Scouter Search
-	04 = Very Fast Scouter Search
-	05 = same as 00 (?)
+->	00 = Ki Search (Opponent flashes on radar)
+	01 = Fast Ki Search (Opponent flashes on radar)
+	02 = Scouter Search (Opponent flashes on radar)
+	03 = Fast Scouter Search (Opponent flashes on radar)
+	04 = Very Fast Scouter Search (Opponent flashes on radar)
+	05 = Ki Search (no radar flash)
 	06 = same as 01 (?)
-	07 = slow Ki Search
-
-0x0030			= Flags
-->	Bit 7 decides if you can absorb energy
-
-0x0031			= Flags part 2
-->	Bit 1 decides if you make a metallic landing noise
-	Bit 4 decides if the character can fly (1 = can't fly, 0 = can fly)
-	Bit 5 decides if you can break objects by touching them
-
-0x0034			= Flags part 3
-->	Bit 1 decides if you can Dragon Smash
-	Bit 3 decides if you can Step-In after the primary combo string
-	Bit 5 decides if you can Sway
-	Bit 6 decides if you can Ground Slash
-	Bit 7 decides if you can Lift Strike
-	Bit 8 decides if you can Dragon Dash
-
-0x0035			= Flags part 4
-->	Bit 1 decides if you can use Giant Throw
-	Bit 2 decides if you can use Heavy Crush
-	Bit 3 decides if you can use Dragon Tornado
-	Bit 5 decides if you can use dashing & jumping ki blasts
-	Bit 7 decides if you can use High Speed Rush Movement
-	Bit 8 decides if you can deflect Ki Blasts
-
-0x0036			= Flags part 5
-->	Bit 5 decides if you can use Illusion Slash (Ground Slash when landing a jump)
-	Bit 6 decides if you can use Kiai Cannon Smash
-	Bit 7 decides if you can use Rolling Hammer
-	Bit 8 decides if you can use Sonic Impact
+	07 = slow Ki Search (no radar flash)
+	08 = ?
+	09 = ?
+	The game checks values up to 9 for thsi parameter.
 	
-0x0037			= Flags part 6
-->	Bit 4 decides if you can use Dragon Heavy
-	Bit 6 decides if you can do Hyper Speed Movement
+0x002A-0x002E		= ?
+->	The same function which gets the Z-Search Type 
+	has a chance to offset the address from 0x29 up to 0x2E.
+	However, nothing has changed when I changed these values.
 
-0x0038			= Flags part 7
-->	Bit 1 decides if you're in Android mode (can't charge Yellow Ki)
-	Bit 2 decides if you have SSJ Aura
-	Bit 5 decides if you have SSJ2 Aura (?)
-	Bit 6 decides if you have SSJ3 Aura (?)
+0x0030			= Flaggroup 1 #1
+->	Bit 1 decides if you can absorb energy
+
+0x0031			= Flaggroup 1 #2
+->	Bit 7 decides if you make a metallic landing noise
+	Bit 4 decides if the character can fly (1 = can't fly, 0 = can fly)
+	Bit 3 decides if you can break objects by touching them
+
+0x0032			= Flaggroup 1 #3
+
+0x0033			= Flaggroup 1 #4
+
+0x0034			= Flaggroup 2 #1
+->	Bit 7 decides if you can Dragon Smash
+	Bit 6 ?
+	Bit 5 decides if you can Step-In after the primary combo string
+	Bit 4 ?
+	Bit 3 decides if you can Sway
+	Bit 2 decides if you can Ground Slash
+	Bit 1 decides if you can Lift Strike
+	Bit 0 decides if you can Dragon Dash
+
+0x0035			= Flaggroup 2 #2
+->	Bit 7 decides if you can use Giant Throw
+	Bit 6 decides if you can use Heavy Crush
+	Bit 5 decides if you can use Dragon Tornado
+	Bit 4 ?
+	Bit 3 decides if you can use dashing & jumping ki blasts
+	Bit 2 ?
+	Bit 1 decides if you can use High Speed Rush Movement
+	Bit 0 decides if you can deflect Ki Blasts
+
+0x0036			= Flaggroup 2 #3
+->	Bit 7 ?
+	Bit 6 ?
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 decides if you can use Illusion Slash (Ground Slash when landing a jump)
+	Bit 2 decides if you can use Kiai Cannon Smash
+	Bit 1 decides if you can use Rolling Hammer
+	Bit 0 decides if you can use Sonic Impact
+	
+0x0037			= Flaggroup 2 #4
+->	Bit 7 ?
+	Bit 6 ?
+	Bit 5 ?
+	Bit 4 decides if you can use Dragon Heavy
+	Bit 3 ?
+	Bit 2 decides if you can do Hyper Speed Movement
+	Bit 1 ?
+	Bit 0 ?
+
+0x0038			= Flaggroup 3 #1
+->	Bit 7 decides if you're in Android mode (can't charge Yellow Ki)
+	Bit 6 decides if you have SSJ Aura
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 decides if you have SSJ2 Aura (?)
+	Bit 2 decides if you have SSJ3 Aura (?)
+	Bit 1 ?
+	Bit 0 ?
 	Note: the Aura flags here overwrite what
 	you input in the Aura Color Byte.
 
-0x0039			= Flags part 8 (?)
-->	Bit 8 decides if you have a Boo charging sound
+0x0039			= Flaggroup 3 #2
+->	Bit 7 ?
+	Bit 6 ?
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 ?
+	Bit 2 ?
+	Bit 1 ?
+	Bit 0 decides if you have a Boo charging sound
+
+0x003A			= Flaggroup 3 #3
+-> 	Bit 7 ?
+	Bit 6 ?
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 ?
+	Bit 2 ?
+	Bit 1 ?
+	Bit 0 ?
+
+0x003B			= Flaggroup 3 #4
+-> 	Bit 7 ?
+	Bit 6 ?
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 ?
+	Bit 2 ?
+	Bit 1 ?
+	Bit 0 ?
 
 0x003E			= ?
-->	04 = Great Ape Landing effect
-	Every other value is just a regular landing?
+->	04 = Great Ape Mode
+	In Great Ape Mode, throws and Rush B2s repel
+	and you create a large dirt smoke effect when you land.
 
 0x003F 			= Aura Color
 ->	00 = Blue
@@ -163,10 +224,11 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 0x0051		= Rush Counter Move
 0x0052		= Step-In Counter Move
 0x0053		= Cancel Counter Move
-->	00 = no Counter
+->	00 = No Counter
 	01 = Counter Smash
 	02 = Counter Feint
 	03 = Counter Throw	
+	04 = Sway, No Counter
 
 0x0054			= Step-In Move
 ->	00 = Heavy (Short)
@@ -175,12 +237,19 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 	03 = Kiai Cannon (Long)
 	04 = Flying Kicks (Short)
 	05 = Flying Kicks (Long)
-	06 = no Move
+	06 = No Move
 	There are 2 animations that can occur
 	when using a Step-In Move. One is only
 	the animation of the Step-In (Short), while the
 	other adds a second swaying animation right after (Long).
 	You are invincible while in these animations.
+
+0x0055			= Step-In Lift Strike
+0x0056			= Step-In Ground Slash
+->	00 = Technique (Short)
+	01 = Technique (Long)
+	02 = No Move
+
 
 0x0057			= Amount of Charged Ki Blasts
 ->	This is the amount of charged Ki Blasts from
@@ -189,6 +258,9 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 
 0x0058-0x005B	= ?
 ->	Function at 0x0023F960 uses this as its offset.
+
+0x005C-0x005F	= ?
+->	Function at 0x0023F970 uses this as its offset
 
 0x0060-0x0063	= ?
 ->	Function at 0x0023F980 uses this as its offset.
@@ -208,6 +280,9 @@ So when I refer to "Bit 5", it's the 5th bit from the left.
 0x0084-0x0087	= ?
 -> 	Function at 0x0023FB68 uses this as its offset.
 	Additionally, it will be divided by 30.
+	
+0x0088-0x008B	= ?
+->	Function at 0x0023fab8 uses this as its offset.
 
 0x008C-0x008F	= Blast Gauge speed
 

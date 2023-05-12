@@ -1,0 +1,111 @@
+This parameter section is responsible for both Blast 2s and the Ultimate Blast.
+
+--STRUCTURE--
+
+0x0000-0x0003		= ?
+0x0004-0x0007		= ?
+0x0008-0x000B		= ?
+
+0x000C-0x000F		= Damage (1st Blast 2)
+0x0010-0x0013		= Damage (2nd Blast 2)
+0x0014-0x0017		= Damage (Ultimate Blast)
+
+0x0018-0x001B		= Damage Guarding (1st Blast 2)
+0x001C-0x001F		= Damage Guarding (2nd Blast 2)
+0x0020-0x0023		= Damage Guarding (Ultimate Blast)
+
+0x0024-0x0027		= Speed (1st Blast 2)
+0x0028-0x002B		= Speed (2nd Blast 2)
+0x002C-0x002F		= Speed (3rd Blast 2)
+->	These values are floats.
+
+0x0030-0x0033		= ? (1st Blast 2)
+0x0034-0x0037		= ? (2nd Blast 2)
+0x0038-0x003B		= ? (Ultimate Blast)
+->	These values are floats.
+
+0x003C-0x003F		= Reach (1st Blast 2)
+0x0040-0x0043		= Reach (2nd Blast 2)
+0x0044-0x0047		= Reach (Ultimate Blast)
+->	These values are floats.
+
+0x0048-0x004B		= Cooldown Time (1st Blast 2)
+0x004C-0x004F		= Cooldown Time (2nd Blast 2)
+0x0050-0x0053		= Cooldown Time (Ultimate Blast)
+->	These values are floats.
+
+0x0054-0x0057		= Ki Cost (1st Blast 1)
+0x0058-0x005B		= Ki Cost (2nd Blast 2)
+0x005C-0x005F		= Ki Cost (Ultimate Blast)
+
+0x0060-0x0063		= Health Cost (1st Blast 2)
+0x0064-0x0067		= Health Cost (2nd Blast 2)
+0x0068-0x006B		= Health Cost (Ultimate Blast)
+
+0x006C-0x006F		= Knockback (1st Blast 2)
+0x0070-0x0073		= Knockback (2nd Blast 2)
+0x0074-0x0077		= Knockback (Ultimate Blast)
+->	These values are floats.
+
+0x0078-0x008F	= ?
+
+0x0090			= Hitstun (1st Blast 2)
+0x0091			= Hitstun (2nd Blast 2)
+0x0092			= Hitstun (Ultimate Blast)
+->	00 = no Hitstun
+	01 = no Hit
+	02 = no Hitstun
+	03 = Hitstun (Primary String)
+	04 = Hitstun (Secondary String)
+	05 = Right Smash Stun
+	06 = Left Smash Stun
+	07 = Neutral Smash Stun
+	08 = Down Smash Stun
+	09 = Kiai Cannon/Dash Smash Stun
+	0A = Lift Strike Stun
+	0B = Ground Slash Stun
+	0C = Heavy Finisher Stun
+	0D = Instant Knockdown
+	0E = Knockdown with Knockback
+	0F = Combo Ender
+	10 = Full Charge Smash Stun
+	11 = Medium Charge Smash Stun
+	12 = Throw Animation, opponent flies into facing direction
+	13 = No Hitstun
+	14 = Giant Throw Animation, same effect as 12
+	15 = Paralyzation (Short)
+	16 = Paralyzation (Medium)
+	17 = Paralyzation (Long)
+	18 = Knockdown Paralyzation (Short)
+	19 = Knockdown Paralyzation (Medium)
+	1A = Knockdown Paralyzation (Long)
+	1B = (?) Blast 2 Animation, darkens Stage and inflicts self-damage
+	1C = (?) Blast 1 Animation, temporarily removes radar and knocks down opponent
+	1D = Instant Knockdown
+	1E = Instant Knockdown + small bounce
+	1F = Instant Knockdown + big bounce
+	20 = Opponents Blast 2 Animation, then crashes
+	21 = Rolling Hammer Right
+	22 = Rolling Hammer Left
+	23 = (?) idk, seems to be another Giant Throw Animation
+	24 = Death Beam Knockdown
+	25 = (?) Dragon Heavy Hitstun
+	26 = (?) Full Charged Down Smash Stun
+	27 = (?) Instant Knockdown with electric sound
+
+0x0093			= Hitstun of last hit (1st Blast 2)
+0x0094			= Hitstun of last hit (2nd Blast 2)
+0x0095			= Hitstun of last hit (Ultimate Blast)
+
+0x00DC-0x00DF		= Size (1st Blast 2)
+0x00E0-0x00E3		= Size (2nd Blast 2)
+0x00E4-0x00E7		= Size (Ultimate Blast)
+->	These values are floats.
+
+0x00E8-0x00EB		= Charge Time (1st Blast 2)
+0x00EC-0x00EF		= Charge Time (2nd Blast 2)
+0x00F0-0x00F3		= Charge Time (Ultimate Blast)
+->	These values are floats.
+	Only applies to chargable Blasts.
+	
+0x00F4-0x013F		= ?
