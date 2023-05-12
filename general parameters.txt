@@ -13,6 +13,12 @@ see if the Bit is 1 or 0. Think of it not as a value, but as a checkbox.
 DISCLAIMER: The order of bits for this documentation is 76543210.
 So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 
+The Structure of data is as follows:
+0xXXXX			= Meaning of Parameter
+Size:	X-Bytes
+->	Additional Notes
+
+If the size indication is below multiple parameters, they all have that specified size.
 
 ? = unknown as of yet
 (?) = uncertain
@@ -23,6 +29,7 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 0x0001			= 2nd Transformation
 0x0002			= 3rd Transformation
 0x0003			= De-transformation
+Size:	1 Byte each
 ->	the values here are the ID for each character.
 	don't worry about crashing the game with an invalid ID,
 	if the ID doesn't belong to any character, the game will
@@ -32,13 +39,16 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 0x0005			= 2nd Transformation Blast Stock cost
 0x0006			= 3rd Transformation Blast Stock cost
 0x0007			= De-transformation Blast Stock cost
+Size:	1 Byte each
 
 0x0008			= R3 Command (?)
+Size: 1 Byte
 ->	Setting this value to anything above 00
 	seems to make your first transformation
 	only work if you press Left+R3?
 
 0x0009			= ?
+Size:	1 Byte
 ->	Hiro said this is a "Binary parameter for
 	the bonus", but I have no idea if this is
 	indeed that parameter and if it is, how it works.
@@ -46,36 +56,43 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 0x000A			= Fusion 1 Blast Stock cost
 0x000B			= Fusion 2 Blast Stock cost
 0x000C			= Fusion 3 Blast Stock cost
+Size:	1 Byte each
 
 0x000D			= Fusion 1 Type
 0x000E			= Fusion 2 Type
 0x000F			= Fusion 3 Type
+Size:	1 Byte each
 ->	01 = Fusion Dance
 	02 = Potara Fusion
 
 0x0010			= Fusion 1 Character
 0x0011			= Fusion 2 Character
 0x0012			= Fusion 3 Character
+Size:	1 Byte each
 ->	This is the character that will be
 	the result of the fusion.
 
 0x0013			= Fusion 1 Partner
 0x0014			= Fusion 2 Partner
 0x0015			= Fusion 3 Partner
+Size:	1 Byte each
 ->	This is the character that will be
 	your partner in the fusion.
 
-0x0016-0x001B	= Fusion 1 Partner Transformations
-0x001C-0x0021	= Fusion 2 Partner Transformations
-0x0022-0x0027	= Fusion 3 Partner Transformations
+0x0016			= Fusion 1 Partner Transformations
+0x001C			= Fusion 2 Partner Transformations
+0x0022			= Fusion 3 Partner Transformations
+Size: Arrays of 6 Bytes each
 ->	These values check if the ID of the characters
 	you specified here matches with anyone in your team,
 	and if so, uses and removes them from your team after the fusion.
 
 0x0028			= ?
+Size: 1 Byte
 ->	Function at 0x0023f520 uses this as its offset.
 
 0x0029			= Z-Search Type
+Size: 6 Bytes (?)
 ->	00 = Ki Search (Opponent flashes on radar)
 	01 = Fast Ki Search (Opponent flashes on radar)
 	02 = Scouter Search (Opponent flashes on radar)
@@ -86,67 +103,122 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 	07 = slow Ki Search (no radar flash)
 	08 = ?
 	09 = ?
-	The game checks values up to 9 for thsi parameter.
-	
-0x002A-0x002E		= ?
+	The game checks values up to 9 for this parameter.
+
 ->	The same function which gets the Z-Search Type 
 	has a chance to offset the address from 0x29 up to 0x2E.
 	However, nothing has changed when I changed these values.
 
-0x0030			= Flaggroup 1 #1
-->	Bit 1 decides if you can absorb energy
+0x002F			= ?
+Size: 1 Byte
 
-0x0031			= Flaggroup 1 #2
-->	Bit 7 decides if you make a metallic landing noise
-	Bit 4 decides if the character can fly (1 = can't fly, 0 = can fly)
-	Bit 3 decides if you can break objects by touching them
+NOTE: The following parameters are flags, it seems like a weird move to put them into 4-Byte groups,
+however, this is actually how the game uses these flags.
 
-0x0032			= Flaggroup 1 #3
+If you want to get the flags of a specific Byte, then:
+1. Take the bit number (e.g. Bit 15)
+2. Divide the bit number by 8 (e.g. 15 / 8 = 1.875)
+3. Mod the bit number by 8 (e.g. 15 % 8 = 7)
+4. The Byte will be the starting byte + the result of Step 2, the bit will be the result of step 3
+	(e.g. Byte: 0x30 + 1 = 0x31, Bit 7)
 
-0x0033			= Flaggroup 1 #4
-
-0x0034			= Flaggroup 2 #1
-->	Bit 7 decides if you can Dragon Smash
+0x0030			= Flaggroup 1
+Size: 4 Bytes
+-> 	Bit 31 ?
+	Bit 30 ?
+	Bit 29 ?
+	Bit 28 ?
+	Bit 27 ?
+	Bit 26 ?
+	Bit 25 ?
+	Bit 24 ?
+	Bit 23 ?
+	Bit 22 ?
+	Bit 21 ?
+	Bit 20 ?
+	Bit 19 ?
+	Bit 18 ?
+	Bit 17 ?
+	Bit 16 ?
+ 	Bit 15 decides if you make a metallic landing noise
+	Bit 14 ?
+	Bit 13 ?
+	Bit 12 decides if the character can fly (1 = can't fly, 0 = can fly)
+	Bit 11 decides if you can break objects by touching them
+	Bit 10 ?
+	Bit 9 ?
+	Bit 8 ?
+	Bit 7 ?
 	Bit 6 ?
-	Bit 5 decides if you can Step-In after the primary combo string
+	Bit 5 ?
+	Bit 4 ?
+	Bit 3 ?
+	Bit 2 ?
+	Bit 1 decides if you can absorb energy
+	Bit 0 ?
+
+0x0034			= Flaggroup 2
+Size: 4 Bytes
+->	Bit 31 ?
+	Bit 30 ?
+	Bit 29 ?
+	Bit 28 decides if you can Dragon Heavy
+	Bit 27 ?
+	Bit 26 decides if you can do Hyper Speed Movement
+	Bit 25 ?
+	Bit 24 ?
+	Bit 23
+	Bit 22
+	Bit 21
+	Bit 20
+	Bit 19 decides if you can Illusion Slash (Ground Slash after Landing)
+	Bit 18 decides if you can Kiai Cannon Smash
+	Bit 17 decides if you can Rolling Hammer
+	Bit 16 decides if you can Sonic Impact
+	Bit 15 decides if you can Giant Throw
+	Bit 14 decides if you can Heavy Crush
+	Bit 13 decides if you can Dragon Tornado
+	Bit 12 ?
+	Bit 11 decides if you can use Dashing & Jumping Ki Blasts
+	Bit 10
+	Bit 9 decides if you can Offensive Teleport (Teleport while attacking)
+	Bit 8 decides if you can deflect Ki Blasts
+	Bit 7 decides if you can Dragon Smash
+	Bit 6 ?
+	Bit 5 decides if you can Rush-In (Step-In after primary combo string)
 	Bit 4 ?
 	Bit 3 decides if you can Sway
 	Bit 2 decides if you can Ground Slash
 	Bit 1 decides if you can Lift Strike
 	Bit 0 decides if you can Dragon Dash
 
-0x0035			= Flaggroup 2 #2
-->	Bit 7 decides if you can use Giant Throw
-	Bit 6 decides if you can use Heavy Crush
-	Bit 5 decides if you can use Dragon Tornado
-	Bit 4 ?
-	Bit 3 decides if you can use dashing & jumping ki blasts
-	Bit 2 ?
-	Bit 1 decides if you can use High Speed Rush Movement
-	Bit 0 decides if you can deflect Ki Blasts
-
-0x0036			= Flaggroup 2 #3
-->	Bit 7 ?
-	Bit 6 ?
-	Bit 5 ?
-	Bit 4 ?
-	Bit 3 decides if you can use Illusion Slash (Ground Slash when landing a jump)
-	Bit 2 decides if you can use Kiai Cannon Smash
-	Bit 1 decides if you can use Rolling Hammer
-	Bit 0 decides if you can use Sonic Impact
-	
-0x0037			= Flaggroup 2 #4
-->	Bit 7 ?
-	Bit 6 ?
-	Bit 5 ?
-	Bit 4 decides if you can use Dragon Heavy
-	Bit 3 ?
-	Bit 2 decides if you can do Hyper Speed Movement
-	Bit 1 ?
-	Bit 0 ?
-
 0x0038			= Flaggroup 3 #1
-->	Bit 7 decides if you're in Android mode (can't charge Yellow Ki)
+Size: 4 Bytes
+->	Bit 31 ?
+	Bit 30 ?
+	Bit 29 ?
+	Bit 28 ?
+	Bit 27 ?
+	Bit 26 ?
+	Bit 25 ?
+	Bit 24 ?
+	Bit 23 ?
+	Bit 22 ?
+	Bit 21 ?
+	Bit 20 ?
+	Bit 19 ?
+	Bit 18 ?
+	Bit 17 ?
+	Bit 16 ?
+ 	Bit 15 ?
+	Bit 14 ?
+	Bit 13 ?
+	Bit 12 ?
+	Bit 11 ?
+	Bit 10 ?
+	Bit 9 ?
+	Bit 8 decides if you have a Buu charging sound
+ 	Bit 7 decides if you're in Android Mode (can't charge yellow Ki)
 	Bit 6 decides if you have SSJ Aura
 	Bit 5 ?
 	Bit 4 ?
@@ -154,45 +226,15 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 	Bit 2 decides if you have SSJ3 Aura (?)
 	Bit 1 ?
 	Bit 0 ?
-	Note: the Aura flags here overwrite what
-	you input in the Aura Color Byte.
-
-0x0039			= Flaggroup 3 #2
-->	Bit 7 ?
-	Bit 6 ?
-	Bit 5 ?
-	Bit 4 ?
-	Bit 3 ?
-	Bit 2 ?
-	Bit 1 ?
-	Bit 0 decides if you have a Boo charging sound
-
-0x003A			= Flaggroup 3 #3
--> 	Bit 7 ?
-	Bit 6 ?
-	Bit 5 ?
-	Bit 4 ?
-	Bit 3 ?
-	Bit 2 ?
-	Bit 1 ?
-	Bit 0 ?
-
-0x003B			= Flaggroup 3 #4
--> 	Bit 7 ?
-	Bit 6 ?
-	Bit 5 ?
-	Bit 4 ?
-	Bit 3 ?
-	Bit 2 ?
-	Bit 1 ?
-	Bit 0 ?
 
 0x003E			= ?
+Size: 1 Byte
 ->	04 = Great Ape Mode
 	In Great Ape Mode, throws and Rush B2s repel
 	and you create a large dirt smoke effect when you land.
 
 0x003F 			= Aura Color
+Size: 1 Byte
 ->	00 = Blue
 	01 = Blueish Purple
 	02 = Yellow
@@ -206,9 +248,11 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 0x0040-0x0043	= Collision X
 0x0044-0x0047	= Collision Y
 0x0048-0x004B	= Collision Z
+Size: 4 Bytes
 ->	These values are floats.
 
 0x004C			= Amount of Ki Blasts
+Size: 1 Byte
 ->	This is the amount of Ki Blasts you can fire
 	before entering a short cooldown period.
 
@@ -216,14 +260,16 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 0x004E			= Combo Move 2
 0x004F			= Combo Move 3
 0x0050			= Combo Move 4
+Size: 1 Byte each
 ->	00 = Heavy Finisher
 	01 = Kiai Cannon
 	02 = Flying Kicks
 	03 = no Combo Move
 
-0x0051		= Rush Counter Move
-0x0052		= Step-In Counter Move
-0x0053		= Cancel Counter Move
+0x0051			= Rush Counter Move
+0x0052			= Step-In Counter Move
+0x0053			= Cancel Counter Move
+Size: 1 Byte each
 ->	00 = No Counter
 	01 = Counter Smash
 	02 = Counter Feint
@@ -231,6 +277,7 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 	04 = Sway, No Counter
 
 0x0054			= Step-In Move
+Size: 1 Byte
 ->	00 = Heavy (Short)
 	01 = Heavy (Long)
 	02 = Kiai Cannon (Short)
@@ -246,84 +293,151 @@ So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
 
 0x0055			= Step-In Lift Strike
 0x0056			= Step-In Ground Slash
+Size: 1 Byte each
 ->	00 = Technique (Short)
 	01 = Technique (Long)
 	02 = No Move
 
 
 0x0057			= Amount of Charged Ki Blasts
+Size: 1 Byte each
 ->	This is the amount of charged Ki Blasts from
 	your character that you can have on 
 	the map at the same time.
 
-0x0058-0x005B	= ?
+0x0058			= ?
+Size: 4 Bytes
 ->	Function at 0x0023F960 uses this as its offset.
 
-0x005C-0x005F	= ?
+0x005C			= ?
+Size: 4 Bytes
 ->	Function at 0x0023F970 uses this as its offset
 
-0x0060-0x0063	= ?
+0x0060			= ?
+Size: 4 Bytes
 ->	Function at 0x0023F980 uses this as its offset.
 
+0x0064			= ?
+Size: 4 Bytes
+->	Function at 0x0023F990 uses this as its offset.
+
+0x0068			= ?
+Size: 4 Bytes
+-> Function at 0x0023F9A0 uses this as its offset.
+
 0x006C			= Amount of Blast Stocks
+Size: 1 Byte
 
-0x0070-0x0073	= Ki Charging speed
-0x0074-0x0077	= Ki Charging speed in water
+0x0070			= Ki Charging speed
+0x0074			= Ki Charging speed in water
+Size: 4 Bytes each
 
-0x0078-0x007B	= Base Ki Regeneration speed
+0x0078			= Base Ki Regeneration speed
+Size: 4 Bytes
 
-0x007C-0x007F	= Counter Ki consumption
+0x007C			= Counter Ki consumption
+Size: 4 Bytes
 
-0x0080-0x0083	= ?
+0x0080			= ?
+Size: 4 Bytes
 ->	Function at 0x0023FB58 uses this as its offset.
 
-0x0084-0x0087	= ?
+0x0084			= ?
+Size: 4 Bytes
 -> 	Function at 0x0023FB68 uses this as its offset.
-	Additionally, it will be divided by 30.
+	Some kind of Ki Cost, additionally,
+	it will be divided by 30.
 	
-0x0088-0x008B	= ?
+0x0088			= ?
+Size: 4 Bytes
 ->	Function at 0x0023fab8 uses this as its offset.
 
-0x008C-0x008F	= Blast Gauge speed
+0x008C			= Blast Gauge speed
+Size: 4 Bytes
 
-0x0090-0x0093	= Max Ki Charging speed (?)
+0x0090			= Max Ki Charging speed
+Size: 4 Bytes
 ->	This value might be a float.
 	The lower the value,
 	the faster the charging. It crashes
 	when under 0.03.
 
-0x0094-0x0097	= Max Power mode duration
+0x0094			= Max Power mode duration
+Size: 4 Bytes
 ->	This value is a float.
 
-0x0098-0x009D	= Gravity
+0x0098			= Gravity
+Size: 4 Bytes
 ->	This value is a float.
 	Anything above 1 makes you unable
 	to gain altitude by jumping.
 
-0x009C-0x009F	= ?
+0x009C			= ?
+Size: 4 Bytes
 ->	This value is a float.
 	Function at 0x0023FC68 uses this as its offset.
 
+0x00A0			= ?
+Size: 8 Bytes
+->	No function seems to reach into this place,
+	Could it be padding?
+
 0x00A8			= Amount of possible Dragon Smashes (Max Power)
 0x00A9			= Amount of possible Punishing Attacks (Max Power)
+Size: 1 Byte each
 ->	These values decide how many of these moves
 	you can do after a Full Smash in Max Power.
 
 0x00AA			= ?
+Size: 1 Byte
 ->	Function at 0x0023FC98 uses this as its offset.
 	
-0x00AC-0x00AF		= Charging Bar Speed
+0x00AC			= Charging Bar Speed
+Size: 4 Bytes
 ->	This value is a float.
 	Controls the speed of the animations of
 	chargable melee attacks specifically.
 
-0x00B0-0x00B3		= ?
+0x00B0			= ?
+Size: 4 Bytes
 ->	This value is a float.
 	Function at 0x0023FCB8 uses this as its offset.
 
-0x00B4-0x00B7	= Damage Multiplier
+0x00B4			= Damage Multiplier
+Size: 4 Bytes
 ->	This value is a float.
 
-0x00B8-0x00BB	= Switch Gauge Regeneration speed
+0x00B8			= Switch Gauge Regeneration speed
+Size: 4 Bytes
 ->	This value should be a float.
 	The lower the value, the faster the speed.
+
+0x00BC			= ?
+Size: Array of 3 Bytes
+->	Function at 0x0023FCE8 uses this as its offset.
+	Additionally, the function's second parameter can
+	offset the output up to 2 additional Bytes.
+
+0x00BF			= ?
+Size: Array of 3 Bytes
+->	Function at 0x0023FD38 uses this as its offset.
+	Additionally, the function's second parameter can
+	offset the output up to 2 additional Bytes.
+
+0x00C2			= ?
+Size: Array of 3 Bytes
+->	Function at 0x0023FD58 uses this as its offset.
+	Additionally, the function's second parameter can
+	offset the output up to 2 additional Bytes.
+
+0x00C5			= ?
+Size: Array of 3 Bytes
+->	Function at 0x0023FD78 uses this as its offset.
+	Additionally, the function's second parameter can
+	offset the output up to 2 additional Bytes.
+
+0x00CF			= ?
+Size: Array of 3 Bytes
+->	Function at 0x0023FD98 uses this as its offset.
+	Additionally, the function's second parameter can
+	offset the output up to 2 additional Bytes.

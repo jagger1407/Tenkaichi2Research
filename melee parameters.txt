@@ -6,31 +6,41 @@ has 100 Bytes reserved for it's parameters.
 ?   = Unknown as of yet
 (?) = uncertain
 
+DISCLAIMER: The order of bits for this documentation is 76543210.
+So when I refer to "Bit 5", it's the 5th bit from the right, starting from 0.
+
+The Structure of data is as follows:
+0xXXXX			= Meaning of Parameter
+Size:	X-Bytes
+->	Additional Notes
+
+
 
 --LAYOUT--
 
+All sections within this layout have a size of 100 (0x64) Bytes.
 
-0x0000-0x0063	Strike 1 (primary combo string)
-0x0064-0x00C7	Strike 2 (primary combo string)
-0x00C8-0x012B	Strike 3 (primary combo string)
-0x012C-0x018F	Strike 4 (primary combo string)
-0x0190-0x01F3	Strike 5 (primary combo string)
+0x0000			Strike 1 (primary combo string)
+0x0064			Strike 2 (primary combo string)
+0x00C8			Strike 3 (primary combo string)
+0x012C			Strike 4 (primary combo string)
+0x0190			Strike 5 (primary combo string)
 
-0x01F4-0x0257	Strike 1 (secondary combo string)
-0x0258-0x02BB	Strike 2 (secondary combo string)
-0x02BC-0x031F	Strike 3 (secondary combo string)
-0x0320-0x0383	Strike 4 (secondary combo string)
-0x0384-0x03E7	Strike 5 (secondary combo string)
+0x01F4			Strike 1 (secondary combo string)
+0x0258			Strike 2 (secondary combo string)
+0x02BC			Strike 3 (secondary combo string)
+0x0320			Strike 4 (secondary combo string)
+0x0384			Strike 5 (secondary combo string)
 
-0x03E8-0x044B	Heavy Finisher (Low Charge)
-0x044C-0x04AF	Heavy Finisher (Medium Charge)
-0x04B0-0x0513	Heavy Finisher (Full Charge)
+0x03E8			Heavy Finisher (Low Charge)
+0x044C		Heavy Finisher (Medium Charge)
+0x04B0			Heavy Finisher (Full Charge)
 
-0x0514-0x0577	Heavy Crush (1st Hit)
-0x0578-0x05DB	Heavy Crush (2nd Hit)
-0x05DC-0x063F	Heavy Crush (3rd Hit)
+0x0514			Heavy Crush (1st Hit)
+0x0578			Heavy Crush (2nd Hit)
+0x05DC			Heavy Crush (3rd Hit)
 
-0x0640-0x06A3	Flying Kicks (Part 1)
+0x0640			Flying Kicks (Part 1)
 ->	The damage for the flying kicks work like this:
 	the first flying kick damage values amount to
 	the damage value you put in split by the animation,
@@ -38,124 +48,124 @@ has 100 Bytes reserved for it's parameters.
 	The very last one however, is at the very bottom
 	of this section.
 
-0x06A4-0x0707	Left Smash (Low Charge)
-0x0708-0x076B	Right Smash (Low Charge)
-0x076C-0x07CF	Up Smash (Low Charge)
-0x07D0-0x0833	Down Smash (Low Charge)
-0x0834-0x0897	Neutral Smash (Low Charge)
+0x06A4			Left Smash (Low Charge)
+0x0708			Right Smash (Low Charge)
+0x076C			Up Smash (Low Charge)
+0x07D0			Down Smash (Low Charge)
+0x0834			Neutral Smash (Low Charge)
 
-0x0898-0x08FB 	Left Smash (Medium Charge)
-0x08FC-0x095F	Right Smash (Medium Charge)
-0x0960-0x09C3	Up Smash (Medium Charge)
-0x09C4-0x0A27	Down Smash (Medium Smash)
-0x0A28-0x0A8B	Neutral Smash (Medium Charge)
+0x0898		 	Left Smash (Medium Charge)
+0x08FC			Right Smash (Medium Charge)
+0x0960			Up Smash (Medium Charge)
+0x09C4			Down Smash (Medium Smash)
+0x0A28			Neutral Smash (Medium Charge)
 
-0x0A8C-0x0AEF	Left Smash (Full Charge)
-0x0AF0-0x0B53	Right Smash (Full Charge)
-0x0B54-0x0BB7	Up Smash (Full Charge)
-0x0BB8-0x0C1B	Down Smash (Full Charge)
-0x0C1C-0x0C7F	Neutral Smash (Full Charge)
+0x0A8C			Left Smash (Full Charge)
+0x0AF0			Right Smash (Full Charge)
+0x0B54			Up Smash (Full Charge)
+0x0BB8			Down Smash (Full Charge)
+0x0C1C			Neutral Smash (Full Charge)
 
-0x0C80-0x0CE3	Dash Smash (Low Charge)
-0x0CE4-0x0D47	Dash Smash (Medium Charge)
-0x0D48-0x0DAB	Dash Smash (Full Charge)
+0x0C80			Dash Smash (Low Charge)
+0x0CE4			Dash Smash (Medium Charge)
+0x0D48			Dash Smash (Full Charge)
 
-0x0DAC-0x0E0F	Jump Smash (Low Charge) (?)
-0x0E10-0x0E73	Jump Smash (Medium Charge) (?)
-0x0E74-0x0ED7	Jump Smash (Full Charge) (?)
+0x0DAC			Jump Smash (Low Charge) (?)
+0x0E10			Jump Smash (Medium Charge) (?)
+0x0E74			Jump Smash (Full Charge) (?)
 -> 	When I tested these with Base Goku,
 	Low Charge does 10 more damage,
 	Medium Charge does 60 more damage
 	and Full Charge does 100 more Damage.
 
-0x0ED8-0x0F3B	Kiai Cannon (Low Charge)
-0x0F3C-0x0FBF	Kiai Cannon (Medium Charge)
-0x0FA0-0x1003	Kiai Cannon (Full Charge)
+0x0ED8			Kiai Cannon (Low Charge)
+0x0F3C			Kiai Cannon (Medium Charge)
+0x0FA0			Kiai Cannon (Full Charge)
 
-0x1004-0x1067	Dragon Dash Smash Left (Low Charge)
-0x1068-0x10CB	Dragon Dash Smash Right (Low Charge)
-0x10CC-0x112F	Dragon Dash Smash Up (Low Charge)
-0x1130-0x1193	Dragon Dash Smash Down (Low Charge)
-0x1194-0x11F7	Dragon Dash Smash Neutral (Low Charge)
+0x1004			Dragon Dash Smash Left (Low Charge)
+0x1068			Dragon Dash Smash Right (Low Charge)
+0x10CC			Dragon Dash Smash Up (Low Charge)
+0x1130			Dragon Dash Smash Down (Low Charge)
+0x1194			Dragon Dash Smash Neutral (Low Charge)
 
-0x11F8-0x125B	Dragon Dash Smash Left (Full Charge)
-0x125C-0x12BF	Dragon Dash Smash Right (Full Charge)
-0x12C0-0x1323	Dragon Dash Smash Up (Full Charge)
-0x1324-0x1387	Dragon Dash Smash Down (Full Charge)
-0x1388-0x13EB	Dragon Dash Smash Neutral(Full Charge)
+0x11F8			Dragon Dash Smash Left (Full Charge)
+0x125C			Dragon Dash Smash Right (Full Charge)
+0x12C0			Dragon Dash Smash Up (Full Charge)
+0x1324			Dragon Dash Smash Down (Full Charge)
+0x1388			Dragon Dash Smash Neutral(Full Charge)
 
-0x13EC-0x144F	Left Dragon Homing (Full Smash Square Follow-Up)
-0x1450-0x14B3	Right Dragon Homing (Full Smash Square Follow-Up)
-0x14B4-0x1517	Up Dragon Homing (Full Smash Square Follow-Up)
-0x1518-0x157B	Down Dragon Homing (Full Smash Square Follow-Up)
-0x157C-0x15DF	Neutral Dragon Homing (Full Smash Square Follow-Up)
+0x13EC			Left Dragon Homing (Full Smash Square Follow-Up)
+0x1450			Right Dragon Homing (Full Smash Square Follow-Up)
+0x14B4			Up Dragon Homing (Full Smash Square Follow-Up)
+0x1518			Down Dragon Homing (Full Smash Square Follow-Up)
+0x157C			Neutral Dragon Homing (Full Smash Square Follow-Up)
 
-0x15E0-0x1643	Left Punishing Attack (Full Smash Triangle Follow-Up)
-0x1644-0x16A7	Right Punishing Attack (Full Smash Triangle Follow-Up)
-0x16A8-0x170B	Up Punishing Attack (Full Smash Triangle Follow-Up)
-0x170C-0x176F	Down Punishing Attack (Full Smash Triangle Follow-Up)
+0x15E0			Left Punishing Attack (Full Smash Triangle Follow-Up)
+0x1644			Right Punishing Attack (Full Smash Triangle Follow-Up)
+0x16A8			Up Punishing Attack (Full Smash Triangle Follow-Up)
+0x170C			Down Punishing Attack (Full Smash Triangle Follow-Up)
 
-0x1770-0x17D3	?
+0x1770			?
 
-0x17D4-0x1837	Lift Strike (Low Charge)
-0x1838-0x189B	Lift Strike (Medium Charge)
-0x189C-0x18FF	Lift Strike (Full Charge)
+0x17D4			Lift Strike (Low Charge)
+0x1838			Lift Strike (Medium Charge)
+0x189C			Lift Strike (Full Charge)
 
-0x1900-0x1963	Ground Slash (Low Charge)
-0x1964-0x19C7	Ground Slash (Medium Charge)
-0x19C8-0x1A2B	Ground Slash (Full Charge)
+0x1900			Ground Slash (Low Charge)
+0x1964			Ground Slash (Medium Charge)
+0x19C8			Ground Slash (Full Charge)
 
-0x1A2C-0x1A8F	Strike 1 Air Combo (Lift Strike Follow-Up)
-0x1A90-0x1AF3	Strike 2 Air Combo (Lift Strike Follow-Up)
-0x1AF4-0x1B57	Strike 3 Air Combo (Lift Strike Follow-Up)
-0x1B58-0x1BBB	Strike 4 Air Combo (Lift Strike Follow-Up)
-0x1BBC-0x1C1F	Strike 5 Air Combo (Lift Strike Combo Finisher)
-0x1C20-0x1C83	Air Combo Heavy Finisher (Combo Ender)
-0x1C84-0x1CE7	Lift Strike Heavy Follow-Up
+0x1A2C			Strike 1 Air Combo (Lift Strike Follow-Up)
+0x1A90			Strike 2 Air Combo (Lift Strike Follow-Up)
+0x1AF4			Strike 3 Air Combo (Lift Strike Follow-Up)
+0x1B58			Strike 4 Air Combo (Lift Strike Follow-Up)
+0x1BBC			Strike 5 Air Combo (Lift Strike Combo Finisher)
+0x1C20			Air Combo Heavy Finisher (Combo Ender)
+0x1C84			Lift Strike Heavy Follow-Up
 
-0x1CE8-0x1D4B	Throw/Grab
-0x1D4C-0x1DAF	?
-0x1DB0-0x1E13	?
+0x1CE8			Throw/Grab
+0x1D4C			?
+0x1DB0			?
 
-0x1E14-0x1E77	Counter-Attack
+0x1E14			Counter-Attack
 
-0x1E78-0x1EDB	Kiai Cannon Smash
+0x1E78			Kiai Cannon Smash
 
-0x1EDC-0x1F3F	?
+0x1EDC			?
 
-0x1F40-0x1FA3	Rolling Hammer Left (Low Charge)
-0x1FA4-0x2007	Rolling Hammer Right (Low Charge)
-0x2008-0x206B	Rolling Hammer Left (Medium Charge)
-0x206C-0x20CF	Rolling Hammer Right (Medium Charge)
-0x20D0-0x2133	Rolling Hammer Left (Full Charge)
-0x2134-0x2197	Rolling Hammer Right (Full Charge)
+0x1F40			Rolling Hammer Left (Low Charge)
+0x1FA4			Rolling Hammer Right (Low Charge)
+0x2008			Rolling Hammer Left (Medium Charge)
+0x206C			Rolling Hammer Right (Medium Charge)
+0x20D0			Rolling Hammer Left (Full Charge)
+0x2134			Rolling Hammer Right (Full Charge)
 
-0x2198-0x21FB	?
-0x21FC-0x225F	?
-0x2260-0x22C3	?
-0x22C4-0x2327	?
-0x2328-0x238B	?
-0x238C-0x23EF	Sonic Impact (1st Hit)
-0x23F0-0x2453	Sonic Impact (2nd Hit)
-0x2454-0x24B7	?
+0x2198			?
+0x21FC			?
+0x2260			?
+0x22C4			?
+0x2328			?
+0x238C			Sonic Impact (1st Hit)
+0x23F0			Sonic Impact (2nd Hit)
+0x2454			?
 
-0x24B8-0x251B	Strike 1 Dragon Tornado (Ground Slash Follow-Up)
-0x251C-0x257F	Strike 2 Dragon Tornado (Ground Slash Follow-Up) (?)
+0x24B8			Strike 1 Dragon Tornado (Ground Slash Follow-Up)
+0x251C			Strike 2 Dragon Tornado (Ground Slash Follow-Up) (?)
 ->	The damage value put in here seems to be halved.
 	Maybe split by animation as well?
-0x2580-0x25E3	Strike 3 Dragon Tornado (Ground Slash Follow-Up)
+0x2580			Strike 3 Dragon Tornado (Ground Slash Follow-Up)
 
-0x25E4-0x2647	?
-0x2648-0x26AB	?
-0x26AC-0x270F	?
-0x2710-0x2773	?
-0x2774-0x27D7	?
-0x27D8-0x283B	?
+0x25E4			?
+0x2648			?
+0x26AC			?
+0x2710			?
+0x2774			?
+0x27D8			?
 
-0x283C-0x289F	Dragon Heavy
-0x28A0-0x2903	MAX Power Combo Hit (Dragon Heavy Follow-up)
+0x283C			Dragon Heavy
+0x28A0			MAX Power Combo Hit (Dragon Heavy Follow-up)
 
-0x2904-0x2967	Flying Kicks (Part 2)
+0x2904			Flying Kicks (Part 2)
 ->	The last flying kick, for some reason, is also the last attack in this file.
 	The damage here, just as above, is split by animation,
 	so it will be divided by the amount of kicks your char does.
@@ -164,30 +174,34 @@ has 100 Bytes reserved for it's parameters.
 --STRUCTURE--
 
 
-0x0000		= Type (?)
-->	As of yet, I have no idea what/how this value does/affects the attack.
-
-0x0001		= Flagbyte (?)
-->	Bit order: 76543210
-	Bit 1 = Enter secondary melee set
+0x0000		= Flags
+Size: 4 Byte
+->	Bit 1 = Enter secondary melee set
 	Bit 2 = Opponent loses Lock-On
 	
 
-0x0004-0x0007 	= Health Damage
+0x0004		 	= Damage
+Size: 4 Bytes
 
-0x0008-0x000B 	= Health Damage while guarding
+0x0008		 	= Damage (Guarding)
+Size: 4 Bytes
 
-0x000C-0x000F 	= Ki Damage (?)
+0x000C		 	= Ki Damage
+Size: 4 Bytes
 
-0x0010-0x0013 	= Ki Gain
+0x0010		 	= Ki Gain
+Size: 4 Bytes
 
-0x0014-0x0017 	= ?
+0x0014		 	= ?
+Size: 4 Bytes
 
-0x0018-0x001B 	= ?
+0x0018		 	= ?
+Size: 4 Bytes
 
-0x001C-0x001F	= ?
+0x001C			= ?
+Size: 4 Bytes
 
-0x0020		= Hitstun
+0x0020			= Hitstun
 ->	00 = no Hitstun
 	01 = no Hit
 	02 = no Hitstun
@@ -229,11 +243,48 @@ has 100 Bytes reserved for it's parameters.
 	26 = (?) Full Charged Down Smash Stun
 	27 = (?) Instant Knockdown with electric sound
 
-0x0021 = ?
+0x0021 			= Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
 
-0x0022-0x0027	= ?
+0x0022 			= Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
+
+0x0023 			= Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
+
+0x0024			 = Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
+
+0x0025			= ?
+Size: 1 Byte
+-> Function at 0x0023EF28 uses this as its offset.
+
+0x0026 			= Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
+
+0x0027 			= Conditional Hitstun (?)
+Size: 1 Byte
+->	It is hidden inside of if-conditions, however,
+	this parameter might be used to set the
+	displayed animation in the source code.
 
 0x0028 = Visual Effects
+Size: 1 Byte
 ->	00 = No Visual Effect
 	01 = regular strike
 	02 = Smash effect
@@ -253,6 +304,7 @@ has 100 Bytes reserved for it's parameters.
 	10 = idk some white flash, a little less bright than Kiai (?)
 
 0x0029 = Sound Effects
+Size: 1 Byte
 ->	00 = No Sound
 	01 = regular strike
 	02 = Heavy Finisher
@@ -270,22 +322,73 @@ has 100 Bytes reserved for it's parameters.
 0x002A-0x002B = ?
 
 0x002C-0x002F	= Opponent Knockback
+Size: 4 Bytes
 ->	This value is a Float.
 
 0x0030-0x0033	= ?
+Size: 4 Bytes
+->	This value is a Float.
 
 0x0034-0x0037	= Attack Reach
+Size: 4 Bytes
 ->	This value is a Float.
     This controls how far you slide
     while the attack animation plays.
 
-0x0038-0x005F	= ?
-->	When I put these values on FF,
-	my controller started to vibrate.
-	I assume these values have to do with that, 
-	how they work I don't know, though.
+0x0038			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x003C			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x0040			= ?
+Size: 4 Bytes
+->	This value is a Float.
+	Additionally, it will be divided by 180,
+	then multiplied by some global value.
+
+0x0044			= ?
+Size: 4 Bytes
+->	This value is a Float.
+	Additionally, it will be divided by 180,
+	then multiplied by some global value.
+
+0x0048			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x004C			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x0050			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x0054			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x0058			= ?
+Size: 4 Bytes
+->	This value is a Float.
+
+0x005C			= ?
+Size: 1 Byte
+
+0x005D			= ?
+Size: 1 Byte
+
+0x005E			= ?
+Size: 1 Byte
+
+0x005F			= ?
+Size: 1 Byte
 
 0x0060		= Effect on Guard
+Size: 1 Byte
 ->	00 = regular effect
 	01 = Guard Break
 	02 = Combo Breaker
@@ -293,7 +396,8 @@ has 100 Bytes reserved for it's parameters.
 	04 = same effect as throw counter (like 02 but opponent isn't stunned?)
 	05 = Attack Misses
 
-0x0061		= Effect on Counter Stance (?)
+0x0061		= Effect on Counter Stance
+Size: 1 Byte
 ->	00 = Counter acts like Guard	
 	01 = Guard Break (Counter Stance isn't Broken)
 	02 = Combo Breaker
@@ -302,6 +406,7 @@ has 100 Bytes reserved for it's parameters.
 	05 = Attack Misses
 
 0x0062		= Knockback while Guarding
+Size: 1 Byte
 ->	00 = regular guard effect
 	01 = Great Ape-style knockback
 	
