@@ -119,17 +119,17 @@ Size: 1 Byte each
 0x0095			= Hitstun of last hit (Ultimate Blast)
 Size: 1 Byte each
 
-0x00DC-0x00DF		= Size (1st Blast 2)
-0x00E0-0x00E3		= Size (2nd Blast 2)
-0x00E4-0x00E7		= Size (Ultimate Blast)
+0x00DC			= Size (1st Blast 2)
+0x00E0			= Size (2nd Blast 2)
+0x00E4			= Size (Ultimate Blast)
 Size: 4 Bytes each
 ->	These values are floats.
 
-0x00E8-0x00EB		= Charge Time (1st Blast 2)
-0x00EC-0x00EF		= Charge Time (2nd Blast 2)
-0x00F0-0x00F3		= Charge Time (Ultimate Blast)
+0x00E8			= Charge Time (1st Blast 2)
+0x00EC			= Charge Time (2nd Blast 2)
+0x00F0			= Charge Time (Ultimate Blast)
 Size: 4 Bytes each
 ->	These values are floats.
 	Only applies to chargable Blasts.
 	
-0x00F4-0x013F		= ?
+0x00F4			= ?
