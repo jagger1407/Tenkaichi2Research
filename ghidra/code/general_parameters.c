@@ -407,10 +407,10 @@ undefined4 getGeneralParam_0x80(character_t *character)
 // WARNING: Removing unreachable block (ram,0x0023fb70)
 // Function Address: {@address 0x0023fb68}
 
-int getGeneralParam_0x84(character_t *character)
+int getGeneralParam_PowerGuardKiCost(character_t *character)
 
 {
-  return (int)character->field3797_0x1530->generalParameters->field36_0x84 / 30;
+  return (int)character->field3797_0x1530->generalParameters->powerGuardKiCost / 30;
 }
 
 
