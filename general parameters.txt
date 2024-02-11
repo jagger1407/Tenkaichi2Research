@@ -342,11 +342,8 @@ Size: 4 Bytes
 Size: 4 Bytes
 ->	Function at 0x0023FB58 uses this as its offset.
 
-0x0084			= ?
+0x0084			= Power Guard Ki Cost
 Size: 4 Bytes
--> 	Function at 0x0023FB68 uses this as its offset.
-	Some kind of Ki Cost, additionally,
-	it will be divided by 30.
 	
 0x0088			= ?
 Size: 4 Bytes
