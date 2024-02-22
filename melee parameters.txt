@@ -176,8 +176,8 @@ All sections within this layout have a size of 100 (0x64) Bytes.
 
 0x0000		= Flags
 Size: 4 Byte
-->	Bit 1 = Enter secondary melee set
-	Bit 2 = Opponent loses Lock-On
+->	Bit 9 = Enter secondary melee set
+	Bit 10 = Opponent loses Lock-On
 	
 
 0x0004		 	= Damage
@@ -283,7 +283,7 @@ Size: 1 Byte
 	this parameter might be used to set the
 	displayed animation in the source code.
 
-0x0028 = Visual Effects
+0x0028 			= Visual Effects
 Size: 1 Byte
 ->	00 = No Visual Effect
 	01 = regular strike
@@ -303,7 +303,7 @@ Size: 1 Byte
 	0F = Ground Slash effect
 	10 = idk some white flash, a little less bright than Kiai (?)
 
-0x0029 = Sound Effects
+0x0029 			= Sound Effects
 Size: 1 Byte
 ->	00 = No Sound
 	01 = regular strike
@@ -319,75 +319,81 @@ Size: 1 Byte
 	0B = (?) Lift Strike sound
 	0C = (?) Rolling Hammer sound
 
-0x002A-0x002B = ?
+0x002A 			= ?
+Size: 1 Byte
 
-0x002C-0x002F	= Opponent Knockback
+0x002B = Padding(?) 
+Size: 1 Byte
+->	Isn't used anywhere from what I can tell,
+	Could very well just be padding.
+
+0x002C  		= Opponent Knockback
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0030-0x0033	= ?
+0x0030  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0034-0x0037	= Attack Reach
+0x0034  		= Attack Reach
 Size: 4 Bytes
 ->	This value is a Float.
     This controls how far you slide
     while the attack animation plays.
 
-0x0038			= ?
+0x0038  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x003C			= ?
+0x003C  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0040			= ?
-Size: 4 Bytes
-->	This value is a Float.
-	Additionally, it will be divided by 180,
-	then multiplied by some global value.
-
-0x0044			= ?
+0x0040  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 	Additionally, it will be divided by 180,
 	then multiplied by some global value.
 
-0x0048			= ?
+0x0044  		= ?
+Size: 4 Bytes
+->	This value is a Float.
+	Additionally, it will be divided by 180,
+	then multiplied by some global value.
+
+0x0048  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x004C			= ?
+0x004C  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0050			= ?
+0x0050  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0054			= ?
+0x0054  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x0058			= ?
+0x0058  		= ?
 Size: 4 Bytes
 ->	This value is a Float.
 
-0x005C			= ?
+0x005C  		= ?
 Size: 1 Byte
 
-0x005D			= ?
+0x005D  		= ?
 Size: 1 Byte
 
-0x005E			= ?
+0x005E  		= ?
 Size: 1 Byte
 
-0x005F			= ?
+0x005F  		= ?
 Size: 1 Byte
 
-0x0060		= Effect on Guard
+0x0060  		= Effect on Guard
 Size: 1 Byte
 ->	00 = regular effect
 	01 = Guard Break
@@ -396,7 +402,7 @@ Size: 1 Byte
 	04 = same effect as throw counter (like 02 but opponent isn't stunned?)
 	05 = Attack Misses
 
-0x0061		= Effect on Counter Stance
+0x0061  		= Effect on Counter Stance
 Size: 1 Byte
 ->	00 = Counter acts like Guard	
 	01 = Guard Break (Counter Stance isn't Broken)
@@ -405,9 +411,10 @@ Size: 1 Byte
 	04 = regular Counter effect
 	05 = Attack Misses
 
-0x0062		= Knockback while Guarding
+0x0062  		= Guard Type
 Size: 1 Byte
 ->	00 = regular guard effect
-	01 = Great Ape-style knockback
+	01 = Great Ape-style guard stun
+Note: This will overwrite the hitstun.
 	
-0x0063		= ?
+0x0063	  		= Padding (?)
