@@ -176,7 +176,8 @@ All sections within this layout have a size of 100 (0x64) Bytes.
 
 0x0000		= Flags
 Size: 4 Byte
-->	Bit 9 = Enter secondary melee set
+->	Bit 0 = Is teleportable	
+	Bit 9 = Enter secondary melee set
 	Bit 10 = Opponent loses Lock-On
 	
 
