@@ -175,7 +175,7 @@ All sections within this layout have a size of 100 (0x64) Bytes.
 
 
 0x0000		= Flags
-Size: 4 Byte
+Size: 4 Bytes
 ->	Bit 0 = Is teleportable	
 	Bit 9 = Enter secondary melee set
 	Bit 10 = Opponent loses Lock-On
@@ -193,16 +193,24 @@ Size: 4 Bytes
 0x0010		 	= Ki Gain
 Size: 4 Bytes
 
-0x0014		 	= ?
+0x0014		 	= Throw Entry Damage
 Size: 4 Bytes
+->	The Damage that the opponent will receive
+	upon successfully connecting the throw.
+Note: Only used by the Throw attack.
+	
 
-0x0018		 	= ?
+0x0018		 	= Throw Ki Damage
 Size: 4 Bytes
+->	The Ki that will be subtracted from the opponent 
+	upon successfully connecting the throw.
+Note: Only used by the Throw attack.
 
 0x001C			= ?
 Size: 4 Bytes
 
 0x0020			= Hitstun
+Size: 1 Byte
 ->	00 = no Hitstun
 	01 = no Hit
 	02 = no Hitstun
