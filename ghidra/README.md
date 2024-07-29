@@ -20,3 +20,6 @@ These .c and .h files will throw errors in an IDE, because they are not meant to
 This is a so called .sym (symbols) file. This is used for debugging with PCSX2.
 In order to use this file, you need to rename it to have the same name as your .iso (which also must be the same version, aka NTSC), then put it in the same folder. PCSX2 will automatically load it upon launching the game.
 Once you open the PCSX2 Debugger (if you don't see the Debug tab, check the "Show Advanced Settings" checkbox in the Tools tab), you will be able to see the function names and global variables from the .gzf file inside the Disassembler tab.
+
+## Modded_ELFs
+This is a folder of experimental modded versions of the Budokai Tenkaichi 2 executable.
