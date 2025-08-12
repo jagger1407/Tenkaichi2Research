@@ -6,9 +6,9 @@ Here's the description for each thing in this folder:
 ## SLUS_214.41.gzf
 This is the .gzf (Ghidra Zip File) of my project. Import this and you'll have all the progress I've currently made.
 
-That .gzf was generated using [Ghidra version 11.0](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.0_build)
+That .gzf was generated using [Ghidra version 11.4.1](https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_11.4.1_build)
 
-The PS2 plugin (necessary in order to recognize the Playstation 2 architecture) was [ghidra-emotionengine-reloaded v2.1.12](https://github.com/chaoticgd/ghidra-emotionengine-reloaded/releases/tag/v2.1.12), the .zip file of this plugin should be put into `{Ghidra Path}/Extensions/Ghidra`, then [installed within Ghidra](https://ghidra-sre.org/InstallationGuide.html#Extensions).
+The PS2 plugin (necessary in order to recognize the Playstation 2 architecture) was [ghidra-emotionengine-reloaded v2.1.26](https://github.com/chaoticgd/ghidra-emotionengine-reloaded/releases/tag/v2.1.26), the .zip file of this plugin should be put into `{Ghidra Path}/Extensions/Ghidra`, then [installed within Ghidra](https://ghidra-sre.org/InstallationGuide.html#Extensions).
 
 ## code/
 This folder will have all the datatypes and functions I've already reverse engineered, I wanted to create this specifically because you can't look into the .gzf within github. As this obviously sucks, I want to at least show the functions I've researched to an appropriate degree.
