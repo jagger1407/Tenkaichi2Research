@@ -1,3 +1,4 @@
+Location Function Name
 00100008 EntryPoint
 00100248 _Exit
 00100258 FUN_00100258
@@ -42,8 +43,8 @@
 001019f0 FUN_001019f0
 00101a10 clearBattleInfo
 00101a38 clearBattleInfoSubStruct_3c8
-00101a60 Battle_setBattleInfo
-00101a88 Battle_getBattleCharInitInfo?
+00101a60 Battle _setBattleInfo
+00101a88 Battle _getBattleCharInitInfo?
 00101ab0 setAiStatus?
 00101af8 FUN_00101af8
 00101bf0 FUN_00101bf0
@@ -51,7 +52,7 @@
 00101e58 FUN_00101e58
 00101e70 FUN_00101e70
 00101e98 FUN_00101e98
-00101ea8 Battle_TrainingMode_SetAI
+00101ea8 Battle _TrainingMode_SetAI
 00101f18 TrainingMode_GetAiSetting?
 00101f60 FUN_00101f60
 00101fd0 FUN_00101fd0
@@ -3407,27 +3408,27 @@
 001f9428 setStatBuff_4
 001f9460 setStatBuff_6
 001f9480 setStatBuff_8
-001f94a0 Player_getPlayer_CurrentStatBuff
-001f9530 Player_getKiBoosts
-001f9568 Player_getAttackBoosts
-001f95c0 Player_getDefenseBoosts
-001f9618 Player_getSpeedBoosts
-001f9670 Player_getBlast1Boosts
-001f96a8 Player_getBlast2Boosts
-001f9700 Player_getUltimateBoosts
-001f9758 Player_getCurrentChar_KiStatModifier
-001f97a8 Player_getCurrentChar_KiRegenModifier
+001f94a0 Player _getPlayer_CurrentStatBuff
+001f9530 Player _getKiBoosts
+001f9568 Player _getAttackBoosts
+001f95c0 Player _getDefenseBoosts
+001f9618 Player _getSpeedBoosts
+001f9670 Player _getBlast1Boosts
+001f96a8 Player _getBlast2Boosts
+001f9700 Player _getUltimateBoosts
+001f9758 Player _getCurrentChar_KiStatModifier
+001f97a8 Player _getCurrentChar_KiRegenModifier
 001f97f8 FUN_001f97f8
-001f9848 Player_getCurrentChar_Blast1Modifier
-001f9898 Player_getCurrentChar_AttackModifier
-001f98d0 Player_getCurrentChar_AttackKiDamageModifier
-001f9908 Player_getCurrentChar_KiBlastDamageModifier
-001f9940 Player_getDefenseModifier?
+001f9848 Player _getCurrentChar_Blast1Modifier
+001f9898 Player _getCurrentChar_AttackModifier
+001f98d0 Player _getCurrentChar_AttackKiDamageModifier
+001f9908 Player _getCurrentChar_KiBlastDamageModifier
+001f9940 Player _getDefenseModifier?
 001f9978 getSpeedModifier?
-001f99b0 Player_getB2Modifier?
+001f99b0 Player _getB2Modifier?
 001f99e8 FUN_001f99e8
 001f9a20 FUN_001f9a20
-001f9ac8 Player_updateCharAnimation
+001f9ac8 Player _updateCharAnimation
 001f9c10 setCurrentAnimation
 001f9c90 FUN_001f9c90
 001f9d10 FUN_001f9d10
@@ -3440,7 +3441,7 @@
 001f9e90 FUN_001f9e90
 001f9f90 FUN_001f9f90
 001f9fb0 FUN_001f9fb0
-001fa0a0 Player_bufferAnimation
+001fa0a0 Player _bufferAnimation
 001fa110 FUN_001fa110
 001fa1d0 FUN_001fa1d0
 001fa230 FUN_001fa230
@@ -3453,9 +3454,9 @@
 001fa360 FUN_001fa360
 001fa370 FUN_001fa370
 001fa380 FUN_001fa380
-001fa390 Player_getPlayer_currentAnimation
-001fa398 Player_getCharacter_0x8E4
-001fa3a0 Player_getCharacter_0x8E8
+001fa390 Player _getPlayer_currentAnimation
+001fa398 Player _getCharacter_0x8E4
+001fa3a0 Player _getCharacter_0x8E8
 001fa3a8 getAnimationFlags
 001fa3d0 FUN_001fa3d0
 001fa4f0 FUN_001fa4f0
@@ -3523,41 +3524,41 @@
 002029c8 FUN_002029c8
 00202aa8 FUN_00202aa8
 00202bc8 FUN_00202bc8
-00202da0 Player_getCharacter_Teammate
-00202dc0 Player_getCurrentBattleCharacter
+00202da0 Player _getCharacter_Teammate
+00202dc0 Player _getCurrentBattleCharacter
 00202dd8 findTeammateBattleStruct
-00202e60 Player_getTeammateBattleStats
-00202e80 Player_getCurrentBattleStats
+00202e60 Player _getTeammateBattleStats
+00202e80 Player _getCurrentBattleStats
 00202ea0 addTeammate
 00202fc8 findCharInTeam
 00203040 FUN_00203040
 00203110 FUN_00203110
-00203118 Player_getAliveTeammates
+00203118 Player _getAliveTeammates
 00203188 FUN_00203188
-002031e0 Player_switchNextTeammate_Right
-00203280 Player_switchNextTeammate_Left
-00203310 CharStats_decreaseHP
-002037c8 CharStats_increaseHP
-00203810 CharStats_increaseKi
-00203858 CharStats_isKiAtOrAbove
-00203888 CharStats_decreaseKi
-00203918 CharStats_decreaseKi_steal
-00203968 CharStats_increaseBlastGauge
-002039e0 CharStats_isBlastGaugeNotUnder
-00203a10 CharStats_decreaseBlastGauge
-00203a48 CharStats_increaseBlueKi
-00203a90 CharStats_decreaseBlueKi
-00203ac8 CharStats_getHealthPercentage
-00203b10 CharStats_getKiPercentage
-00203b58 CharStats_isCharAtFullHealth
-00203b88 CharStats_isCharAtFullKi
-00203bb8 CharStats_isCharAtFullBlueKi
-00203be0 CharStats_isCharAtNoHealth
-00203c08 CharStats_isCharAtNoKi
-00203c30 CharStats_isCharAtNoBlueKi
-00203c58 Battle_isZItemEffectActive
-00203c88 Battle_disableZItemEffect
-00203cc0 CharStats_getPlayer_BattleStats
+002031e0 Player _switchNextTeammate_Right
+00203280 Player _switchNextTeammate_Left
+00203310 CharStats _decreaseHP
+002037c8 CharStats _increaseHP
+00203810 CharStats _increaseKi
+00203858 CharStats _isKiAtOrAbove
+00203888 CharStats _decreaseKi
+00203918 CharStats _decreaseKi_steal
+00203968 CharStats _increaseBlastGauge
+002039e0 CharStats _isBlastGaugeNotUnder
+00203a10 CharStats _decreaseBlastGauge
+00203a48 CharStats _increaseBlueKi
+00203a90 CharStats _decreaseBlueKi
+00203ac8 CharStats _getHealthPercentage
+00203b10 CharStats _getKiPercentage
+00203b58 CharStats _isCharAtFullHealth
+00203b88 CharStats _isCharAtFullKi
+00203bb8 CharStats _isCharAtFullBlueKi
+00203be0 CharStats _isCharAtNoHealth
+00203c08 CharStats _isCharAtNoKi
+00203c30 CharStats _isCharAtNoBlueKi
+00203c58 Battle _isZItemEffectActive
+00203c88 Battle _disableZItemEffect
+00203cc0 CharStats _getPlayer_BattleStats
 00203d08 FUN_00203d08
 00203d70 FUN_00203d70
 00203d98 FUN_00203d98
@@ -3610,11 +3611,11 @@
 00207260 FUN_00207260
 00207298 FUN_00207298
 00207340 FUN_00207340
-00207630 Player_HandleInputs?
-00207bf0 Player__checkInputArray
-00207c08 Player_pressedInput_Directional
-00207c30 Player_pressedInput?
-00207c58 Player___pressedInput?
+00207630 Player _HandleInputs?
+00207bf0 Player __checkInputArray
+00207c08 Player _pressedInput_Directional
+00207c30 Player _pressedInput?
+00207c58 Player ___pressedInput?
 00207c80 FUN_00207c80
 00207c90 FUN_00207c90
 00207cc8 FUN_00207cc8
@@ -3630,11 +3631,11 @@
 00207e68 FUN_00207e68
 00207e70 FUN_00207e70
 00207e78 FUN_00207e78
-00207e80 Player_getPlayer_LeftStick_X
-00207e88 Player_getPlayer_LeftStick_Y
-00207e90 Player_getCharacter_0x18
+00207e80 Player _getPlayer_LeftStick_X
+00207e88 Player _getPlayer_LeftStick_Y
+00207e90 Player _getCharacter_0x18
 00207e98 FUN_00207e98
-00207ea0 Battle_getBattle_CharData
+00207ea0 Battle _getBattle_CharData
 00207ec0 FUN_00207ec0
 00207ee8 FUN_00207ee8
 00207f10 FUN_00207f10
@@ -3706,7 +3707,7 @@
 0020a508 FUN_0020a508
 0020a540 FUN_0020a540
 0020a5c0 FUN_0020a5c0
-0020a658 Player_isPlayerLocked
+0020a658 Player _isPlayerLocked
 0020a6a0 FUN_0020a6a0
 0020a700 FUN_0020a700
 0020a758 isCharStateInCutscene?
@@ -3714,18 +3715,18 @@
 0020a830 FUN_0020a830
 0020a890 FUN_0020a890
 0020a908 FUN_0020a908
-0020a960 Player_isPlayerGrabbing
+0020a960 Player _isPlayerGrabbing
 0020a9c0 FUN_0020a9c0
 0020aa20 FUN_0020aa20
 0020aa78 FUN_0020aa78
 0020ab00 INTERESTING_FUN_0020ab00
 0020ab90 FUN_0020ab90
-0020abe0 Player_getPlayer_isChargingKiBlast
+0020abe0 Player _getPlayer_isChargingKiBlast
 0020ac48 FUN_0020ac48
 0020ac98 isPlayerChargingKi
 0020ad28 FUN_0020ad28
 0020ada0 FUN_0020ada0
-0020ae40 Player_getPlayer_isDead
+0020ae40 Player _getPlayer_isDead
 0020ae88 isTeamDead
 0020af20 FUN_0020af20
 0020af80 FUN_0020af80
@@ -3738,9 +3739,9 @@
 0020b1c0 FUN_0020b1c0
 0020b218 FUN_0020b218
 0020b268 FUN_0020b268
-0020b2b8 Player_getPlayer_isBattleDamaged
+0020b2b8 Player _getPlayer_isBattleDamaged
 0020b328 FUN_0020b328
-0020b378 Player_isPlayerInMaxPowerCombo
+0020b378 Player _isPlayerInMaxPowerCombo
 0020b3d0 FUN_0020b3d0
 0020b498 FUN_0020b498
 0020b4e8 FUN_0020b4e8
@@ -3748,10 +3749,10 @@
 0020b5c0 FUN_0020b5c0
 0020b630 FUN_0020b630
 0020b6a0 FUN_0020b6a0
-0020b6e0 Player_getPlayer_dmgTaken
+0020b6e0 Player _getPlayer_dmgTaken
 0020b720 FUN_0020b720
-0020b760 Player_getPlayer_dmgBuffer
-0020b7a0 Player_getPlayer_timerDmgTaken
+0020b760 Player _getPlayer_dmgBuffer
+0020b7a0 Player _getPlayer_timerDmgTaken
 0020b7e0 FUN_0020b7e0
 0020b820 FUN_0020b820
 0020b860 FUN_0020b860
@@ -3789,12 +3790,12 @@
 0020c5a8 getPlayerSwitchGauge
 0020c5e8 getCurrentTeammateOffset
 0020c638 getNextTeammateOffset
-0020c688 Battle_getBattle_AliveTeammates
+0020c688 Battle _getBattle_AliveTeammates
 0020c6d0 isPlayerFusing
-0020c730 Player_getPlayer_MeleeStatBuff
-0020c780 Player_getPlayer_DefenseStatBuff
-0020c7d0 Player_getPlayer_SpeedStatBuff
-0020c820 Player_getPlayer_BlastStatBuff
+0020c730 Player _getPlayer_MeleeStatBuff
+0020c780 Player _getPlayer_DefenseStatBuff
+0020c7d0 Player _getPlayer_SpeedStatBuff
+0020c820 Player _getPlayer_BlastStatBuff
 0020c870 FUN_0020c870
 0020c8a0 FUN_0020c8a0
 0020c8b8 FUN_0020c8b8
@@ -3886,7 +3887,7 @@
 00210d10 FUN_00210d10
 00210d50 FUN_00210d50
 00210d98 FUN_00210d98
-00210dd8 Player_getOpponentNum
+00210dd8 Player _getOpponentNum
 00210e18 FUN_00210e18
 00210ee0 FUN_00210ee0
 00210f30 FUN_00210f30
@@ -3895,15 +3896,15 @@
 00211028 FUN_00211028
 002111e8 NormalizeAngle
 00211220 NormalizeVector
-00211270 Battle_getBattle_PlayerCount
-00211288 Battle_getBattle_Player
+00211270 Battle _getBattle_PlayerCount
+00211288 Battle _getBattle_Player
 002112a0 FUN_002112a0
-002112c8 Player_getPlayer_Translation
+002112c8 Player _getPlayer_Translation
 002112d0 FUN_002112d0
-00211310 Player_getBattleFlag
+00211310 Player _getBattleFlag
 00211328 FUN_00211328
 00211360 FUN_00211360
-002113c0 Player_updateBattleFlag
+002113c0 Player _updateBattleFlag
 00211418 FUN_00211418
 002115b0 FUN_002115b0
 002115d0 FUN_002115d0
@@ -3919,16 +3920,16 @@
 002120a8 FUN_002120a8
 00212170 FUN_00212170
 00212240 FUN_00212240
-00212320 Player_getUsedSkillId
+00212320 Player _getUsedSkillId
 00212408 FUN_00212408
 00212560 FUN_00212560
-002125d8 Player_getCurrentTransformationIndex
-00212638 Player_getFusionOffsetByState
+002125d8 Player _getCurrentTransformationIndex
+00212638 Player _getFusionOffsetByState
 00212690 checkFusionPartnerInTeam
 002127c0 FUN_002127c0
-002127f8 CharStats_isDead
-00212820 Player_isPlayerNotParalyzed
-00212878 Battle_onStage_WorldTournament
+002127f8 CharStats _isDead
+00212820 Player _isPlayerNotParalyzed
+00212878 Battle _onStage_WorldTournament
 00212890 FUN_00212890
 002128d8 FUN_002128d8
 002128f0 FUN_002128f0
@@ -3943,7 +3944,7 @@
 00212c40 FUN_00212c40
 00212d98 FUN_00212d98
 00212db0 FUN_00212db0
-00212dd8 Player_setPlayer_0x368
+00212dd8 Player _setPlayer_0x368
 00212de0 FUN_00212de0
 00213050 FUN_00213050
 002130b0 FUN_002130b0
@@ -3980,9 +3981,9 @@
 00217330 FUN_00217330
 00217360 FUN_00217360
 002173e8 FUN_002173e8
-00217488 Player_getCurrentState
-00217490 Player_getLastStoredState
-002174b8 Player_getBufferedState
+00217488 Player _getCurrentState
+00217490 Player _getLastStoredState
+002174b8 Player _getBufferedState
 002174d8 setBufferedState
 002174f0 split32
 00217518 FUN_00217518
@@ -4007,7 +4008,7 @@
 00218580 FUN_00218580
 00218758 FUN_00218758
 00218838 FUN_00218838
-002188c8 Player_chargeMeleeAttack
+002188c8 Player _chargeMeleeAttack
 00218948 StateEntry_Melee
 00218a38 StateUpdate_Melee
 00218c18 StateNext_Melee
@@ -4463,192 +4464,192 @@
 0023bcf8 StateNext_SkillSetup
 0023bd28 StateExit_SkillSetup
 0023bd30 FUN_0023bd30
-0023bda8 Player_getNextState_Movement
+0023bda8 Player _getNextState_Movement
 0023c710 FUN_0023c710
 0023c780 FUN_0023c780
-0023c798 Player_getNextState_Combat
+0023c798 Player _getNextState_Combat
 0023cdf8 FUN_0023cdf8
 0023d1e0 FUN_0023d1e0
-0023d380 Player_getDashStateType
+0023d380 Player _getDashStateType
 0023d408 FUN_0023d408
 0023d410 FUN_0023d410
 0023d4e0 FUN_0023d4e0
 0023d600 FUN_0023d600
 0023d740 FUN_0023d740
 0023d8c0 FUN_0023d8c0
-0023d9d0 Battle_isTransformationAvailable
+0023d9d0 Battle _isTransformationAvailable
 0023dae8 isFusionAvailable
 0023dc00 getInputTransformationFusion
 0023de40 FUN_0023de40
-0023e520 Melee_Attacks_getCurrentAttackType
-0023ea20 Melee_Attacks_getCurrentAttack
-0023ea80 Melee_Attacks_getAttack
-0023eac0 Melee_Attacks_getCurrentAttack_0x2A
-0023eae0 Melee_Attacks_getCurrentAttack_Damage
-0023ebd8 Melee_Attacks_getCurrentAttack_DamageGuarding
-0023ecd0 Melee_Attacks_getCurrentAttack_InGrabEntryDamage
-0023ecf0 Player_getCurrentAttack_InGrabKiDamage
-0023ed10 Melee_Attacks_getCurrentAttack_KiGain
-0023ed70 Melee_Attacks_getCurrentAttack_KiDamage
+0023e520 Melee_Attacks _getCurrentAttackType
+0023ea20 Melee_Attacks _getCurrentAttack
+0023ea80 Melee_Attacks _getAttack
+0023eac0 Melee_Attacks _getCurrentAttack_0x2A
+0023eae0 Melee_Attacks _getCurrentAttack_Damage
+0023ebd8 Melee_Attacks _getCurrentAttack_DamageGuarding
+0023ecd0 Melee_Attacks _getCurrentAttack_InGrabEntryDamage
+0023ecf0 Player _getCurrentAttack_InGrabKiDamage
+0023ed10 Melee_Attacks _getCurrentAttack_KiGain
+0023ed70 Melee_Attacks _getCurrentAttack_KiDamage
 0023edc8 FUN_0023edc8
-0023ee28 Melee_Attacks_getCurrentAttack_Hitstun
-0023ee48 Melee_Attacks_getCurrentAttack_0x21
-0023ee80 Melee_Attacks_getCurrentAttack_0x24
-0023eeb8 Melee_Attacks_getCurrentAttack_0x22
-0023eef0 Melee_Attacks_getCurrentAttack_0x23
-0023ef28 Melee_Attacks_getCurrentAttack_0x25
-0023ef48 Melee_Attacks_getCurrentAttack_0x26
-0023ef80 Melee_Attacks_getCurrentAttack_0x27
-0023efb8 Melee_Attacks_getCurrentAttack_Flags
-0023efd8 Melee_Attacks_getCurrentAttack_Knockback
-0023f010 Melee_Attacks_getCurrentAttack_0x30
-0023f048 Melee_Attacks_getCurrentAttack_Reach
-0023f080 Melee_Attacks_getCurrentAttack_0x38
-0023f0e0 Melee_Attacks_getAttack_0x38
-0023f140 Melee_Attacks_getCurrentAttack_0x3C
-0023f178 Melee_Attacks_getCurrentAttack_0x40
-0023f1b8 Melee_Attacks_getCurrentAttack_0x44
-0023f1f8 Melee_Attacks_getCurrentAttack_0x48
-0023f218 Melee_Attacks_getCurrentAttack_0x4C
-0023f238 Melee_Attacks_getCurrentAttack_0x50
-0023f258 Melee_Attacks_getCurrentAttack_0x54
-0023f278 Melee_Attacks_getCurrentAttack_0x58
-0023f298 Melee_Attacks_getCurrentAttack_Visual
-0023f2b8 Melee_Attacks_getCurrentAttack_Sound
+0023ee28 Melee_Attacks _getCurrentAttack_Hitstun
+0023ee48 Melee_Attacks _getCurrentAttack_0x21
+0023ee80 Melee_Attacks _getCurrentAttack_0x24
+0023eeb8 Melee_Attacks _getCurrentAttack_0x22
+0023eef0 Melee_Attacks _getCurrentAttack_0x23
+0023ef28 Melee_Attacks _getCurrentAttack_0x25
+0023ef48 Melee_Attacks _getCurrentAttack_0x26
+0023ef80 Melee_Attacks _getCurrentAttack_0x27
+0023efb8 Melee_Attacks _getCurrentAttack_Flags
+0023efd8 Melee_Attacks _getCurrentAttack_Knockback
+0023f010 Melee_Attacks _getCurrentAttack_0x30
+0023f048 Melee_Attacks _getCurrentAttack_Reach
+0023f080 Melee_Attacks _getCurrentAttack_0x38
+0023f0e0 Melee_Attacks _getAttack_0x38
+0023f140 Melee_Attacks _getCurrentAttack_0x3C
+0023f178 Melee_Attacks _getCurrentAttack_0x40
+0023f1b8 Melee_Attacks _getCurrentAttack_0x44
+0023f1f8 Melee_Attacks _getCurrentAttack_0x48
+0023f218 Melee_Attacks _getCurrentAttack_0x4C
+0023f238 Melee_Attacks _getCurrentAttack_0x50
+0023f258 Melee_Attacks _getCurrentAttack_0x54
+0023f278 Melee_Attacks _getCurrentAttack_0x58
+0023f298 Melee_Attacks _getCurrentAttack_Visual
+0023f2b8 Melee_Attacks _getCurrentAttack_Sound
 0023f2d8 FUN_0023f2d8
-0023f330 Melee_Attacks_getCurrentAttack_EffectGuard
-0023f350 Melee_Attacks_getCurrentAttack_0x5E
-0023f370 Melee_Attacks_getCurrentAttack_0x5F
-0023f390 Melee_Attacks_getCurrentAttack_0x5C
-0023f3b0 Melee_Attacks_getCurrentAttack_0x5D
-0023f3d0 Melee_Attacks_getCurrentAttack_EffectCounter
-0023f3f0 Melee_Attacks_getCurrentAttack_GuardType
-0023f410 General_Params_getFlags_1
-0023f420 General_Params_getTechniqueAbiities
-0023f430 General_Params_getFlags_3
-0023f440 General_Params_getGreatApeMode
-0023f450 General_Params_getR3Command
-0023f460 General_Params_getID_Transformation
-0023f478 General_Params_getTransformationCost
-0023f498 General_Params_getTransformationBonusses
-0023f4a8 General_Params_getID_Fusion
-0023f4c0 General_Params_getID_FusionPartnerCutscene
-0023f4d8 General_Params_getID_FusionPartnerTeam
-0023f500 General_Params_getFusionCost
-0023f520 General_Params_getGeneralParam_0x28
-0023f530 General_Params_getFusionType
-0023f548 General_Params_getAuraColor
-0023f558 General_Params_getZSearchType
+0023f330 Melee_Attacks _getCurrentAttack_EffectGuard
+0023f350 Melee_Attacks _getCurrentAttack_0x5E
+0023f370 Melee_Attacks _getCurrentAttack_0x5F
+0023f390 Melee_Attacks _getCurrentAttack_0x5C
+0023f3b0 Melee_Attacks _getCurrentAttack_0x5D
+0023f3d0 Melee_Attacks _getCurrentAttack_EffectCounter
+0023f3f0 Melee_Attacks _getCurrentAttack_GuardType
+0023f410 General_Params _getFlags_1
+0023f420 General_Params _getTechniqueAbiities
+0023f430 General_Params _getFlags_3
+0023f440 General_Params _getGreatApeMode
+0023f450 General_Params _getR3Command
+0023f460 General_Params _getID_Transformation
+0023f478 General_Params _getTransformationCost
+0023f498 General_Params _getTransformationBonusses
+0023f4a8 General_Params _getID_Fusion
+0023f4c0 General_Params _getID_FusionPartnerCutscene
+0023f4d8 General_Params _getID_FusionPartnerTeam
+0023f500 General_Params _getFusionCost
+0023f520 General_Params _getGeneralParam_0x28
+0023f530 General_Params _getFusionType
+0023f548 General_Params _getAuraColor
+0023f558 General_Params _getZSearchType
 0023f5e0 FUN_0023f5e0
 0023f6a8 FUN_0023f6a8
 0023f770 FUN_0023f770
 0023f7f0 hasScouterSearch
 0023f830 FUN_0023f830
-0023f898 Battle_opponentFlashesOnRadar
-0023f8f8 General_Params_getAmount_KiBlasts
-0023f908 General_Params_getAmount_ChargedKiBlasts
-0023f918 General_Params_getRushingTechnique
-0023f930 General_Params_getCounterMove
-0023f948 General_Params_getStepInMove
-0023f960 General_Params_getGeneralParam_0x58
-0023f970 General_Params_getGeneralParam_0x5C
-0023f980 General_Params_getGeneralParam_0x60
-0023f990 General_Params_getGeneralParam_BaseKiAmount?
-0023f9a0 General_Params_getGeneralParam_0x68
-0023f9b0 General_Params_getAmount_BlastStocks
-0023f9c0 General_Params_getKiChargeSpeed
-0023fa18 General_Params_getKiChargeSpeed_Water
-0023fa70 General_Params_getBaseKiRegenSpeed
-0023fab8 General_Params_getGeneralParam_0x88
-0023fb20 General_Params_getCounterKiCost
-0023fb58 General_Params_getGeneralParam_0x80
-0023fb68 General_Params_getGeneralParam_PowerGuardKiCost
-0023fb90 General_Params_getBlastGaugeSpeed
-0023fbd8 General_Params_getBlueKiChargeSpeed
-0023fc18 General_Params_getMaxPowerDuration
-0023fc58 General_Params_getGravity
-0023fc68 General_Params_getGeneralParam_0x9C
-0023fc78 General_Params_getAmount_DragonSmashes
-0023fc88 General_Params_getAmount_PunishingAttacks
-0023fc98 General_Params_getGeneralParam_0xAA
-0023fca8 General_Params_getMeleeChargeSpeed
-0023fcb8 General_Params_getGeneralParam_0xB0
-0023fcc8 General_Params_getDamageMultiplier
-0023fcd8 General_Params_getSwitchGaugeSpeed
-0023fce8 General_Params_getGeneralParam_0xBC
-0023fd38 General_Params_getGeneralParam_0xBF
-0023fd58 General_Params_getGeneralParam_0xC2
-0023fd78 General_Params_getGeneralParam_0xC5
-0023fd98 General_Params_getGeneralParam_0xC8
-0023fdb8 Ki_Blasts_getCurrentKiBlast_Offset
-0023ff38 Ki_Blasts_getCurrentKiBlast
+0023f898 Battle _opponentFlashesOnRadar
+0023f8f8 General_Params _getAmount_KiBlasts
+0023f908 General_Params _getAmount_ChargedKiBlasts
+0023f918 General_Params _getRushingTechnique
+0023f930 General_Params _getCounterMove
+0023f948 General_Params _getStepInMove
+0023f960 General_Params _getGeneralParam_0x58
+0023f970 General_Params _getGeneralParam_0x5C
+0023f980 General_Params _getGeneralParam_0x60
+0023f990 General_Params _getGeneralParam_BaseKiAmount?
+0023f9a0 General_Params _getGeneralParam_0x68
+0023f9b0 General_Params _getAmount_BlastStocks
+0023f9c0 General_Params _getKiChargeSpeed
+0023fa18 General_Params _getKiChargeSpeed_Water
+0023fa70 General_Params _getBaseKiRegenSpeed
+0023fab8 General_Params _getGeneralParam_0x88
+0023fb20 General_Params _getCounterKiCost
+0023fb58 General_Params _getGeneralParam_0x80
+0023fb68 General_Params _getGeneralParam_PowerGuardKiCost
+0023fb90 General_Params _getBlastGaugeSpeed
+0023fbd8 General_Params _getBlueKiChargeSpeed
+0023fc18 General_Params _getMaxPowerDuration
+0023fc58 General_Params _getGravity
+0023fc68 General_Params _getGeneralParam_0x9C
+0023fc78 General_Params _getAmount_DragonSmashes
+0023fc88 General_Params _getAmount_PunishingAttacks
+0023fc98 General_Params _getGeneralParam_0xAA
+0023fca8 General_Params _getMeleeChargeSpeed
+0023fcb8 General_Params _getGeneralParam_0xB0
+0023fcc8 General_Params _getDamageMultiplier
+0023fcd8 General_Params _getSwitchGaugeSpeed
+0023fce8 General_Params _getGeneralParam_0xBC
+0023fd38 General_Params _getGeneralParam_0xBF
+0023fd58 General_Params _getGeneralParam_0xC2
+0023fd78 General_Params _getGeneralParam_0xC5
+0023fd98 General_Params _getGeneralParam_0xC8
+0023fdb8 Ki_Blasts _getCurrentKiBlast_Offset
+0023ff38 Ki_Blasts _getCurrentKiBlast
 0023ff80 Unknown_getKiBlast
-0023ffd8 Ki_Blasts_getKiBlast
-0023fff8 Ki_Blasts_getCurrentKiBlast_0x00
+0023ffd8 Ki_Blasts _getKiBlast
+0023fff8 Ki_Blasts _getCurrentKiBlast_0x00
 00240040 getAstructKiBlast_0x00
-00240090 Ki_Blasts_getKiBlast_0x00
-002400d8 Ki_Blasts_getCurrentKiBlast_Damage
+00240090 Ki_Blasts _getKiBlast_0x00
+002400d8 Ki_Blasts _getCurrentKiBlast_Damage
 00240148 getAstructKiBlast_Damage
-002401c8 Ki_Blasts_getKiBlast_Damage
-00240238 Ki_Blasts_getCurrentKiBlast_DamageGuarding
+002401c8 Ki_Blasts _getKiBlast_Damage
+00240238 Ki_Blasts _getCurrentKiBlast_DamageGuarding
 002402a8 getAstructKiBlast_DamageGuarding
-00240328 Ki_Blasts_getKiBlast_DamageGuarding
-00240398 Ki_Blasts_getCurrentKiBlast_Cost
+00240328 Ki_Blasts _getKiBlast_DamageGuarding
+00240398 Ki_Blasts _getCurrentKiBlast_Cost
 002403e0 getAstructKiBlast_Cost
-00240438 Ki_Blasts_getKiBlast_Cost
-00240480 Ki_Blasts_getCurrentKiBlast_Speed
+00240438 Ki_Blasts _getKiBlast_Cost
+00240480 Ki_Blasts _getCurrentKiBlast_Speed
 002404b8 getAstructKiBlast_Speed
-002404f0 Ki_Blasts_getKiBlast_Speed
-00240528 Ki_Blasts_getCurrentKiBlast_Homing
+002404f0 Ki_Blasts _getKiBlast_Speed
+00240528 Ki_Blasts _getCurrentKiBlast_Homing
 00240578 getAstructKiBlast_Homing
-002405c8 Ki_Blasts_getKiBlast_Homing
-00240618 Ki_Blasts_getCurrentKiBlast_Range
+002405c8 Ki_Blasts _getKiBlast_Homing
+00240618 Ki_Blasts _getCurrentKiBlast_Range
 00240648 getAstructKiBlast_Range
-00240678 Ki_Blasts_getKiBlast_Range
-002406a8 Ki_Blasts_getCurrentKiBlast_Trajectory
+00240678 Ki_Blasts _getKiBlast_Range
+002406a8 Ki_Blasts _getCurrentKiBlast_Trajectory
 002406c8 getAstructKiBlast_Trajectory
-002406e8 Ki_Blasts_getKiBlast_Trajectory
-00240708 Ki_Blasts_getCurrentKiBlast_Hitstun
+002406e8 Ki_Blasts _getKiBlast_Trajectory
+00240708 Ki_Blasts _getCurrentKiBlast_Hitstun
 00240728 getAstructKiBlast_Hitstun
-00240748 Ki_Blasts_getKiBlast_Hitstun
-00240768 Ki_Blasts_getCurrentKiBlast_0x25
+00240748 Ki_Blasts _getKiBlast_Hitstun
+00240768 Ki_Blasts _getCurrentKiBlast_0x25
 002407a0 getAstructKiBlast_0x25
-002407d8 Ki_Blasts_getKiBlast_0x25
-00240810 Ki_Blasts_getCurrentKiBlast_0x26
+002407d8 Ki_Blasts _getKiBlast_0x25
+00240810 Ki_Blasts _getCurrentKiBlast_0x26
 00240848 getAstructKiBlast_0x26
-00240880 Ki_Blasts_getKiBlast_0x26
-002408b8 Ki_Blasts_getCurrentKiBlast_0x27
+00240880 Ki_Blasts _getKiBlast_0x26
+002408b8 Ki_Blasts _getCurrentKiBlast_0x27
 002408f0 getAstructKiBlast_0x27
-00240928 Ki_Blasts_getKiBlast_0x27
-00240960 Ki_Blasts_getCurrentKiBlast_0x30
+00240928 Ki_Blasts _getKiBlast_0x27
+00240960 Ki_Blasts _getCurrentKiBlast_0x30
 00240980 getAstructKiBlast_0x30
-002409a0 Ki_Blasts_getKiBlast_0x30
-002409c0 Ki_Blasts_getCurrentKiBlast_Color
+002409a0 Ki_Blasts _getKiBlast_0x30
+002409c0 Ki_Blasts _getCurrentKiBlast_Color
 002409e0 getAstructKiBlast_Color
-00240a00 Ki_Blasts_getKiBlast_Color
-00240a20 Ki_Blasts_getCurrentKiBlast_AmountFired
+00240a00 Ki_Blasts _getKiBlast_Color
+00240a20 Ki_Blasts _getCurrentKiBlast_AmountFired
 00240a40 getAstructKiBlast_AmountFired
-00240a60 Ki_Blasts_getKiBlast_AmountFired
-00240a80 Ki_Blasts_getCurrentKiBlast_Size
+00240a60 Ki_Blasts _getKiBlast_AmountFired
+00240a80 Ki_Blasts _getCurrentKiBlast_Size
 00240aa0 getAstructKiBlast_Size
-00240ac0 Ki_Blasts_getKiBlast_Size
-00240ae0 Ki_Blasts_getCurrentKiBlast_Trail
+00240ac0 Ki_Blasts _getKiBlast_Size
+00240ae0 Ki_Blasts _getCurrentKiBlast_Trail
 00240b00 getAstructKiBlast_Trail
-00240b20 Ki_Blasts_getKiBlast_Trail
-00240b40 Ki_Blasts_getCurrentKiBlast_Knockback
+00240b20 Ki_Blasts _getKiBlast_Trail
+00240b40 Ki_Blasts _getCurrentKiBlast_Knockback
 00240b98 getAstructKiBlast_Knockback
-00240bf0 Ki_Blasts_getKiBlast_Knockback
-00240c48 Ki_Blasts_getCurrentKiBlast_0x20
+00240bf0 Ki_Blasts _getKiBlast_Knockback
+00240c48 Ki_Blasts _getCurrentKiBlast_0x20
 00240ca0 getAstructKiBlast_0x20
-00240cf8 Ki_Blasts_getKiBlast_0x20
-00240d50 Movement_Params_getSpeedOfMovement
-00240dd0 Movement_Params_getVerticalAcceleration
-00240e20 Movement_Params_getMovementParam_0x54
-00240e50 Movement_Params_getDashLength
-00240e80 Movement_Params_getJumpHeight
-00240ea8 Movement_Params_getDragonDashKiCost
-00240ed8 Movement_Params_getMovementParam_0x7C
-00240f18 Movement_Params_getMovementParam_0x90
+00240cf8 Ki_Blasts _getKiBlast_0x20
+00240d50 Movement_Params _getSpeedOfMovement
+00240dd0 Movement_Params _getVerticalAcceleration
+00240e20 Movement_Params _getMovementParam_0x54
+00240e50 Movement_Params _getDashLength
+00240e80 Movement_Params _getJumpHeight
+00240ea8 Movement_Params _getDragonDashKiCost
+00240ed8 Movement_Params _getMovementParam_0x7C
+00240f18 Movement_Params _getMovementParam_0x90
 00240f50 FUN_00240f50
 00240f78 FUN_00240f78
 00240fa0 FUN_00240fa0
@@ -4658,22 +4659,22 @@
 00241050 FUN_00241050
 00241088 FUN_00241088
 00241170 FUN_00241170
-002411a0 Blast_2_getBlast2_Offset
+002411a0 Blast_2 _getBlast2_Offset
 002411e0 FUN_002411e0
 00241218 FUN_00241218
 00241250 FUN_00241250
-002412a0 Blast_2_getBlast2_Damage
-002413c0 Blast_2_getBlast2_DamageGuarding
-002414e0 Blast_2_getBlast2_Knockback
+002412a0 Blast_2 _getBlast2_Damage
+002413c0 Blast_2 _getBlast2_DamageGuarding
+002414e0 Blast_2 _getBlast2_Knockback
 002415a0 FUN_002415a0
-00241660 Blast_2_getBlast2_Speed
+00241660 Blast_2 _getBlast2_Speed
 002416b0 FUN_002416b0
-00241718 Blast_2_getBlast2_KiCost
-00241778 Blast_2_getBlast2_HealthCost
+00241718 Blast_2 _getBlast2_KiCost
+00241778 Blast_2 _getBlast2_HealthCost
 002417b0 FUN_002417b0
-002417e8 Blast_2_getBlast2_Hitstun
+002417e8 Blast_2 _getBlast2_Hitstun
 00241820 FUN_00241820
-00241868 Blast_2_getBlast2_HitstunLastHit
+00241868 Blast_2 _getBlast2_HitstunLastHit
 002418a0 FUN_002418a0
 002418e8 FUN_002418e8
 00241920 FUN_00241920
@@ -4682,15 +4683,15 @@
 002419c8 FUN_002419c8
 00241a00 FUN_00241a00
 00241a58 FUN_00241a58
-00241ab0 Blast_2_getBlast2_Size
-00241ae8 Blast_2_getBlast2_ChargeTime
+00241ab0 Blast_2 _getBlast2_Size
+00241ae8 Blast_2 _getBlast2_ChargeTime
 00241b20 FUN_00241b20
 00241b58 FUN_00241b58
 00241b90 FUN_00241b90
 00241be0 FUN_00241be0
 00241c18 FUN_00241c18
 00241c50 FUN_00241c50
-00241c70 Blast_1_getBlast1_StockCost
+00241c70 Blast_1 _getBlast1_StockCost
 00241c98 getBlast1_ParalysisLength?
 00241cd0 FUN_00241cd0
 00241cf0 FUN_00241cf0
@@ -9222,10 +9223,10 @@
 0030c840 FUN_0030c840
 0030c9d8 FUN_0030c9d8
 0030cc70 FUN_0030cc70
-0030cf58 Math_atan
+0030cf58 Math _atan
 0030d1e8 FUN_0030d1e8
 0030d2c0 FUN_0030d2c0
-0030d398 Math_abs
+0030d398 Math _abs
 0030d3c0 FUN_0030d3c0
 0030d498 FUN_0030d498
 0030d580 FUN_0030d580
@@ -9236,13 +9237,13 @@
 0030d658 FUN_0030d658
 0030d670 FUN_0030d670
 0030d688 acos
-0030dab0 Math_asin
-0030de50 Math_atan2
+0030dab0 Math _asin
+0030de50 Math _atan2
 0030e030 FUN_0030e030
 0030e310 FUN_0030e310
 0030eaf0 FUN_0030eaf0
-0030eea0 Math_log2?
-0030ef70 Math_cosf
+0030eea0 Math _log2?
+0030ef70 Math _cosf
 0030f0c0 FUN_0030f0c0
 0030f928 FUN_0030f928
 0030fa30 FUN_0030fa30
@@ -9506,7 +9507,7 @@
 00320580 FUN_00320580
 00320678 FUN_00320678
 003206f8 FUN_003206f8
-003207e8 FUN_003207e8
+003207e8 umult64
 00320860 FUN_00320860
 00320ef8 FUN_00320ef8
 00321588 FUN_00321588
@@ -9567,8 +9568,8 @@
 003251dc memset
 003252a0 _pthread_mutex_lock
 00325320 pthread_mutex_unlock
-00325370 FUN_00325370
-00325388 FUN_00325388
+00325370 SetRandomSeed
+00325388 getRandomInt
 003253f0 FUN_003253f0
 00325448 FUN_00325448
 003254b8 FUN_003254b8
@@ -9860,20 +9861,20 @@
 003316a0 FUN_003316a0
 00331710 printf
 00331790 kprintf
-00331810 set_sreg
-00331830 sceSifChangeAddr
-00331840 sceSifGetSreg
-00331888 sceSifInitCmd
-00331b08 sceSifExitCmd
-00331b70 sceSifAddCmdHandler
-00331be8 sceSifRemoveCmdHandler
+00331810 SifSetSreg
+00331830 SifChangeAddr
+00331840 SifGetSreg
+00331888 SifInitCmd
+00331b08 SifExitCmd
+00331b70 SifAddCmdHandler
+00331be8 SifRemoveCmdHandler
 00331c38 _SifSendCmd
-00331d70 sceSifSendCmd
+00331d70 SifSendCmd
 00331db0 iSifSendCmd
 00331df0 _SifCmdIntHandler
 00331f38 WriteBackDCache
-00331fe8 sceSifInitRpc
-00332188 sceSifExitRpc
+00331fe8 SifInitRpc
+00332188 SifExitRpc
 003321b0 _rpc_get_packet
 00332258 rpc_packet_free
 00332278 _rpc_get_fpacket
@@ -9881,21 +9882,21 @@
 003322e8 _request_end
 003323b8 FUN_003323b8
 003323f8 _request_rdata
-003324c8 sceSifRpcGetOtherData
+003324c8 SifRpcGetOtherData
 00332630 search_svdata
 00332680 FUN_00332680
 003326c0 _request_bind
 00332790 sceSifBindRpc
 003328e0 _request_call
-00332970 sceSifCallRpc
-00332b70 sceSifCheckStatRpc
-00332bb0 sceSifSetRpcQueue
-00332c48 sceSifRegisterRpc
-00332d18 sceSifRemoveRpc
-00332db0 sceSifRemoveRpcQueue
-00332e40 sceSifGetNextRequest
-00332e98 sceSifExecRequest
-00333060 sceSifRpcLoop
+00332970 SifCallRpc
+00332b70 SifCheckStatRpc
+00332bb0 SifSetRpcQueue
+00332c48 SifRegisterRpc
+00332d18 SifRemoveRpc
+00332db0 SifRemoveRpcQueue
+00332e40 SifGetNextRequest
+00332e98 SifExecRequest
+00333060 SifRpcLoop
 003330a0 CreateStdioIobQueSema
 00333110 FUN_00333110
 00333190 FUN_00333190
@@ -9912,66 +9913,66 @@
 00333b48 FUN_00333b48
 00333b80 FUN_00333b80
 00333cc0 FUN_00333cc0
-00333db0 sceOpen
-00334040 sceClose
-003341b8 sceLseek
-003343f8 sceRead
-00334668 sceWrite
-00334928 sceIoctl
-00334cb0 sceIoctl2
-00334e98 sceCCode
-00335048 FUN_00335048
-00335068 sceMkdir
-00335220 FUN_00335220
-00335240 sceFormat
-003354c0 sceAddDrv
-003355f0 FUN_003355f0
-00335610 FUN_00335610
-003356d8 sceDclose
-00335840 sceDread
-00335998 sceGetstat
-00335b50 sceChstat
-00335da0 sceRename
-00335fa8 FUN_00335fa8
-00335fc8 sceSync
-00336178 sceMount
-003363f8 FUN_003363f8
-00336418 sceLseek64
-00336658 sceDevctl
-00336900 sceSymlink
-00336af8 sceReadlink
-00336cd8 sceSifInitIopHeap
-00336d60 sceSifAllocIopHeap
+00333db0 fopen
+00334040 fclose
+003341b8 fseek
+003343f8 fread
+00334668 fwrite
+00334928 ioctl
+00334cb0 ioctl2
+00334e98 ccode
+00335048 ccode6
+00335068 mkdir
+00335220 ccode8
+00335240 devformat
+003354c0 adddrv
+003355f0 ccode16
+00335610 ccode9
+003356d8 dclose
+00335840 dread
+00335998 getstat
+00335b50 chstat
+00335da0 rename
+00335fa8 ccode18
+00335fc8 sync
+00336178 mount
+003363f8 ccode21
+00336418 fseek64
+00336658 devctl
+00336900 symlink
+00336af8 readlink
+00336cd8 SifInitIopHeap
+00336d60 SifAllocIopHeap
 00336dd0 FUN_00336dd0
-00336e50 _sceSifFreeIopHeap
-00336ec8 sceSifFreeIopHeap
-00336ee8 sceSifLoadIopHeap
+00336e50 _SifFreeIopHeap
+00336ec8 SifFreeIopHeap
+00336ee8 SifLoadIopHeap
 00336fd8 FUN_00336fd8
 00337048 FUN_00337048
 003370b8 FUN_003370b8
 00337128 FUN_00337128
 003371a8 FUN_003371a8
-00337228 sceSifLoadFileInit
+00337228 SifLoadFileInit
 00337328 FUN_00337328
 003373b8 FUN_003373b8
-003373f0 _SifLoadModuleBuffer
-003375f8 sceSifStopModule
-00337800 sceSifUnloadModule
-00337890 sceSifSearchModuleByName
-00337930 sceSifSearchModuleByAddress
-003379c0 sceSifLoadModuleBuffer
+003373f0 _LoadModuleBuffer
+003375f8 SifStopModule
+00337800 SifUnloadModule
+00337890 SifSearchModuleByName
+00337930 SifSearchModuleByAddress
+003379c0 SifLoadModuleBuffer
 003379e0 SifLoadStartModuleBuffer
-00337a00 _sceSifLoadModule
-00337c28 sceSifLoadModule
-00337c48 sceSifLoadStartModule
+00337a00 _SifLoadModule
+00337c28 SifLoadModule
+00337c48 SifLoadStartModule
 00337c68 _SifLoadElfPart
-00337d70 sceSifLoadElfPart
-00337db8 sceSifIopGetVal
-00337ea8 sceSifIopSetVal
-00337f88 sceSifIopReset
-003380e0 sceSifIopIsAlive
-00338108 sceSifIopSync
-00338158 sceSifIopReboot
+00337d70 SifLoadElfPart
+00337db8 SifIopGetVal
+00337ea8 SifIopSetVal
+00337f88 SifIopReset
+003380e0 SifIopIsAlive
+00338108 SifIopSync
+00338158 SifIopReboot
 00338268 DisableInterrupts
 003382b8 EnableInterrupts
 003382d0 FUN_003382d0
@@ -10015,7 +10016,7 @@
 003390e0 UnlinkAlarm_ForTimer
 00339118 TimerHandler_callback
 003393c0 iGetTimerSystemTime
-00339410 FUN_00339410
+00339410 ReadRCNT2
 00339490 FUN_00339490
 00339500 FUN_00339500
 00339548 iFreeTimerCounter
