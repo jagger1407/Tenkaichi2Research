@@ -47,11 +47,19 @@ Size: 1 Byte
 	seems to make your first transformation
 	only work if you press Left+R3?
 
-0x0009			= ?
+0x0009			= Transformation Bonus
 Size:	1 Byte
-->	Hiro said this is a "Binary parameter for
-	the bonus", but I have no idea if this is
-	indeed that parameter and if it is, how it works.
+->	This must be changed for the character 
+	you're transforming into, not the 
+	current one transforming.
+	Bit 7 unused
+	Bit 6 unused
+	Bit 5 unused
+	Bit 4 removes battle damage
+	Bit 3 gives max ki
+	Bit 2 adds 2 health bars
+	Bit 1 adds 1 health bar
+	Bit 0 recalculates your health
 
 0x000A			= Fusion 1 Blast Stock cost
 0x000B			= Fusion 2 Blast Stock cost
@@ -87,9 +95,19 @@ Size: Arrays of 6 Bytes each
 	you specified here matches with anyone in your team,
 	and if so, uses and removes them from your team after the fusion.
 
-0x0028			= ?
-Size: 1 Byte
-->	Function at 0x0023f520 uses this as its offset.
+0x0028			= Fusion Bonus
+Size:	1 Byte
+->	This must be changed for the character 
+	you're fusing with, not the 
+	current one used.
+	Bit 7 unused
+	Bit 6 unused
+	Bit 5 gives MAX Power mode
+	Bit 4 removes battle damage
+	Bit 3 gives max ki
+	Bit 2 adds 2 health bars
+	Bit 1 adds 1 health bar
+	Bit 0 unused (?)
 
 0x0029			= Z-Search Type
 Size: 6 Bytes (?)
@@ -438,3 +456,4 @@ Size: Array of 3 Bytes
 ->	Function at 0x0023FD98 uses this as its offset.
 	Additionally, the function's second parameter can
 	offset the output up to 2 additional Bytes.
+
