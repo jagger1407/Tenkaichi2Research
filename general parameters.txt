@@ -98,7 +98,7 @@ Size: Arrays of 6 Bytes each
 0x0028			= Fusion Bonus
 Size:	1 Byte
 ->	This must be changed for the character 
-	you're fusing with, not the 
+	you're fusing into, not the 
 	current one used.
 	Bit 7 unused
 	Bit 6 unused
@@ -456,4 +456,5 @@ Size: Array of 3 Bytes
 ->	Function at 0x0023FD98 uses this as its offset.
 	Additionally, the function's second parameter can
 	offset the output up to 2 additional Bytes.
+
 
