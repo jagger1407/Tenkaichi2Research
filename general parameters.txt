@@ -109,9 +109,10 @@ Size:	1 Byte
 	Bit 1 adds 1 health bar
 	Bit 0 unused (?)
 
-0x0029			= Z-Search Type
-Size: 6 Bytes (?)
-->	00 = Ki Search (Opponent flashes on radar)
+0x0029			= Z-Search Types
+Size: 6 Bytes
+->	There are 6 Z-Search types stored, one for each costume.
+	00 = Ki Search (Opponent flashes on radar)
 	01 = Fast Ki Search (Opponent flashes on radar)
 	02 = Scouter Search (Opponent flashes on radar)
 	03 = Fast Scouter Search (Opponent flashes on radar)
@@ -122,10 +123,6 @@ Size: 6 Bytes (?)
 	08 = ?
 	09 = ?
 	The game checks values up to 9 for this parameter.
-
-->	The same function which gets the Z-Search Type 
-	has a chance to offset the address from 0x29 up to 0x2E.
-	However, nothing has changed when I changed these values.
 
 0x002F			= ?
 Size: 1 Byte
@@ -456,5 +453,6 @@ Size: Array of 3 Bytes
 ->	Function at 0x0023FD98 uses this as its offset.
 	Additionally, the function's second parameter can
 	offset the output up to 2 additional Bytes.
+
 
 
