@@ -1,6 +1,6 @@
 # Melee Parameters
 
-This is section 19 of a character costume pak, or `018_character_melee_param.dat` if the pak was extracted via Sparking Studio or SpikeSoft.
+This is section 18 of a character costume pak, or `018_character_melee_param.dat` if the pak was extracted via Sparking Studio or SpikeSoft.
 
 ## Structure
 The section contains the parameters for every melee attack. Here is a list of each melee attack:
@@ -123,8 +123,8 @@ The section contains the parameters for every melee attack. Here is a list of ea
 | Offset | Data Type | Description | Size |
 |-|-|-|-|
 | 0x00 | `uint32_t` | Attack Flags.<br>See [Attack Flags](#attack-flags). | 4 Bytes |
-| 0x04 | `int32_t` | Attack Damage. | 4 Bytes |
-| 0x08 | `int32_t` | Attack Damage against a guarding opponent. | 4 Bytes |
+| 0x04 | `int32_t` | Attack damage. | 4 Bytes |
+| 0x08 | `int32_t` | Attack damage against a guarding opponent. | 4 Bytes |
 | 0x0C | `int32_t` | The amount of ki subtracted from the opponent if this attack<br>leads to a guard break. | 4 Bytes |
 | 0x10 | `int32_t` | The amount of ki gained if this attack hits. | 4 Bytes |
 | 0x14 | `int32_t` | The amount of damage this attack deals if it initiates a throw.<br>Note: only used by the throw (ID 74). | 4 Bytes |

@@ -1,6 +1,6 @@
 # General Parameters
 
-This is section 18 of a character costume pak, or `017_character_param.dat` if the pak was extracted via Sparking Studio or SpikeSoft.
+This is section 17 of a character costume pak, or `017_character_param.dat` if the pak was extracted via Sparking Studio or SpikeSoft.
 
 ## Structure
 The structure of this section is as follows:
