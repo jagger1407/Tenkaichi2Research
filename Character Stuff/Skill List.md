@@ -36,12 +36,12 @@ There are multiple categories, denoted by the next character:
 |-|-|
 | 0 | The 1 Star Dragon Ball. ![Skill List Header 0.](../SkillListAssets/header_0.png)<br>Used for the "Blast 1" category. |
 | 1 | The 2 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Blast 2" category. |
-| 2 | The 3 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Ultimate Blast" category. |
-| 3 | The 4 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Rushing Technique" category. |
-| 4 | The 5 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Signature Technique" category. |
-| 5 | The 6 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Combo" category. |
-| 6 | The 7 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_1.png)<br>Used for the "Number of Pursuits" category. |
-| 7 | A blue Dragon Ball with an input. ![Blue Dragon Ball.](../SkillListAssets/header_8.png) ![R3 Down](../SkillListAssets/header_7_input.png)<br>Used for the "Transformation" category. |
+| 2 | The 3 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_2.png)<br>Used for the "Ultimate Blast" category. |
+| 3 | The 4 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_3.png)<br>Used for the "Rushing Technique" category. |
+| 4 | The 5 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_4.png)<br>Used for the "Signature Technique" category. |
+| 5 | The 6 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_5.png)<br>Used for the "Combo" category. |
+| 6 | The 7 Star Dragon Ball. ![Skill List Header 1.](../SkillListAssets/header_6.png)<br>Used for the "Number of Pursuits" category. |
+| 7 | A blue Dragon Ball with an input. ![Blue Dragon Ball.](../SkillListAssets/header_7.png) ![R3 Down](../SkillListAssets/header_7_input.png)<br>Used for the "Transformation" category. |
 | 8 | A blue Dragon Ball with an input. ![Blue Dragon Ball.](../SkillListAssets/header_8.png) ![R3 Down + Down](../SkillListAssets/header_8_input.png)<br>May be unused.|
 
 Any other character will failsafe to Type 0.
