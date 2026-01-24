@@ -1,4 +1,4 @@
-# General Parameters
+# Skill List
 
 This is sections 40 through 47 of a character costume pak. 
 For completeness, here's a list of which language each one represents:
