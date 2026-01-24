@@ -22,11 +22,16 @@ A Pak file starts with a header. Each section is aligned to 16 Bytes.
 
 After this, section data starts.
 
+## CPAKs
+Some Pak files are compressed. These use the Byte-Pair-Encoding compression, which was first described in 1994 by Philip Gage. Information on this type of compression can be found [here](https://www.derczynski.com/papers/archive/BPE_Gage.pdf).
+
+In short, it splits the file by blocks (default 10.000 Bytes in size), then counts and replaces frequent byte-pairs within each block with a byte that did not have an occurrence in the block. BPE then encodes the dictionary storing the byte-pair with their replacement and places it before each compressed block. In order to decompress each block, one must first decode the dictionary table, then apply it to the block.
+
 ## See also
 
 - [Pakman](https://github.com/jagger1407/Pakman)
-    - My tool to pack and unpack this format.
+    - My tool to pack, unpack and decompress this format.
 - [SpikeSoft](https://github.com/HiroTex/SpikeSoft)
-    - A tool made by [HiroTex](https://github.com/HiroTex) to open and modify `.pak` files from the Sparking! / Budokai Tenkaichi games.
+    - A tool made by [HiroTex](https://github.com/HiroTex) to open and modify `.pak` files as well as `.cpak` files from the Sparking! / Budokai Tenkaichi games.
 - [pak-txt-extractor](https://github.com/ViveTheModder/pak-txt-extractor)
     - A tool made by [ViveTheJoestar](https://github.com/ViveTheModder) to extract text from `.pak` files.
