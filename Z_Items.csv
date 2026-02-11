@@ -1,0 +1,1156 @@
+﻿ID,Item,Benefit,Available Location,Available Character,Category
+0,Health +1,Health Level +1,Battle In Progress,Unlimited,Ability Type
+1,Health +2,Health Level +2,Battle In Progress,Unlimited,Ability Type
+2,Health +3,Health Level +3,Battle In Progress,Unlimited,Ability Type
+3,Health +4,Health Level +4,Battle In Progress,Unlimited,Ability Type
+4,Health +5,Health Level +5,Battle In Progress,Unlimited,Ability Type
+5,Health +6,Health Level +6,Battle In Progress,Unlimited,Ability Type
+6,Health +7,Health Level +7,Battle In Progress,Unlimited,Ability Type
+7,Health +8,Health Level +8,Battle In Progress,Unlimited,Ability Type
+8,Health +9,Health Level +9,Battle In Progress,Unlimited,Ability Type
+9,Health +10,Health Level +10,Battle In Progress,Unlimited,Ability Type
+10,Health +11,Health Level +11,Battle In Progress,Unlimited,Ability Type
+11,Health +12,Health Level +12,Battle In Progress,Unlimited,Ability Type
+12,Health +13,Health Level +13,Battle In Progress,Unlimited,Ability Type
+13,Health +14,Health Level +14,Battle In Progress,Unlimited,Ability Type
+14,Health +15,Health Level +15,Battle In Progress,Unlimited,Ability Type
+15,Health +16,Health Level +16,Battle In Progress,Unlimited,Ability Type
+16,Health +17,Health Level +17,Battle In Progress,Unlimited,Ability Type
+17,Health +18,Health Level +18,Battle In Progress,Unlimited,Ability Type
+18,Health +19,Health Level +19,Battle In Progress,Unlimited,Ability Type
+19,Ki +1,Ki Level +1,Battle In Progress,Unlimited,Ability Type
+20,Ki +2,Ki Level +2,Battle In Progress,Unlimited,Ability Type
+21,Ki +3,Ki Level +3,Battle In Progress,Unlimited,Ability Type
+22,Ki +4,Ki Level +4,Battle In Progress,Unlimited,Ability Type
+23,Ki +5,Ki Level +5,Battle In Progress,Unlimited,Ability Type
+24,Ki +6,Ki Level +6,Battle In Progress,Unlimited,Ability Type
+25,Ki +7,Ki Level +7,Battle In Progress,Unlimited,Ability Type
+26,Ki +8,Ki Level +8,Battle In Progress,Unlimited,Ability Type
+27,Ki +9,Ki Level +9,Battle In Progress,Unlimited,Ability Type
+28,Ki +10,Ki Level +10,Battle In Progress,Unlimited,Ability Type
+29,Ki +11,Ki Level +11,Battle In Progress,Unlimited,Ability Type
+30,Ki +12,Ki Level +12,Battle In Progress,Unlimited,Ability Type
+31,Ki +13,Ki Level +13,Battle In Progress,Unlimited,Ability Type
+32,Ki +14,Ki Level +14,Battle In Progress,Unlimited,Ability Type
+33,Ki +15,Ki Level +15,Battle In Progress,Unlimited,Ability Type
+34,Ki +16,Ki Level +16,Battle In Progress,Unlimited,Ability Type
+35,Ki +17,Ki Level +17,Battle In Progress,Unlimited,Ability Type
+36,Ki +18,Ki Level +18,Battle In Progress,Unlimited,Ability Type
+37,Ki +19,Ki Level +19,Battle In Progress,Unlimited,Ability Type
+38,Attack +1,Attack Level +1,Battle In Progress,Unlimited,Ability Type
+39,Attack +2,Attack Level +2,Battle In Progress,Unlimited,Ability Type
+40,Attack +3,Attack Level +3,Battle In Progress,Unlimited,Ability Type
+41,Attack +4,Attack Level +4,Battle In Progress,Unlimited,Ability Type
+42,Attack +5,Attack Level +5,Battle In Progress,Unlimited,Ability Type
+43,Attack +6,Attack Level +6,Battle In Progress,Unlimited,Ability Type
+44,Attack +7,Attack Level +7,Battle In Progress,Unlimited,Ability Type
+45,Attack +8,Attack Level +8,Battle In Progress,Unlimited,Ability Type
+46,Attack +9,Attack Level +9,Battle In Progress,Unlimited,Ability Type
+47,Attack +10,Attack Level +10,Battle In Progress,Unlimited,Ability Type
+48,Attack +11,Attack Level +11,Battle In Progress,Unlimited,Ability Type
+49,Attack +12,Attack Level +12,Battle In Progress,Unlimited,Ability Type
+50,Attack +13,Attack Level +13,Battle In Progress,Unlimited,Ability Type
+51,Attack +14,Attack Level +14,Battle In Progress,Unlimited,Ability Type
+52,Attack +15,Attack Level +15,Battle In Progress,Unlimited,Ability Type
+53,Attack +16,Attack Level +16,Battle In Progress,Unlimited,Ability Type
+54,Attack +17,Attack Level +17,Battle In Progress,Unlimited,Ability Type
+55,Attack +18,Attack Level +18,Battle In Progress,Unlimited,Ability Type
+56,Attack +19,Attack Level +19,Battle In Progress,Unlimited,Ability Type
+57,Defense +1,Defense Level +1,Battle In Progress,Unlimited,Ability Type
+58,Defense +2,Defense Level +2,Battle In Progress,Unlimited,Ability Type
+59,Defense +3,Defense Level +3,Battle In Progress,Unlimited,Ability Type
+60,Defense +4,Defense Level +4,Battle In Progress,Unlimited,Ability Type
+61,Defense +5,Defense Level +5,Battle In Progress,Unlimited,Ability Type
+62,Defense +6,Defense Level +6,Battle In Progress,Unlimited,Ability Type
+63,Defense +7,Defense Level +7,Battle In Progress,Unlimited,Ability Type
+64,Defense +8,Defense Level +8,Battle In Progress,Unlimited,Ability Type
+65,Defense +9,Defense Level +9,Battle In Progress,Unlimited,Ability Type
+66,Defense +10,Defense Level +10,Battle In Progress,Unlimited,Ability Type
+67,Defense +11,Defense Level +11,Battle In Progress,Unlimited,Ability Type
+68,Defense +12,Defense Level +12,Battle In Progress,Unlimited,Ability Type
+69,Defense +13,Defense Level +13,Battle In Progress,Unlimited,Ability Type
+70,Defense +14,Defense Level +14,Battle In Progress,Unlimited,Ability Type
+71,Defense +15,Defense Level +15,Battle In Progress,Unlimited,Ability Type
+72,Defense +16,Defense Level +16,Battle In Progress,Unlimited,Ability Type
+73,Defense +17,Defense Level +17,Battle In Progress,Unlimited,Ability Type
+74,Defense +18,Defense Level +18,Battle In Progress,Unlimited,Ability Type
+75,Defense +19,Defense Level +19,Battle In Progress,Unlimited,Ability Type
+76,Speed +1,Speed Level +1,Battle In Progress,Unlimited,Ability Type
+77,Speed +2,Speed Level +2,Battle In Progress,Unlimited,Ability Type
+78,Speed +3,Speed Level +3,Battle In Progress,Unlimited,Ability Type
+79,Speed +4,Speed Level +4,Battle In Progress,Unlimited,Ability Type
+80,Speed +5,Speed Level +5,Battle In Progress,Unlimited,Ability Type
+81,Speed +6,Speed Level +6,Battle In Progress,Unlimited,Ability Type
+82,Speed +7,Speed Level +7,Battle In Progress,Unlimited,Ability Type
+83,Speed +8,Speed Level +8,Battle In Progress,Unlimited,Ability Type
+84,Speed +9,Speed Level +9,Battle In Progress,Unlimited,Ability Type
+85,Speed +10,Speed Level +10,Battle In Progress,Unlimited,Ability Type
+86,Speed +11,Speed Level +11,Battle In Progress,Unlimited,Ability Type
+87,Speed +12,Speed Level +12,Battle In Progress,Unlimited,Ability Type
+88,Speed +13,Speed Level +13,Battle In Progress,Unlimited,Ability Type
+89,Speed +14,Speed Level +14,Battle In Progress,Unlimited,Ability Type
+90,Speed +15,Speed Level +15,Battle In Progress,Unlimited,Ability Type
+91,Speed +16,Speed Level +16,Battle In Progress,Unlimited,Ability Type
+92,Speed +17,Speed Level +17,Battle In Progress,Unlimited,Ability Type
+93,Speed +18,Speed Level +18,Battle In Progress,Unlimited,Ability Type
+94,Speed +19,Speed Level +19,Battle In Progress,Unlimited,Ability Type
+95,??? (Equipment Slots +1),Equipment Slots +1,Battle In Progress,Unlimited,Ability Type
+96,Equipment Slots +2,Equipment Slots +2,Battle In Progress,Unlimited,Ability Type
+97,Equipment Slots +3,Equipment Slots +3,Battle In Progress,Unlimited,Ability Type
+98,Equipment Slots +4,Equipment Slots +4,Battle In Progress,Unlimited,Ability Type
+99,Blast 1 +1,Blast 1 Level +1,Battle In Progress,Unlimited,Ability Type
+100,Blast 1 +2,Blast 1 Level +2,Battle In Progress,Unlimited,Ability Type
+101,Blast 1 +3,Blast 1 Level +3,Battle In Progress,Unlimited,Ability Type
+102,Blast 1 +4,Blast 1 Level +4,Battle In Progress,Unlimited,Ability Type
+103,Blast 1 +5,Blast 1 Level +5,Battle In Progress,Unlimited,Ability Type
+104,Blast 1 +6,Blast 1 Level +6,Battle In Progress,Unlimited,Ability Type
+105,Blast 1 +7,Blast 1 Level +7,Battle In Progress,Unlimited,Ability Type
+106,Blast 1 +8,Blast 1 Level +8,Battle In Progress,Unlimited,Ability Type
+107,Blast 1 +9,Blast 1 Level +9,Battle In Progress,Unlimited,Ability Type
+108,Blast 1 +10,Blast 1 Level +10,Battle In Progress,Unlimited,Ability Type
+109,Blast 1 +11,Blast 1 Level +11,Battle In Progress,Unlimited,Ability Type
+110,Blast 1 +12,Blast 1 Level +12,Battle In Progress,Unlimited,Ability Type
+111,Blast 1 +13,Blast 1 Level +13,Battle In Progress,Unlimited,Ability Type
+112,Blast 1 +14,Blast 1 Level +14,Battle In Progress,Unlimited,Ability Type
+113,Blast 1 +15,Blast 1 Level +15,Battle In Progress,Unlimited,Ability Type
+114,Blast 1 +16,Blast 1 Level +16,Battle In Progress,Unlimited,Ability Type
+115,Blast 1 +17,Blast 1 Level +17,Battle In Progress,Unlimited,Ability Type
+116,Blast 1 +18,Blast 1 Level +18,Battle In Progress,Unlimited,Ability Type
+117,Blast 1 +19,Blast 1 Level +19,Battle In Progress,Unlimited,Ability Type
+118,Blast 2 +1,Blast 2 Level +1,Battle In Progress,Unlimited,Ability Type
+119,Blast 2 +2,Blast 2 Level +2,Battle In Progress,Unlimited,Ability Type
+120,Blast 2 +3,Blast 2 Level +3,Battle In Progress,Unlimited,Ability Type
+121,Blast 2 +4,Blast 2 Level +4,Battle In Progress,Unlimited,Ability Type
+122,Blast 2 +5,Blast 2 Level +5,Battle In Progress,Unlimited,Ability Type
+123,Blast 2 +6,Blast 2 Level +6,Battle In Progress,Unlimited,Ability Type
+124,Blast 2 +7,Blast 2 Level +7,Battle In Progress,Unlimited,Ability Type
+125,Blast 2 +8,Blast 2 Level +8,Battle In Progress,Unlimited,Ability Type
+126,Blast 2 +9,Blast 2 Level +9,Battle In Progress,Unlimited,Ability Type
+127,Blast 2 +10,Blast 2 Level +10,Battle In Progress,Unlimited,Ability Type
+128,Blast 2 +11,Blast 2 Level +11,Battle In Progress,Unlimited,Ability Type
+129,Blast 2 +12,Blast 2 Level +12,Battle In Progress,Unlimited,Ability Type
+130,Blast 2 +13,Blast 2 Level +13,Battle In Progress,Unlimited,Ability Type
+131,Blast 2 +14,Blast 2 Level +14,Battle In Progress,Unlimited,Ability Type
+132,Blast 2 +15,Blast 2 Level +15,Battle In Progress,Unlimited,Ability Type
+133,Blast 2 +16,Blast 2 Level +16,Battle In Progress,Unlimited,Ability Type
+134,Blast 2 +17,Blast 2 Level +17,Battle In Progress,Unlimited,Ability Type
+135,Blast 2 +18,Blast 2 Level +18,Battle In Progress,Unlimited,Ability Type
+136,Blast 2 +19,Blast 2 Level +19,Battle In Progress,Unlimited,Ability Type
+137,Ultimate Blast +1,Ultimate Blast Level +1,Battle In Progress,Unlimited,Ability Type
+138,Ultimate Blast +2,Ultimate Blast Level +2,Battle In Progress,Unlimited,Ability Type
+139,Ultimate Blast +3,Ultimate Blast Level +3,Battle In Progress,Unlimited,Ability Type
+140,Ultimate Blast +4,Ultimate Blast Level +4,Battle In Progress,Unlimited,Ability Type
+141,Ultimate Blast +5,Ultimate Blast Level +5,Battle In Progress,Unlimited,Ability Type
+142,Ultimate Blast +6,Ultimate Blast Level +6,Battle In Progress,Unlimited,Ability Type
+143,Ultimate Blast +7,Ultimate Blast Level +7,Battle In Progress,Unlimited,Ability Type
+144,Ultimate Blast +8,Ultimate Blast Level +8,Battle In Progress,Unlimited,Ability Type
+145,Ultimate Blast +9,Ultimate Blast Level +9,Battle In Progress,Unlimited,Ability Type
+146,Ultimate Blast +10,Ultimate Blast Level +10,Battle In Progress,Unlimited,Ability Type
+147,Ultimate Blast +11,Ultimate Blast Level +11,Battle In Progress,Unlimited,Ability Type
+148,Ultimate Blast +12,Ultimate Blast Level +12,Battle In Progress,Unlimited,Ability Type
+149,Ultimate Blast +13,Ultimate Blast Level +13,Battle In Progress,Unlimited,Ability Type
+150,Ultimate Blast +14,Ultimate Blast Level +14,Battle In Progress,Unlimited,Ability Type
+151,Ultimate Blast +15,Ultimate Blast Level +15,Battle In Progress,Unlimited,Ability Type
+152,Ultimate Blast +16,Ultimate Blast Level +16,Battle In Progress,Unlimited,Ability Type
+153,Ultimate Blast +17,Ultimate Blast Level +17,Battle In Progress,Unlimited,Ability Type
+154,Ultimate Blast +18,Ultimate Blast Level +18,Battle In Progress,Unlimited,Ability Type
+155,Ultimate Blast +19,Ultimate Blast Level +19,Battle In Progress,Unlimited,Ability Type
+156,Dragon Homing Uses +1,Dragon Homing Uses +1,Battle In Progress,Unlimited,Support Type
+157,Dragon Homing Uses +2,Dragon Homing Uses +2,Battle In Progress,Unlimited,Support Type
+158,Lock on Range Enlargement,Increase Lock on speed,Battle In Progress,Unlimited,Support Type
+159,Master's Skills,"Dragon Homing +2 Uses
+Speed increases to match
+the opponent.
+Ultimate Blast Level +5",Battle In Progress,Unlimited,Support Type
+160,Regeneration Ability,Health gradually recovers slightly,Battle In Progress,"Piccolo, Cell, Majin Buu, 
+Garlic Jr., Omega Shenron, 
+Meta-Cooler",Support Type
+161,Eternal Energy Device,Vitality gradually recovers greatly,Battle In Progress,"Android 16, 17 
+18, Super 17",Support Type
+162,Tension Up,Vitality gradually recovers slightly,Battle In Progress,"Androids 13, 16, 17, 
+18, and Super 17 are 
+available.",Support Type
+163,I am Champion!!,Vitality gradually recovers greatly,Battle In Progress,"Hercule, Videl, 
+Great Saiyaman 2",Support Type
+164,Warrior Race,"You will regain more 
+energy when you take 
+damage from rush attacks.",Battle In Progress,Saiyan,Support Type
+165,Indomitable Spirit,"You will regain more 
+energy when you take 
+damage from rush attacks.",Battle In Progress,Unlimited,Support Type
+166,??? (Mechanical Body),"Effects of health and vitality 
+absorption techniques negated",Battle In Progress,"Androids 13, 17, and 19, 
+and Doctor Gero",Support Type
+167,Fighting Spirit Elevation,Vitality at start of battle raised,Battle In Progress,Unlimited,Support Type
+168,Ki Control,"Vitality consumed by 
+Ki based attacks halved",Battle In Progress,Z Fighters,Support Type
+169,Miracle Z,"Even if your Health 
+goes down to 0, it 
+will go up to 1
+(Once per battle).",Battle In Progress,Unlimited,Support Type
+170,Gravity Device,"During the battle, 
+your opponent's speed 
+will go down.",Battle In Progress,Unlimited,Support Type
+171,Magic Beast Yakon,"During a battle, 
+you will continually 
+steal your 
+opponent's energy.",Battle In Progress,Unlimited,Support Type
+172,MAX POWER Plus,"MAX POWER duration 
+is lengthened",Battle In Progress,Unlimited,Support Type
+173,Abandonment Essence,"High-speed Rush 
+movement will not 
+consume Energy.",Battle In Progress,Unlimited,Support Type
+174,Hit Essence,"Being hit with striking 
+attacks will not 
+consume energy.",Battle In Progress,Unlimited,Support Type
+175,Miracle Z Plus,"Once your Health 
+goes down to 0, 
+you will be invincible 
+for a short time.",Battle In Progress,"Yamcha, Chiaotsu, Hercule, 
+Tao, Cui, Yajirobe",Support Type
+176,Cool mind,"If you evade with 
+B2/UB, one level 
+of Blast Gauge 
+will be restored",Battle In Progress,Unlimited,Support Type
+177,Stealth Mode,"If the opponent cancels 
+his Z Search, his capture 
+speed will be at the minimum 
+until he uses Z Search again.",Battle In Progress,Androids,Support Type
+178,Aura Barrier,"The time required for 
+a restrained Blast 1 
+is halved.",Battle In Progress,Unlimited,Support Type
+179,Advanced Senses,"Z Search becomes 
+possible regardless 
+of cover.",Battle In Progress,Unlimited,Support Type
+180,Powerful Style,"If you successfully 
+appeal when close to 
+the opponent, you'll 
+regain 1 energy.",Battle In Progress,Unlimited,Support Type
+181,Energy Breaker,"If you successfully 
+appeal when close to 
+the opponent, the opponent 
+will lose 1 energy.",Battle In Progress,Unlimited,Support Type
+182,Fighting Charisma,"If you successfully 
+appeal when close to 
+the opponent, you'll regain 
+half your switch gauge.",Battle In Progress,Unlimited,Support Type
+183,Heavy Pressure,"If you successfully 
+appeal when close to 
+the opponent, your opponent's 
+switch gauge goes to zero.",Battle In Progress,Unlimited,Support Type
+184,Active Heart,"If you successfully 
+appeal when close to 
+the opponent, you'll 
+regain 1Blast Gauge.",Battle In Progress,Unlimited,Support Type
+185,Mind Breaker,"If you successfully 
+appeal when close to 
+the opponent, your opponent's 
+Blast Gauge goes down by 1.",Battle In Progress,Unlimited,Support Type
+186,Conversion Attack,"Your first B2/UB 
+can ignore the 
+opponent's defense.",Battle In Progress,Unlimited,Support Type
+187,Desperation,"Your B2/UB become 
+unblockable, but you'll 
+be wide open after.",Battle In Progress,Unlimited,Support Type
+188,Perfect Guard,"Your Guard becomes 
+able to completely 
+prevent damage.",Battle In Progress,Unlimited,Support Type
+189,Quick Recover,"Dizzy recovery 
+time is halved.",Battle In Progress,Unlimited,Support Type
+190,Raging Hurricane Strike,"Once only, you can 
+attack the opponent 
+while they're down.",Battle In Progress,Unlimited,Support Type
+191,Inescapable Menace,"When you're low on 
+life and open, you will 
+create an afterimage 
+attack effect.",Battle In Progress,Unlimited,Support Type
+192,Dende's Healing,"During a tag battle, 
+your Health will 
+gradually be restored 
+while standing by.",Battle In Progress,Unlimited,Support Type
+193,Kibitokai' Secret Arts,"During a tag battle, 
+your Energy will 
+gradually be restored 
+while standing by.",Battle In Progress,Unlimited,Support Type
+194,Self-Confidence,"During a tag battle, 
+your Blast Gauge will 
+gradually be restored 
+while standing by.",Battle In Progress,Unlimited,Support Type
+195,Master's Essence,"Performing Body Striking/
+Rush move will not consume 
+energy.
+Energy Level +5",Battle In Progress,Unlimited,Support Type
+196,Master's Spirit,"Z Search becomes possible 
+through cover. When dizzy/near 
+death, you will constantly make 
+afterimages. Attack Level +5",Battle In Progress,Unlimited,Support Type
+197,Master's Pressure,"If you could appeal near 
+the opponent, you regain 1 
+Energy and the opponent loses 1.
+Health Level +5",Battle In Progress,Unlimited,Support Type
+198,Master's Presence,"If you could appeal near the 
+opponent, you regain half your 
+Switch Gauge, and the opponent 
+loses half. Blast 1 Level +5.",Battle In Progress,Unlimited,Support Type
+199,Master's Trump Card,"If you could appeal near the 
+opponent, you regain 1 Blast 
+Gauge and the opponent loses 1.
+Blast 2 Level +5",Battle In Progress,Unlimited,Support Type
+200,Master's Secret Plan,"After cancelling Z Search, the 
+opponents Lock on is slowed. 
+Once only, while the opponent
+is down and dizzy, +5 Speed.",Battle In Progress,Unlimited,Support Type
+201,Master's Protection,"Blocked damage becomes 0 
+Dizzy recovery time is halved. 
+Defense Level +5",Battle In Progress,Unlimited,Support Type
+202,Succession Technique,"Your first B2/UB ignores 
+defense, becomes 
+unblockable, and leaves 
+the opponent open.",Battle In Progress,Unlimited,Support Type
+203,Everyone's Hopes,"During a tag battle, your 
+Energy is restored while 
+in standby.",Battle In Progress,Unlimited,Support Type
+204,Halo,"B2/UB use half 
+the usual amount
+of Energy.",Battle In Progress,Warrior of Justice,Support Type
+205,Majin Seal,"B2/UB use half 
+the usual amount
+of Energy.",Battle In Progress,Warrior of Evil,Support Type
+206,Hints of martial arts,All ability levels +1,Battle In Progress,Unlimited,Support Type
+207,Title [Tenkaichi],All ability levels +4,Battle In Progress,Unlimited,Support Type
+208,Title [Top Fighter],"Equipment Slots +2 
+Energy Level +10",Battle In Progress,Unlimited,Support Type
+209,Title [Elite],"Health +3 
+Attack +3 
+Speed +3",Battle In Progress,Unlimited,Support Type
+210,Title [SuperFighter],"Health +3 
+Defense +3 
+Energy +3",Battle In Progress,Unlimited,Support Type
+211,The god of Justice,"Blast 1 +3 
+Blast 2 +3 
+Ultimate Blast +3",Battle In Progress,Unlimited,Support Type
+212,Mystery of Shenron,"Health +7 
+Defense +7",Battle In Progress,Unlimited,Support Type
+213,The sacred water,"Attack +7 
+Speed +7",Battle In Progress,Unlimited,Support Type
+214,Master Piece [Roshi],"Energy +7 
+Blast 1 +7",Battle In Progress,Unlimited,Support Type
+215,Master Piece [Crane Hermit],"Blast 2 +7 
+Ultimate Blast +7",Battle In Progress,Unlimited,Support Type
+216,Puar's support,"Attack +12 
+Defense +12",Battle In Progress,Unlimited,Support Type
+217,Oolong's support,"Health +12 
+Energy +12",Battle In Progress,Unlimited,Support Type
+218,Chichi's support,"When low on health or 
+dizzy, you begin to leave afterimages. 
+Energy +5",Battle In Progress,Unlimited,Support Type
+219,Bulma's support,"Dragon Homing +1 Use 
+Energy is a MAX at 
+the start of a battle.",Battle In Progress,Unlimited,Support Type
+220,Muuri's support,"Blast 1 +7 
+Energy +7",Battle In Progress,Unlimited,Support Type
+221,King Cold's support,"Energy +3 
+Attack +15",Battle In Progress,Frieza's Soldiers,Support Type
+222,Kiss of #18,"All ability levels +4 
+Dragon Homing +1 Use",Battle In Progress,Unlimited,Support Type
+223,Spopovich,"Health +7 
+Defense +3",Battle In Progress,Majin,Support Type
+224,Yamu,"Attack +5 
+Blast 1 +5",Battle In Progress,Majin,Support Type
+225,Puipui,"Speed +8 
+During a battle, all other 
+characters (friend and enemy) 
+lose 5 levels of Speed.",Battle In Progress,Majin,Support Type
+226,Zoonama's barb,"If your Health is brought 
+to 0, it will rise back to 1. 
+(Once per battle only). 
+All ability levels +1",Battle In Progress,Unlimited,Support Type
+227,??? (Aqua's scale),"Energy can be charged 
+faster underwater. 
+Energy can be charged 
+underwater.",Battle In Progress,Unlimited,Support Type
+228,Micro band,"When low on health or 
+immobilized, you leave afterimages. 
+Once per battle, if your Health 
+goes to 0 it rises back to 1.",Battle In Progress,Unlimited,Support Type
+229,The Turtle stone,"The reload time after using 
+B2/UB is reduced. 
+Speed 5",Battle In Progress,Unlimited,Support Type
+230,Vicious desire,"All ability levels +1 
+The reload time after using 
+B2/UB is reduced.",Battle In Progress,Warrior of Evil,Support Type
+231,The emperor's aura,"Equipment Slots +3 
+Blast 1 +15",Battle In Progress,Frieza's Soldiers,Support Type
+232,Eternal Life,"Health gradually recovers. 
+In a tag battle, health 
+gradually recovers while 
+on standby.",Battle In Progress,Unlimited,Support Type
+233,Z Fighter's bond,"Lock on speed increased. 
+Once per battle if your 
+Health goes down to 0 
+it will rise back to 1.",Battle In Progress,Z Fighters,Support Type
+234,Ginyu Force's bond,"Blast 1 +10 
+If you successfully appeal 
+near the opponent, you'll 
+regain 1 Health.",Battle In Progress,Frieza's Soldiers,Support Type
+235,Genuine Power,"Equipment Slots +2 
+Energy is at MAX at the 
+start of a battle.",Battle In Progress,Unlimited,Support Type
+236,Result of Training,"Equipment Slots +2 
+Dragon Homing +1 Use",Battle In Progress,Unlimited,Support Type
+237,Ki!,"Energy +8 
+Defense +3",Battle In Progress,Unlimited,Support Type
+238,Rage!,"Attack +8 
+Energy +3",Battle In Progress,Unlimited,Support Type
+239,Charge!,"Speed +8 
+Attack +3",Battle In Progress,Unlimited,Support Type
+240,Guts !,"Defense +8 
+Energy +3",Battle In Progress,Unlimited,Support Type
+241,Finish!,"Blast 1 +8 
+Energy +3",Battle In Progress,Unlimited,Support Type
+242,Potential power!,"Blast 2 +8 
+Energy 3",Battle In Progress,Unlimited,Support Type
+243,Unbelievable attack!,"Ultimate Blast +8 
+Energy +3",Battle In Progress,Unlimited,Support Type
+244,Great saver!,"Restrained Blast 1 time halved. 
+Once per battle if your 
+Health goes down to 0 
+it will rise back to 1.",Battle In Progress,"Yamcha, Chiaotsu, Hercule, 
+Tao, Cui, Yajirobe",Support Type
+245,Don't monkey around with me!,"Equipment Slots +2 
+Speed +3",Battle In Progress,Unlimited,Support Type
+246,I won't forgive you !,"Equipment Slots +2 
+Blast 2 +3",Battle In Progress,Unlimited,Support Type
+247,Fighter's Pride,"Equipment Slots +2 
+Blast 1 +3",Battle In Progress,Unlimited,Support Type
+248,Tougher than ever,"Equipment Slots +2 
+Health +3",Battle In Progress,Unlimited,Support Type
+249,Speedy & Heavy Blow,"Equipment Slots +2 
+Attack +3",Battle In Progress,Unlimited,Support Type
+250,Unleash Ki,"Equipment Slots +2 
+Energy +3",Battle In Progress,Unlimited,Support Type
+251,Furious Power,"Equipment Slots +2 
+Ultimate Blast +3",Battle In Progress,Unlimited,Support Type
+252,Turtle Hermit's uniform,"Equipment Slots +2 
+Defense +3",Battle In Progress,Unlimited,Support Type
+253,Piccolo's uniform,"Equipment Slots +2 
+Defense +5",Battle In Progress,Unlimited,Support Type
+254,Fighting jacket,"Equipment Slots +2 
+Defense +5",Battle In Progress,Unlimited,Support Type
+255,The bravest sword,"Equipment Slots +2 
+Ultimate Blast +15",Battle In Progress,Warrior of Justice,Support Type
+256,??? (Saiyan Power),"While low on Health, B2/UB 
+cannot be defended against. 
+Ultimate Blast +10",Battle In Progress,Saiyan,Support Type
+257,Limitless Power,"B2/UB becomes unblockable, 
+but the user is dizzied. 
+Blast 2 +5 
+Ultimate Blast +5",Battle In Progress,Unlimited,Support Type
+258,??? (Potential of being a fighter),"B2/UB reload time reduced. 
+Energy charge possible 
+underwater.",Battle In Progress,Unlimited,Support Type
+259,Shenron's record,"Ultimate Blast +15 
+Dragon Homing +2 Uses",Battle In Progress,Unlimited,Support Type
+260,Gero's lab data,"Equipment Slots +3 
+Blast 1 +5",Battle In Progress,Androids,Support Type
+261,Babidi's magic,"During battle other characters 
+(enemy and ally) have their 
+Speed reduced 20 levels and 
+their Energy gradually drained.",Battle In Progress,Majin,Support Type
+262,Bibidi's magic,"If you successfully appeal 
+near the opponent, you regain 
+1Energy and Blast Gauge 
+and half your Switch Gauge.",Battle In Progress,Majin,Support Type
+263,Gohan's teacher,"If you could appeal near 
+the opponent, the opponent 
+loses 1 Energy and Blast 
+Gauge, and 0 Switch Gauge",Battle In Progress,Unlimited,Support Type
+264,Perfect Stance,"Guard prevents all damage. 
+When low on health or dizzy 
+you create afterimages.",Battle In Progress,Unlimited,Support Type
+265,Z Item Fusion,"Fusing special Z Items 
+can create entirely 
+new items!",Evolution Z,Unlimited,Fusion Type
+266,Miracle,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+267,Dragon Power,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+268,??? (Senzu Bean),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+269,??? (Memories of Grandpa),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+270,Wicked Heart Revealed,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+271,Babidi's Brainwashing,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+272,One Who Loves Justice,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+273,King Yemma's Stamp,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+274,Tortoise Shell,"Raises items relating to 
+Level 1 abilities to Level 4. 
+This affects even items 
+that are not equipped",Evolution Z,Unlimited,Fusion Type
+275,Ultimate God Water,"Raises items relating to 
+Level 5 abilities to Level 5. 
+This affects even items 
+that are not equipped",Evolution Z,Unlimited,Fusion Type
+276,Elder Releases Potential,"Raises items relating to 
+Level 10 abilities to Level 5. 
+This affects even items 
+that are not equipped",Evolution Z,Unlimited,Fusion Type
+277,100G Training,"Raises items relating to 
+Level 15 abilities to Level 4. 
+This affects even items 
+that are not equipped",Evolution Z,Unlimited,Fusion Type
+278,Elder Kai's Ritual,"Raises items relating to 
+Level 1 abilities to Level 18. 
+This affects even items 
+that are not equipped",Evolution Z,Unlimited,Fusion Type
+279,Unsealed,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+280,Ultimate transformation,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+281,Remodeling surgery,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+282,??? (Transform kit),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+283,Super Saiyan,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+284,Human gunman's gun,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+285,??? (SS4 Goku's fusion),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+286,??? (SS4 Vegeta's fusion),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+287,??? (Babidi),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+288,Frieza's brother,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+289,Galactic Warrior,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+290,Saike demon,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+291,People's bad energy,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+292,Artificial Blutz wave,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+293,breakthrough the limit,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+294,Self Destruction,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+295,??? (Z sword),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+296,??? (Goku and Vegeta),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+297,??? (Potara),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+298,??? (Perfect fusion),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+299,Power Ball,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+300,Lower class Saiyan,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+301,??? (Bloody Durag),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+302,??? (Saiyan prince),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+303,??? (Scouter),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+304,HFIL fighter #17,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+305,Power from lower class,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+306,??? (Mysterious boy in wilderness),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+307,??? (Mystical adventure),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+308,Absorb Gotenks,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+309,Absorb Gohan,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+310,??? (Mutaito's Pupil),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+311,??? (Fanky Grandpa),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+312,Bros. of Crane Hermit,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+313,Memorial campaign,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+314,Makyo Star,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+315,Dead Zone,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+316,Giant Form,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+317,Hatred of Goku,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+318,Big Gete Star,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+319,Seriousness,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+320,Namekian,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+321,Mutation,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+322,The Flowers of Evil,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+323,Armored cavalry,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+324,Cooler's soldier,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+325,Son of Paragas,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+326,Lower class Saiyan,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+327,Frieza's soldier,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+328,Vegeta's rival,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+329,??? (Great warrier of west galaxy),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+330,??? (Rival of Goku),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+331,??? (Vagabond),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+332,??? (Sword Master),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+333,??? (Majin Transmigration),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+334,??? (Training with Goku),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+335,??? (Power of Majin),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+336,Evil Dragon,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+337,Negative Energy,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+338,Ultimate Dragonball,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+339,Computer,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+340,Hatred,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+341,Parts of #14/#15,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+342,Fruit of the Tree of Might,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+343,Kibito,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+344,Hirudegarn's top half,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+345,Hirudegarn's lower half,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+346,??? (Mysterious music box),For Item Fusion,Evolution Z,Unlimited,Fusion Type
+347,Master Roshi's pupil,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+348,Fox Mask,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+349,Baby,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+350,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+351,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+352,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+353,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+354,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+355,???,For Item Fusion,Evolution Z,Unlimited,Fusion Type
+356,1 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+357,2 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+358,3 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+359,4 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+360,5 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+361,6 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+362,7 Star Dragonball,"If all seven are gathered, 
+Shenron will appear and 
+grant a wish.",Dragon Adventure,Unlimited,Dragon Ball
+363,Member's Card (Normal),"You can buy Z Items 
+of ranks D through E!",Item Shop,Unlimited,Secret Type
+364,Member's Card (Bronze),"You can buy Z Items 
+of ranks C through E! 
+10% off all Z Items!",Item Shop,Unlimited,Secret Type
+365,Member's Card (Silver),"You can buy Z Items 
+of ranks B through E! 
+20% off all Z Items!",Item Shop,Unlimited,Secret Type
+366,Member's Card (Gold),"You can buy Z Items 
+of ranks A through E! 
+50% off all Z Items!",Item Shop,Unlimited,Secret Type
+367,Hercule's Autograph,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+368,Girl's Panties,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+369,Hercule's Secrets,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+370,Champion Belt,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+371,Candid Photo of 18,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+372,Pirate Treasure,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+373,Saibamen Set,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+374,Saiyan Spaceship,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+375,Katchinko,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+376,Alien Cells,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+377,Android Wreckage,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+378,Frieza's Spaceship,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+379,Wrecked Time Machine,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+380,Mysterious Blueprints,"You can sell at the 
+Item Shop for a high price!",Item Shop,Unlimited,Secret Type
+381,Dragon Radar,"Dragon Balls could be 
+indicated on your 
+mini-map…?",Dragon Adventure,Unlimited,Secret Type
+382,??? (Playing With A Cat),"You can now try 
+Karin's challenge!",Dragon Adventure,Unlimited,Secret Type
+383,??? (Karins Seal),"You can now try 
+Mr. Popo's challenge!",Dragon Adventure,Unlimited,Secret Type
+384,??? (Book of Puns),"You can now try 
+King Kai's challenge!",Dragon Adventure,Unlimited,Secret Type
+385,??? (Secret High Point Ticket),"You can now try the 
+Elder Kai's challenge!",Dragon Adventure,Unlimited,Secret Type
+386,??? (Pure Energy),"You can now face 
+Babidi's warrior!",Dragon Adventure,Unlimited,Secret Type
+387,??? (Senzu),You gained a Continue!,Dragon Adventure,Unlimited,Secret Type
+388,??? (Senzu Tree),"You now have 
+unlimited Continues!",Dragon Adventure,Unlimited,Secret Type
+389,??? (Special Battle),"Before the final battle… 
+explore the map points!",Dragon Adventure,Unlimited,Secret Type
+390,Saiyan Saga,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+391,Tree of Might,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+392,Lord Slug,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+393,Final Battle,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+394,Frieza Saga,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+395,Makyo Star,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+396,Cooler's Revenge,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+397,Return of Cooler,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+398,The History of Trunks,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+399,Android Saga,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+400,Super Android 13,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+401,Broly: The Legendary Super Saiyan,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+402,Ultimate Future Warrior,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+403,Bojack Unbound,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+404,Majin Buu Saga,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+405,Broly: The Second Coming,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+406,Fusion Reborn,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+407,Wrath of the Dragon,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+408,"Baby, The Avenger","A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+409,Ultimate Android,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+410,Evil Dragon of Absolute Destruction,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+411,Fateful Brothers,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+412,Beautfiul Treachery..,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+413,??? (Ultimate Science Battle),"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+414,Destined Rivals,"A new scenario is available 
+in Dragon Adventure mode!",Dragon Adventure,Unlimited,Secret Type
+415,Wasteland,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+416,Rocky Area,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+417,Namek,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+418,World Tournament Stage,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+419,City (Ruins),"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+420,Mountain Road,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+421,Islands,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+422,Cell Games Arena,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+423,Kami's Lookout,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+424,Hyperbolic Time Chamber,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+425,Supreme Kai's World,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+426,Dying Nammek,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+427,Kame House,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+428,Planet,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+429,Glacier,"New battle stage added! 
+Usable in all modes",Dueling,Unlimited,Secret Type
+430,Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+431,Super Saiyan Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+432,Super Saiyan 2 Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+433,Super Saiyan 3 Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+434,Kid Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+435,Teen Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+436,Super Saiyan Teen Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+437,Super Saiyan 2 Teen Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+438,Piccolo,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+439,Krillin,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+440,Yamcha,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+441,Tien,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+442,Chiaotzu,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+443,Raditz ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+444,Saibamen ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+445,Nappa ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+446,Vegeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+447,Super Saiyan Vegeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+448,Super Vegeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+449,Zarbon,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+450,Zarbon Post Transformation,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+451,Dodoria,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+452,Ginyu,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+453,Recoome ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+454,Burter,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+455,Jeice,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+456,Guldo,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+457,Frieza 1st Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+458,Frieza 2nd Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+459,Frieza 3rd Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+460,Frieza Final Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+461,Full Power Frieza,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+462,Mecha Frieza,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+463,Trunks (Sword),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+464,Super Saiyan Trunks (Sword),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+465,Super Trunks,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+466,Android #16 ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+467,Android #16 ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+468,Android #16 ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+469,Android #19,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+470,Dr. Gero ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+471,Cell 1st Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+472,Cell 2nd Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+473,Cell Perfect Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+474,Perfect Cell,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+475,Cell Jr. ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+476,Hercule ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+477,Gohan ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+478,Super Saiyan  Gohan ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+479,Super Saiyan 2 Gohan ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+480,Great Saiyaman ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+481,Ultimate Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+482,Goten ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+483,Super Saiyan Goten ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+484,Kid Trunks ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+485,Super Saiyan Kid Trunks  ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+486,Gotenks ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+487,Super Gotenks,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+488,Super Gotenks 3,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+489,Videl ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+490,Demon King Dabura,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+491,Majin Buu ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+492,Majin Buu (Pure Evil),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+493,Super Buu ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+494,Kid Buu ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+495,Vegito ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+496,Super Vegetto,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+497,Super Saiyan 2 Vegeta ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+498,Super Gogeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+499,Great Ape,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+500,Great Ape Vegeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+501,Legendary Super Saiyan Broly,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+502,Full Power Bojack,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+503,Cooler Final Form,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+504,Super Janemba,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+505,Super Saiyan 4 Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+506,Super Saiyan 4 Vegeta ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+507,Super Saiyan 4 Gogeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+508,Bardock,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+509,Vegeta (Scouter),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+510,Majin Vegeta ®,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+511,Trunks,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+512,Super Saiyan Trunks,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+513,Super 17,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+514,Super Baby 2,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+515,Kid Goku,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+516,Super Buu 1,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+517,Super Buu 2,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+518,Master Roshi,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+519,General Tao,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+520,Garlic Jr.,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+521,Super Garlic Jr.,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+522,Pan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+523,Cooler,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+524,Meta-Cooler,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+525,MAX Power Master Rohi,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+526,Slug,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+527,Super Slug,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+528,Zangya,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+529,Salza,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+530,Broly,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+531,Super Saiyan Broly,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+532,Bojack Unbound,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+533,Janemba,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+534,Super Baby 1,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+535,Great Ape Baby,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+536,Great Ape Raditz,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+537,Great Ape Nappa,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+538,Great Ape Bardock,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+539,Great Saiyaman 2,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+540,Cui,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+541,Pikkon,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+542,Yajirobe,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+543,Uub,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+544,Majuub,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+545,Syn Shenron,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+546,Omega Shenron,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+547,Android 13,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+548,Fusion Android 13,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+549,Turles,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+550,Great Ape Turles,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+551,Supreme Kai ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+552,Kibitokai ™,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+553,Hirudegarn,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+554,Tapion,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+555,Grandpa Gohan,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+556,Vegeta (second form),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+557,Super Saiyan Vegeta (second form),"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+558,Baby Vegeta,"New character added! 
+Usable in all modes","Versus, World Tournament 
+Ultimate Battle",Unlimited,Secret Type
+559,Cell Games,"<Cell Games> is now 
+available in Dragon 
+Tournament mode!",Dragon Tournament,Unlimited,Secret Type
+560,World Martial Arts Big Tournament,"<World Tournament> 
+is now available in 
+Dragon Tournament 
+mode!",Dragon Tournament,Unlimited,Secret Type
+561,Advanced License,"<Expert> is now 
+available in Dragon 
+Tournament mode!",Dragon Tournament,Unlimited,Secret Type
+562,Master License,"<Master> is now  
+available in Dragon 
+Tournament mode!",Dragon Tournament,Unlimited,Secret Type
+563,Bulla,"Bulla has arrived in 
+Ultimate Training 
+mode!",Ultimate Training,Unlimited,Secret Type
+564,Desert Costume,"Bulma has changed in 
+the Data Center!",Data Center,Unlimited,Secret Type
+565,Ruined Earth,Ruined Earth,Dueling,Unlimited,Secret Type
+566,,,Battle In Progress,Unlimited,
+567,,,Battle In Progress,Unlimited,
+568,,,Battle In Progress,Unlimited,
+569,,,Battle In Progress,Unlimited,
+570,,,Battle In Progress,Unlimited,
+571,,,Battle In Progress,Unlimited,
+572,,,Battle In Progress,Unlimited,
+573,,,Battle In Progress,Unlimited,
+574,,,Battle In Progress,Unlimited,
+575,,,Battle In Progress,Unlimited,
+576,,,Battle In Progress,Unlimited,
+577,,,Battle In Progress,Unlimited,
+578,,,Battle In Progress,Unlimited,
+579,???,,Battle In Progress,Unlimited,

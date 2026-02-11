@@ -1,0 +1,9 @@
+Header 0x10 bytes
+
+0x00 = Total texture count
+0x04 = Texture Info start (int)
+0x08 = ?
+0x0C = Total palette count
+
+TexInfo 0x40 bytes
+0x00 = Offset (int)

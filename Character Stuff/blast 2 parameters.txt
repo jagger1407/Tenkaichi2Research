@@ -1,0 +1,135 @@
+This parameter section is responsible for both Blast 2s and the Ultimate Blast.
+
+The size of this parameter section is 320 (0x140) Bytes big.
+
+? = Unknown as of yet
+(?) = uncertain
+
+The Structure of data is as follows:
+0xXXXX			= Meaning of Parameter
+Size:	X-Bytes
+->	Additional Notes
+
+--STRUCTURE--
+
+0x0000				= ?
+0x0004				= ?
+0x0008				= ?
+Size: 4 Bytes each
+
+0x000C				= Damage (1st Blast 2)
+0x0010				= Damage (2nd Blast 2)
+0x0014				= Damage (Ultimate Blast)
+Size: 4 Bytes each
+
+0x0018				= Damage Guarding (1st Blast 2)
+0x001C				= Damage Guarding (2nd Blast 2)
+0x0020				= Damage Guarding (Ultimate Blast)
+Size: 4 Bytes each
+
+0x0024				= Speed (1st Blast 2)
+0x0028				= Speed (2nd Blast 2)
+0x002C				= Speed (3rd Blast 2)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x0030				= ? (1st Blast 2)
+0x0034				= ? (2nd Blast 2)
+0x0038				= ? (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x003C				= Reach (1st Blast 2)
+0x0040				= Reach (2nd Blast 2)
+0x0044				= Reach (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x0048				= Cooldown Time (1st Blast 2)
+0x004C				= Cooldown Time (2nd Blast 2)
+0x0050				= Cooldown Time (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x0054				= Ki Cost (1st Blast 1)
+0x0058				= Ki Cost (2nd Blast 2)
+0x005C				= Ki Cost (Ultimate Blast)
+Size: 4 Bytes each
+
+0x0060				= Health Cost (1st Blast 2)
+0x0064				= Health Cost (2nd Blast 2)
+0x0068				= Health Cost (Ultimate Blast)
+Size: 4 Bytes each
+
+0x006C				= Knockback (1st Blast 2)
+0x0070				= Knockback (2nd Blast 2)
+0x0074				= Knockback (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x0078-0x008F	= ?
+
+0x0090			= Hitstun (1st Blast 2)
+0x0091			= Hitstun (2nd Blast 2)
+0x0092			= Hitstun (Ultimate Blast)
+Size: 1 Byte each
+->	00 = no Hitstun
+	01 = no Hit
+	02 = no Hitstun
+	03 = Hitstun (Primary String)
+	04 = Hitstun (Secondary String)
+	05 = Right Smash Stun
+	06 = Left Smash Stun
+	07 = Neutral Smash Stun
+	08 = Down Smash Stun
+	09 = Kiai Cannon/Dash Smash Stun
+	0A = Lift Strike Stun
+	0B = Ground Slash Stun
+	0C = Heavy Finisher Stun
+	0D = Instant Knockdown
+	0E = Knockdown with Knockback
+	0F = Combo Ender
+	10 = Full Charge Smash Stun
+	11 = Medium Charge Smash Stun
+	12 = Throw Animation, opponent flies into facing direction
+	13 = No Hitstun
+	14 = Giant Throw Animation, same effect as 12
+	15 = Paralyzation (Short)
+	16 = Paralyzation (Medium)
+	17 = Paralyzation (Long)
+	18 = Knockdown Paralyzation (Short)
+	19 = Knockdown Paralyzation (Medium)
+	1A = Knockdown Paralyzation (Long)
+	1B = (?) Blast 2 Animation, darkens Stage and inflicts self-damage
+	1C = (?) Blast 1 Animation, temporarily removes radar and knocks down opponent
+	1D = Instant Knockdown
+	1E = Instant Knockdown + small bounce
+	1F = Instant Knockdown + big bounce
+	20 = Opponents Blast 2 Animation, then crashes
+	21 = Rolling Hammer Right
+	22 = Rolling Hammer Left
+	23 = (?) idk, seems to be another Giant Throw Animation
+	24 = Death Beam Knockdown
+	25 = (?) Dragon Heavy Hitstun
+	26 = (?) Full Charged Down Smash Stun
+	27 = (?) Instant Knockdown with electric sound
+
+0x0093			= Hitstun of last hit (1st Blast 2)
+0x0094			= Hitstun of last hit (2nd Blast 2)
+0x0095			= Hitstun of last hit (Ultimate Blast)
+Size: 1 Byte each
+
+0x00DC			= Size (1st Blast 2)
+0x00E0			= Size (2nd Blast 2)
+0x00E4			= Size (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+
+0x00E8			= Charge Time (1st Blast 2)
+0x00EC			= Charge Time (2nd Blast 2)
+0x00F0			= Charge Time (Ultimate Blast)
+Size: 4 Bytes each
+->	These values are floats.
+	Only applies to chargable Blasts.
+	
+0x00F4			= ?
