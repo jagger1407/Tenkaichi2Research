@@ -83,7 +83,7 @@ The section contains the parameters for every melee attack. Here is a list of ea
 | 73 | Lift Strike Heavy |
 | 74 | Throw |
 | 75 | Unknown |
-| 76 | Unknown |
+| 76 | Giant Throw |
 | 77 | Smash Counter |
 | 78 | Kiai Cannon Smash |
 | 79 | Unknown |
