@@ -154,11 +154,11 @@ The section contains the parameters for every melee attack. Here is a list of ea
 | 0x50 | `float` | Unknown.<br>Getter location: `0x0023f238` (NTSC) | 4 Bytes |
 | 0x54 | `float` | Unknown.<br>Getter location: `0x0023f258` (NTSC) | 4 Bytes |
 | 0x58 | `float` | Unknown.<br>Getter location: `0x0023f278` (NTSC) | 4 Bytes |
-| 0x5C | `uint8_t` | Unknown.<br>Getter location: `0x0023f390` (NTSC) | 1 Byte |
-| 0x5D | `uint8_t` | Unknown.<br>Getter location: `0x0023f3b0` (NTSC) | 1 Byte |
-| 0x5E | `uint8_t` | Unknown.<br>Getter location: `0x0023f350` (NTSC) | 1 Byte |
-| 0x5F | `uint8_t` | Unknown.<br>Getter location: `0x0023f370` (NTSC) | 1 Byte |
-| 0x60 | `defense_effect` | The effect this attack has upon hitting the opponent's guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5C | `uint8_t` | The effect this attack has upon hitting the opponent's left guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5D | `uint8_t` | The effect this attack has upon hitting the opponent's right guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5E | `uint8_t` | The effect this attack has upon hitting the opponent's upper guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5F | `uint8_t` | The effect this attack has upon hitting the opponent's lower guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x60 | `defense_effect` | The effect this attack has upon hitting the opponent's neutral guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
 | 0x61 | `defense_effect` | The effect this attack has upon hitting the opponent's counter stance.<br>See [Defense Effect](#defense-effect). | 1 Byte |
 | 0x62 | `guard_type` | The type of hit the opponent's guard defends.<br>See [Guard Type](#guard-type). | 1 Byte |
 | 0x63 | `uint8_t` | Unused. | 1 Byte |  
