@@ -131,13 +131,13 @@ The section contains the parameters for every melee attack. Here is a list of ea
 | 0x18 | `int32_t` | The amount of ki subtracted from the opponent if it initiates a throw.<br>Note: only used by the throw (ID 74). | 4 Bytes |
 | 0x1C | `int32_t` | Unknown.<br>Getter location: `0x0023edc8` (NTSC) | 4 Bytes |
 | 0x20 | `hitstun` | The type of hitstun this attack will put the opponent into.<br>See [Hitstun](#hitstun). | 1 Byte |
-| 0x21 | `uint8_t` | Unknown.<br>Getter location: `0x0023ee48` (NTSC) | 1 Byte |
-| 0x22 | `uint8_t` | Unknown.<br>Getter location: `0x0023eeb8` (NTSC) | 1 Byte |
-| 0x23 | `uint8_t` | Unknown.<br>Getter location: `0x0023eef0` (NTSC) | 1 Byte |
-| 0x24 | `uint8_t` | Unknown.<br>Getter location: `0x0023ee80` (NTSC) | 1 Byte |
-| 0x25 | `uint8_t` | Unknown.<br>Getter location: `0x0023ef28` (NTSC) | 1 Byte |
-| 0x26 | `uint8_t` | Unknown.<br>Getter location: `0x0023ef48` (NTSC) | 1 Byte |
-| 0x27 | `uint8_t` | Unknown.<br>Getter location: `0x0023ef80` (NTSC) | 1 Byte |
+| 0x21 | `hitstun` | Unknown.<br>Getter location: `0x0023ee48` (NTSC) | 1 Byte |
+| 0x22 | `hitstun` | Unknown.<br>Getter location: `0x0023eeb8` (NTSC) | 1 Byte |
+| 0x23 | `hitstun` | Unknown.<br>Getter location: `0x0023eef0` (NTSC) | 1 Byte |
+| 0x24 | `hitstun` | Unknown.<br>Getter location: `0x0023ee80` (NTSC) | 1 Byte |
+| 0x25 | `hitstun` | Unknown.<br>Getter location: `0x0023ef28` (NTSC) | 1 Byte |
+| 0x26 | `hitstun` | Unknown.<br>Getter location: `0x0023ef48` (NTSC) | 1 Byte |
+| 0x27 | `hitstun` | Unknown.<br>Getter location: `0x0023ef80` (NTSC) | 1 Byte |
 | 0x28 | `vfx` | Visual Effect.<br>See [Visual Effect](#visual-effect). | 1 Byte |
 | 0x29 | `sfx` | Sound Effect.<br>See [Sound Effect](#sound-effect). | 1 Byte |
 | 0x2A | `uint8_t` | Unknown.<br>Getter location: `0x0023eac0` (NTSC) | 1 Byte |
@@ -154,10 +154,10 @@ The section contains the parameters for every melee attack. Here is a list of ea
 | 0x50 | `float` | Unknown.<br>Getter location: `0x0023f238` (NTSC) | 4 Bytes |
 | 0x54 | `float` | Unknown.<br>Getter location: `0x0023f258` (NTSC) | 4 Bytes |
 | 0x58 | `float` | Unknown.<br>Getter location: `0x0023f278` (NTSC) | 4 Bytes |
-| 0x5C | `uint8_t` | The effect this attack has upon hitting the opponent's left guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
-| 0x5D | `uint8_t` | The effect this attack has upon hitting the opponent's right guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
-| 0x5E | `uint8_t` | The effect this attack has upon hitting the opponent's upper guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
-| 0x5F | `uint8_t` | The effect this attack has upon hitting the opponent's lower guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5C | `defense_effect` | The effect this attack has upon hitting the opponent's left guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5D | `defense_effect` | The effect this attack has upon hitting the opponent's right guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5E | `defense_effect` | The effect this attack has upon hitting the opponent's upper guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
+| 0x5F | `defense_effect` | The effect this attack has upon hitting the opponent's lower guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
 | 0x60 | `defense_effect` | The effect this attack has upon hitting the opponent's neutral guard.<br>See [Defense Effect](#defense-effect). | 1 Byte |
 | 0x61 | `defense_effect` | The effect this attack has upon hitting the opponent's counter stance.<br>See [Defense Effect](#defense-effect). | 1 Byte |
 | 0x62 | `guard_type` | The type of hit the opponent's guard defends.<br>See [Guard Type](#guard-type). | 1 Byte |
